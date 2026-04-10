@@ -1,0 +1,7 @@
+== Changelog ==
+
+= 1.0.1 - 2025-10-08 =
+* Adding Envato Elements activation.
+
+= 1.0.0 - 2025-10-06 =
+* Release

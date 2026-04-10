@@ -1,0 +1,3863 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Pediatric Clinic 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-06 18:39+0200\n"
+"PO-Revision-Date: 2018-02-26 11:44+0200\n"
+"Language-Team: cmsmasters <cmsmstrs@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_x;_ex;esc_attr__;esc_attr_e;esc_attr_x;"
+"esc_html__;esc_html_e;esc_html_x;translate_nooped_plural;_n:1,2;_n_noop:1,2;"
+"_nx:1,2\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 3.0\n"
+"Last-Translator: \n"
+"Language: en_US\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.css\n"
+
+#: admin/admin.php:97
+msgid "Invalid nonce. Notice was not deleted."
+msgstr ""
+
+#: admin/admin.php:105
+msgid "Empty option key."
+msgstr ""
+
+#: admin/admin.php:152 admin/installer/installer.php:173
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:2811
+#: admin/options/pages/license.php:97
+msgid "Activate"
+msgstr ""
+
+#: admin/admin.php:155 admin/installer/installer.php:169
+#: admin/installer/installer.php:170 admin/installer/installer.php:171
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr ""
+
+#: admin/admin.php:161
+#, php-format
+msgid "%s requires Elementor to be activate."
+msgstr ""
+
+#: admin/admin.php:162
+msgid "The Theme"
+msgstr ""
+
+#: admin/admin.php:180 admin/options/pages/license.php:78
+msgid "Your license is not activated."
+msgstr ""
+
+#: admin/admin.php:185
+#, php-format
+msgid "To use the full functionality of the theme, please %s"
+msgstr ""
+
+#: admin/admin.php:188
+msgid "activate the license"
+msgstr ""
+
+#: admin/admin.php:207
+#, php-format
+msgid ""
+"You have applied a new design concept to your website. Image sizes in design "
+"concepts may differ, this is why it is recommended to run a %1$sRegenerate "
+"Thumbnails%2$s tool to generate new image sizes."
+msgstr ""
+
+#: admin/installer/importer/elementor-fonts.php:218
+#: admin/installer/importer/elementor-icons.php:218
+msgid "(no title)"
+msgstr ""
+
+#: admin/installer/importer/elementor-fonts.php:281
+#: admin/installer/importer/elementor-icons.php:281
+msgid "The zip file provided is not supported!"
+msgstr ""
+
+#: admin/installer/installer.php:159
+msgid "Theme Setup"
+msgstr ""
+
+#: admin/installer/installer.php:161
+#, php-format
+msgid "%1$s%2$s Themes &lsaquo; Theme Setup: %3$s%4$s"
+msgstr ""
+
+#: admin/installer/installer.php:162
+msgid "Return to the dashboard"
+msgstr ""
+
+#: admin/installer/installer.php:165
+msgid "Skip"
+msgstr ""
+
+#: admin/installer/installer.php:166
+#: kits/settings/elements/slider-arrows.php:101
+#: kits/settings/single/nav.php:120
+msgid "Next"
+msgstr ""
+
+#: admin/installer/installer.php:167
+#: kits/settings/elements/slider-arrows.php:522
+#: kits/settings/elements/slider-arrows.php:556
+#: kits/settings/elements/slider-arrows.php:590
+#: kits/settings/elements/slider-arrows.php:620
+#: kits/settings/elements/slider-bullets.php:298
+#: kits/settings/elements/slider-bullets.php:325
+#: kits/settings/elements/slider-fraction.php:200
+#: kits/settings/elements/slider-fraction.php:227
+#: kits/settings/elements/slider-progressbar.php:168
+#: kits/traits/controls-groups/quotes.php:338
+#: kits/traits/controls-groups/quotes.php:397
+msgid "Start"
+msgstr ""
+
+#: admin/installer/installer.php:168
+msgid "Cancel"
+msgstr ""
+
+#: admin/installer/installer.php:172
+msgid "Import"
+msgstr ""
+
+#: admin/installer/installer.php:174
+msgid "Later"
+msgstr ""
+
+#: admin/installer/installer.php:177
+#, php-format
+msgid "Activate %s"
+msgstr ""
+
+#: admin/installer/installer.php:179
+#, php-format
+msgid "%s license is Activated"
+msgstr ""
+
+#: admin/installer/installer.php:181
+msgid "Enter your license key to enable remote updates and theme support."
+msgstr ""
+
+#: admin/installer/installer.php:182
+msgid "License key"
+msgstr ""
+
+#: admin/installer/installer.php:183
+msgid "The theme is already registered, so you can go to the next step!"
+msgstr ""
+
+#: admin/installer/installer.php:184 admin/options/pages/license.php:81
+#: admin/options/pages/license.php:147
+msgid ""
+"Your license is activated! Remote updates and theme support are enabled."
+msgstr ""
+
+#: admin/installer/installer.php:185
+msgid "Need help?"
+msgstr ""
+
+#: admin/installer/installer.php:188
+#, php-format
+msgid "Welcome to %s"
+msgstr ""
+
+#: admin/installer/installer.php:189
+msgid "Hi. Welcome back"
+msgstr ""
+
+#: admin/installer/installer.php:190
+msgid ""
+"This wizard will set up your theme, install plugins, and import content. It "
+"is optional & should take only a few minutes."
+msgstr ""
+
+#: admin/installer/installer.php:191
+msgid ""
+"You may have already run this theme setup wizard. If you would like to "
+"proceed anyway, click on the \"Start\" button below."
+msgstr ""
+
+#: admin/installer/installer.php:193
+msgid "Install Child Theme"
+msgstr ""
+
+#: admin/installer/installer.php:194
+msgid "You're good to go!"
+msgstr ""
+
+#: admin/installer/installer.php:195
+msgid ""
+"Let's build & activate a child theme so you may easily make theme changes."
+msgstr ""
+
+#: admin/installer/installer.php:196
+msgid ""
+"Your child theme has already been installed and is now activated, if it "
+"wasn't already."
+msgstr ""
+
+#: admin/installer/installer.php:197
+msgid "Learn about child themes"
+msgstr ""
+
+#: admin/installer/installer.php:198
+msgid ""
+"Awesome. Your child theme has already been installed and is now activated."
+msgstr ""
+
+#: admin/installer/installer.php:199
+msgid "Awesome. Your child theme has been created and is now activated."
+msgstr ""
+
+#: admin/installer/installer.php:201
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: admin/installer/installer.php:202
+msgid "You're up to speed!"
+msgstr ""
+
+#: admin/installer/installer.php:203
+msgid ""
+"Let's install some essential WordPress plugins to get your site up to speed."
+msgstr ""
+
+#: admin/installer/installer.php:204
+msgid ""
+"The required WordPress plugins are all installed and up to date. Press \"Next"
+"\" to continue the setup wizard."
+msgstr ""
+
+#: admin/installer/installer.php:205 admin/installer/installer.php:209
+msgid "Advanced"
+msgstr ""
+
+#: admin/installer/installer.php:207
+msgid "Import Content"
+msgstr ""
+
+#: admin/installer/installer.php:208
+msgid ""
+"Let's import content to your website, to help you get familiar with the "
+"theme."
+msgstr ""
+
+#: admin/installer/installer.php:211
+msgid "All done. Have fun!"
+msgstr ""
+
+#: admin/installer/installer.php:214
+#, php-format
+msgid "Your theme has been all set up. Enjoy your new theme by %s."
+msgstr ""
+
+#: admin/installer/installer.php:215
+msgid "Extras"
+msgstr ""
+
+#: admin/installer/installer.php:216
+msgid "View your website"
+msgstr ""
+
+#: admin/installer/installer.php:217
+msgid "Get Theme Support"
+msgstr ""
+
+#: admin/installer/installer.php:218 admin/options/options-manager.php:320
+#: kits/documents/kit.php:387
+msgid "Theme Settings"
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:453
+#: admin/installer/merlin/config.php:234
+msgid "Something went wrong. Please refresh the page and try again!"
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:599
+msgid "Please define default parameters in the form of an array."
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:604
+msgid "Please define an SVG icon filename."
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:713
+msgid "Welcome"
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:720
+msgid "Child"
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:726
+#: admin/options/pages/license.php:40 admin/options/pages/license.php:49
+msgid "License"
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:734
+msgid "Plugins"
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:742
+#: admin/installer/merlin/class-merlin.php:1982
+#: kits/settings/archive/content.php:40 kits/settings/main/main.php:99
+#: kits/settings/search/content.php:40 kits/settings/single/content.php:42
+#: kits/settings/single/single.php:126
+#: kits/traits/controls-groups/archive.php:133
+#: kits/traits/controls-groups/archive.php:259
+#: kits/traits/controls-groups/archive.php:426
+msgid "Content"
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:748
+msgid "Ready"
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:853
+msgid "The welcome step has been displayed"
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:947
+msgid "The license activation step has been displayed"
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:1017
+msgid "The child theme installation step has been displayed"
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:1104
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:1105
+msgid "req"
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:1145
+msgid "The plugin installation step has been displayed"
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:1191
+msgid "Select Demo"
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:1229
+msgid "The content import step has been displayed"
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:1309
+msgid "The final step has been displayed"
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:1386
+msgid "The existing child theme was activated"
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:1403
+msgid "The newly generated child theme was activated"
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:1424
+#: admin/installer/merlin/config.php:361
+msgid ""
+"Yikes! The theme activation failed. Please try again or contact support."
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:1433
+#: admin/installer/merlin/config.php:370 admin/options/pages/license.php:139
+msgid "Please add your license key before attempting to activate one."
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:1446
+msgid "The license activation was performed with the following results"
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:1492
+#: admin/installer/merlin/class-merlin.php:1533
+msgid "An error occurred, please try again."
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:1505
+#, php-format
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:1511
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:1515
+msgid ""
+"This appears to be an invalid license key. Please try again or contact "
+"support."
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:1520
+msgid "Your license is not active for this URL."
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:1525
+#, php-format
+msgid "This appears to be an invalid license key for %s."
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:1529
+msgid "Your license key has reached its activation limit."
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:1623
+msgid "The child theme functions.php content was generated"
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:1654
+msgid "The child theme style.css content was generated"
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:1688
+msgid ""
+"The child theme screenshot was copied to the child theme, with the following "
+"result"
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:1690
+msgid "The child theme screenshot was not generated, because of these results"
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:1719
+msgid "Activating"
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:1735
+msgid "Updating"
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:1751
+#: admin/installer/merlin/class-merlin.php:1767
+#: admin/installer/merlin/class-merlin.php:1985
+#: admin/installer/merlin/class-merlin.php:1998
+#: admin/installer/merlin/class-merlin.php:2011
+#: admin/installer/merlin/class-merlin.php:2024
+#: admin/installer/merlin/class-merlin.php:2037
+#: admin/installer/merlin/class-merlin.php:2050
+#: admin/installer/merlin/class-merlin.php:2093
+msgid "Installing"
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:1759
+msgid "A plugin with the following data will be processed"
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:1771
+msgid "A plugin with the following data was processed"
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:1780
+#: admin/installer/merlin/class-merlin.php:1986
+#: admin/installer/merlin/class-merlin.php:1999
+#: admin/installer/merlin/class-merlin.php:2012
+#: admin/installer/merlin/class-merlin.php:2025
+#: admin/installer/merlin/class-merlin.php:2038
+#: admin/installer/merlin/class-merlin.php:2051
+msgid "Success"
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:1803
+#: admin/installer/merlin/config.php:564
+msgid ""
+"The content importer AJAX call failed to start, because of incorrect data"
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:1808
+#: admin/installer/merlin/config.php:569
+msgid "Invalid content!"
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:1819
+#: admin/installer/merlin/config.php:580
+msgid "The content import AJAX call will be executed with this import data"
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:1861
+#: admin/installer/merlin/config.php:634
+msgid "The content import AJAX call failed with this passed data"
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:1872
+#: admin/installer/merlin/config.php:645
+msgid "Error"
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:1886
+msgid ""
+"The content importer AJAX call for retrieving total content import items "
+"failed to start, because of incorrect data."
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:1891
+msgid "Invalid data!"
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:1983
+msgid "Demo content data."
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:1984
+#: admin/installer/merlin/class-merlin.php:1997
+#: admin/installer/merlin/class-merlin.php:2010
+#: admin/installer/merlin/class-merlin.php:2023
+#: admin/installer/merlin/class-merlin.php:2036
+#: admin/installer/merlin/class-merlin.php:2049
+msgid "Pending"
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:1995
+msgid "Widgets"
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:1996
+msgid "Sample widgets data."
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:2008
+msgid "Revolution Slider"
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:2009
+msgid "Sample Revolution sliders data."
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:2021
+msgid "Options"
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:2022
+msgid "Sample theme options data."
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:2034
+msgid "Redux Options"
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:2035
+msgid "Redux framework options."
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:2047
+msgid "After import setup"
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:2048
+msgid "After import setup."
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:2077
+msgid "The revolution slider import was executed"
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:2114
+msgid "The home page was set"
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:2124
+msgid "The blog page was set"
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:2139
+msgid "The Hello world post status was set to draft"
+msgstr ""
+
+#: admin/installer/merlin/class-merlin.php:2163
+msgid ""
+"This predefined demo import does not have the name parameter: "
+"import_file_name"
+msgstr ""
+
+#: admin/installer/merlin/config.php:338
+msgid "Demos"
+msgstr ""
+
+#: admin/installer/merlin/config.php:420 admin/options/pages/demos.php:87
+msgid "Demo Preview"
+msgstr ""
+
+#: admin/installer/merlin/config.php:425
+msgid "Manual"
+msgstr ""
+
+#: admin/installer/merlin/config.php:428
+msgid "Import dummy content?"
+msgstr ""
+
+#: admin/installer/merlin/config.php:431
+msgid "One-click Install"
+msgstr ""
+
+#: admin/installer/merlin/config.php:531
+msgid "Dummy Content"
+msgstr ""
+
+#: admin/installer/merlin/config.php:533
+msgid "Sidebars Widgets"
+msgstr ""
+
+#: admin/installer/merlin/config.php:535
+msgid "Customizer Settings"
+msgstr ""
+
+#: admin/installer/merlin/includes/class-merlin-customizer-importer.php:30
+msgid "The customizer import has finished successfully"
+msgstr ""
+
+#: admin/installer/merlin/includes/class-merlin-customizer-importer.php:57
+#, php-format
+msgid "Error: The customizer import file is missing! File path: %s"
+msgstr ""
+
+#: admin/installer/merlin/includes/class-merlin-customizer-importer.php:70
+msgid ""
+"Error: The customizer import file does not have any content in it. Please "
+"make sure to use the correct customizer import file."
+msgstr ""
+
+#: admin/installer/merlin/includes/class-merlin-customizer-importer.php:80
+msgid ""
+"Error: The customizer import file is not in a correct format. Please make "
+"sure to use the correct customizer import file."
+msgstr ""
+
+#: admin/installer/merlin/includes/class-merlin-customizer-importer.php:86
+msgid ""
+"Error: The customizer import file is not suitable for current theme. You can "
+"only import customizer settings for the same theme or a child theme."
+msgstr ""
+
+#: admin/installer/merlin/includes/class-merlin-downloader.php:49
+msgid "The file was not able to save to disk, while trying to download it"
+msgstr ""
+
+#: admin/installer/merlin/includes/class-merlin-downloader.php:66
+msgid "Missing URL for downloading a file!"
+msgstr ""
+
+#: admin/installer/merlin/includes/class-merlin-downloader.php:84
+#, php-format
+msgid ""
+"An error occurred while fetching file from: %1$s%2$s%3$s!%4$sReason: %5$s - "
+"%6$s."
+msgstr ""
+
+#: admin/installer/merlin/includes/class-merlin-redux-importer.php:32
+msgid "The Redux Framework data was imported"
+msgstr ""
+
+#: admin/installer/merlin/includes/class-merlin-widget-importer.php:72
+msgid "Error: Widget import file could not be found."
+msgstr ""
+
+#: admin/installer/merlin/includes/class-merlin-widget-importer.php:83
+msgid "Error: Widget import file does not have any content in it."
+msgstr ""
+
+#: admin/installer/merlin/includes/class-merlin-widget-importer.php:105
+msgid ""
+"Error: Widget import data could not be read. Please try a different file."
+msgstr ""
+
+#: admin/installer/merlin/includes/class-merlin-widget-importer.php:144
+msgid "Sidebar does not exist in theme (moving widget to Inactive)"
+msgstr ""
+
+#: admin/installer/merlin/includes/class-merlin-widget-importer.php:165
+msgid "Site does not support widget"
+msgstr ""
+
+#: admin/installer/merlin/includes/class-merlin-widget-importer.php:198
+msgid "Widget already exists"
+msgstr ""
+
+#: admin/installer/merlin/includes/class-merlin-widget-importer.php:256
+msgid "Imported"
+msgstr ""
+
+#: admin/installer/merlin/includes/class-merlin-widget-importer.php:260
+msgid "Imported to Inactive"
+msgstr ""
+
+#: admin/installer/merlin/includes/class-merlin-widget-importer.php:266
+msgid "No Title"
+msgstr ""
+
+#: admin/installer/merlin/includes/class-merlin-widget-importer.php:328
+msgid "No results for widget import!"
+msgstr ""
+
+#: admin/installer/merlin/vendor/proteusthemes/wp-content-importer-v2/src/Importer.php:55
+msgid ""
+"The XMLReader class is missing! Please install the XMLReader PHP extension "
+"on your server"
+msgstr ""
+
+#: admin/installer/merlin/vendor/proteusthemes/wp-content-importer-v2/src/Importer.php:68
+msgid "Could not open the XML file for parsing!"
+msgstr ""
+
+#: admin/installer/merlin/vendor/proteusthemes/wp-content-importer-v2/src/Importer.php:248
+msgid "Content import start error: "
+msgstr ""
+
+#: admin/installer/merlin/vendor/proteusthemes/wp-content-importer-v2/src/Importer.php:280
+#: admin/installer/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:173
+#: admin/installer/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:291
+#: admin/installer/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:364
+#, php-format
+msgid ""
+"This WXR file (version %s) is newer than the importer (version %s) and may "
+"not be supported. Please consider updating."
+msgstr ""
+
+#: admin/installer/merlin/vendor/proteusthemes/wp-content-importer-v2/src/Importer.php:504
+msgid "New AJAX call!"
+msgstr ""
+
+#: admin/installer/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:135
+msgid "Could not open the file for parsing"
+msgstr ""
+
+#: admin/installer/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:514
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: admin/installer/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:577
+msgid "Invalid author mapping"
+msgstr ""
+
+#: admin/installer/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:678
+msgid "Cannot import auto-draft posts"
+msgstr ""
+
+#: admin/installer/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:770
+#, php-format
+msgid "Failed to import \"%s\": Invalid post type %s"
+msgstr ""
+
+#: admin/installer/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:780
+#, php-format
+msgid "%s \"%s\" already exists."
+msgstr ""
+
+#: admin/installer/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:858
+#, php-format
+msgid "Skipping attachment \"%s\", fetching attachments disabled"
+msgstr ""
+
+#: admin/installer/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:879
+#, php-format
+msgid "Failed to import \"%s\" (%s)"
+msgstr ""
+
+#: admin/installer/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:911
+#: admin/installer/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1844
+#, php-format
+msgid "Imported \"%s\" (%s)"
+msgstr ""
+
+#: admin/installer/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:916
+#, php-format
+msgid "Post %d remapped to %d"
+msgstr ""
+
+#: admin/installer/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:956
+#, php-format
+msgid "Failed to import term: %s - %s"
+msgstr ""
+
+#: admin/installer/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1116
+msgid "Invalid file type"
+msgstr ""
+
+#: admin/installer/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1615
+#, php-format
+msgid "Failed to import user \"%s\""
+msgstr ""
+
+#: admin/installer/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1636
+#, php-format
+msgid "Imported user \"%s\""
+msgstr ""
+
+#: admin/installer/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1640
+#, php-format
+msgid "User %d remapped to %d"
+msgstr ""
+
+#: admin/installer/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1805
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: admin/installer/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1849
+#, php-format
+msgid "Term %d remapped to %d"
+msgstr ""
+
+#: admin/installer/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1908
+#, php-format
+msgid "Failed to add metakey: %s, metavalue: %s to term_id: %d"
+msgstr ""
+
+#: admin/installer/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1917
+#, php-format
+msgid "Meta for term_id %d : %s => %s ; successfully added!"
+msgstr ""
+
+#: admin/installer/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1969
+#, php-format
+msgid "Remote server returned %1$d %2$s for %3$s"
+msgstr ""
+
+#: admin/installer/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1991
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: admin/installer/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1997
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: admin/installer/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2022
+#, php-format
+msgid "Running post-processing for post %d"
+msgstr ""
+
+#: admin/installer/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2035
+#, php-format
+msgid "Could not find the post parent for \"%s\" (post #%d)"
+msgstr ""
+
+#: admin/installer/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2040
+#, php-format
+msgid "Post %d was imported with parent %d, but could not be found"
+msgstr ""
+
+#: admin/installer/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2054
+#, php-format
+msgid "Could not find the author for \"%s\" (post #%d)"
+msgstr ""
+
+#: admin/installer/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2059
+#, php-format
+msgid "Post %d was imported with author \"%s\", but could not be found"
+msgstr ""
+
+#: admin/installer/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2085
+#, php-format
+msgid "Post %d was marked for post-processing, but none was required."
+msgstr ""
+
+#: admin/installer/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2096
+#, php-format
+msgid "Could not update \"%s\" (post #%d) with mapped data"
+msgstr ""
+
+#: admin/installer/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2141
+#, php-format
+msgid "Could not find the menu object for \"%s\" (post #%d)"
+msgstr ""
+
+#: admin/installer/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2146
+#, php-format
+msgid ""
+"Post %d was imported with object \"%d\" of type \"%s\", but could not be "
+"found"
+msgstr ""
+
+#: admin/installer/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2168
+#, php-format
+msgid "Could not find the comment parent for comment #%d"
+msgstr ""
+
+#: admin/installer/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2172
+#, php-format
+msgid "Comment %d was imported with parent %d, but could not be found"
+msgstr ""
+
+#: admin/installer/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2186
+#, php-format
+msgid "Could not find the author for comment #%d"
+msgstr ""
+
+#: admin/installer/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2190
+#, php-format
+msgid "Comment %d was imported with author %d, but could not be found"
+msgstr ""
+
+#: admin/installer/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2207
+#, php-format
+msgid "Could not update comment #%d with mapped data"
+msgstr ""
+
+#: admin/installer/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2238
+#, php-format
+msgid "Faulty term_id provided in terms-to-be-remapped array %s"
+msgstr ""
+
+#: admin/installer/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2248
+#, php-format
+msgid "No taxonomy provided in terms-to-be-remapped array for term #%d"
+msgstr ""
+
+#: admin/installer/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2258
+#, php-format
+msgid "No parent_slug identified in remapping-array for term: %d"
+msgstr ""
+
+#: admin/installer/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2266
+#, php-format
+msgid "The term(%d)\"s parent_slug (%s) is not found in the remapping-array."
+msgstr ""
+
+#: admin/installer/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2280
+#, php-format
+msgid "No data returned by get_term_by for term_id #%d"
+msgstr ""
+
+#: admin/installer/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2299
+#, php-format
+msgid "Could not update \"%s\" (term #%d) with mapped data"
+msgstr ""
+
+#: admin/installer/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2309
+#, php-format
+msgid "Term %d was successfully updated with parent %d"
+msgstr ""
+
+#: admin/installer/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2344
+msgid "Starting remapping of featured images"
+msgstr ""
+
+#: admin/installer/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2353
+#, php-format
+msgid "Remapping featured image ID %d to new ID %d for post ID %d"
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:393
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:912
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:2618
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:3665
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:394
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:3244
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:395
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:1019
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:1206
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:3033
+msgid "and"
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:2406
+#: kits/settings/elements/slider-bullets.php:103
+#: kits/settings/header-bot/nav-burger-button.php:84
+#: kits/settings/header-mid/nav-burger-button.php:85
+#: kits/settings/header-top/nav-burger-button.php:85
+#: kits/settings/header-top/toggle.php:82
+msgid "Active"
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:2427
+#, php-format
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:2473
+#, php-format
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:2477
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:2481
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:2567
+msgid "unknown"
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:2634
+#: kits/settings/elements/slider-bullets.php:77
+#: kits/settings/footer/footer.php:80 kits/settings/general/link.php:177
+#: kits/settings/general/logo.php:71
+#: kits/settings/header-bot/header-bot.php:101
+#: kits/settings/header-mid/header-mid.php:80
+#: kits/settings/heading/breadcrumbs.php:164
+#: kits/traits/controls-groups/archive.php:82
+msgid "Type"
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:2639
+msgid "Status"
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:3037
+msgid "The following plugin was activated successfully: "
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:3583
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:3586
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:3588
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:3592
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:3597
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr ""
+
+#: admin/installer/plugin-activator/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: admin/options/fields/number.php:68
+msgid "Number!"
+msgstr ""
+
+#: admin/options/fields/number.php:74 admin/options/fields/text.php:67
+msgid "Expecting a Numeric value! Please fix."
+msgstr ""
+
+#: admin/options/fields/text.php:77
+msgid "Expecting comma separated numeric values"
+msgstr ""
+
+#: admin/options/fields/text.php:86
+msgid "Expecting comma separated numeric values! Please fix."
+msgstr ""
+
+#: admin/options/fields/text.php:108
+msgid "Invalid email! Please re-enter!"
+msgstr ""
+
+#: admin/options/fields/text.php:110
+msgid "This setting field cannot be empty! Please enter a valid email address."
+msgstr ""
+
+#: admin/options/fields/text.php:117
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: admin/options/options-manager.php:237
+msgid "Default Field"
+msgstr ""
+
+#: admin/options/options-manager.php:278 admin/options/pages/demos.php:38
+#: admin/options/pages/demos.php:47
+msgid "Designs"
+msgstr ""
+
+#: admin/options/options-manager.php:409
+msgid "Apply the selected design to this website?"
+msgstr ""
+
+#: admin/options/options-manager.php:409
+msgid "This adds a templates pack and some other data to your website."
+msgstr ""
+
+#: admin/options/options-utils.php:190
+msgid "Field error"
+msgstr ""
+
+#: admin/options/pages/demos.php:62
+msgid "Finish"
+msgstr ""
+
+#: admin/options/pages/demos.php:92
+msgid "Apply"
+msgstr ""
+
+#: admin/options/pages/demos.php:113
+msgid "Yikes! Demo activation failed. Please try again."
+msgstr ""
+
+#: admin/options/pages/demos.php:121
+msgid "Empty demo data."
+msgstr ""
+
+#: admin/options/pages/demos.php:146
+msgid "New design is now applied!"
+msgstr ""
+
+#: admin/options/pages/demos.php:147
+msgid ""
+"Click Finish and allow a few seconds after that for new appearance to be "
+"applied (do not reload your page)."
+msgstr ""
+
+#: admin/options/pages/demos.php:150
+#, php-format
+msgid ""
+"We recommend that you run a %1$sRegenerate Thumbnails%2$s tool to resize "
+"existing images for your new design."
+msgstr ""
+
+#: admin/options/pages/demos.php:157
+#, php-format
+msgid ""
+"You can read about this, along with more info and tips on switching design "
+"concept in our docs article - %1$sopen article%2$s."
+msgstr ""
+
+#: admin/options/pages/example.php:22
+msgid "Theme Example Options"
+msgstr ""
+
+#: admin/options/pages/example.php:31
+msgid "Example"
+msgstr ""
+
+#: admin/options/pages/example.php:49 kits/settings/main/main.php:43
+#: kits/settings/main/section.php:38
+msgid "Main"
+msgstr ""
+
+#: admin/options/pages/example.php:50
+msgid "Main Options"
+msgstr ""
+
+#: admin/options/pages/example.php:53
+msgid "Second"
+msgstr ""
+
+#: admin/options/pages/example.php:54
+msgid "Second Options"
+msgstr ""
+
+#: admin/options/pages/example.php:57
+msgid "Third"
+msgstr ""
+
+#: admin/options/pages/example.php:58
+msgid "Third Options"
+msgstr ""
+
+#: admin/options/pages/example.php:78
+msgid "Arr Text Field First"
+msgstr ""
+
+#: admin/options/pages/example.php:86
+msgid "Arr Text Field Second"
+msgstr ""
+
+#: admin/options/pages/example.php:93
+msgid "Test Text Field"
+msgstr ""
+
+#: admin/options/pages/example.php:101
+msgid "Test Second Field"
+msgstr ""
+
+#: admin/options/pages/example.php:112
+msgid "Test third Field"
+msgstr ""
+
+#: admin/options/pages/image-sizes.php:22
+#: admin/options/pages/image-sizes.php:31
+msgid "Image Sizes"
+msgstr ""
+
+#: admin/options/pages/image-sizes.php:64 kits/settings/main/main.php:107
+#: kits/settings/main/main.php:185 kits/traits/controls-groups/archive.php:355
+#: kits/traits/controls-groups/nav-dropdown-container.php:51
+#: kits/traits/controls-groups/nav-item.php:157
+#: kits/traits/controls-groups/nav-title-item.php:189
+#: kits/traits/controls-groups/post-meta.php:236
+msgid "Width"
+msgstr ""
+
+#: admin/options/pages/image-sizes.php:74
+#: kits/settings/header-bot/header-bot.php:127
+#: kits/settings/header-mid/header-mid.php:103
+#: kits/settings/header-top/header-top.php:127
+#: kits/settings/heading/heading.php:103
+#: kits/traits/controls-groups/nav-title-item.php:215
+#: kits/traits/controls-groups/post-media.php:144
+#: kits/traits/controls-groups/post-meta.php:260
+msgid "Height"
+msgstr ""
+
+#: admin/options/pages/image-sizes.php:83
+msgid "Crop"
+msgstr ""
+
+#: admin/options/pages/image-sizes.php:89
+msgid "Archive Image Size"
+msgstr ""
+
+#: admin/options/pages/image-sizes.php:90
+msgid "Used for the featured image in blog/archive template."
+msgstr ""
+
+#: admin/options/pages/image-sizes.php:96
+msgid "Search Image Size"
+msgstr ""
+
+#: admin/options/pages/image-sizes.php:97
+msgid "Used for the featured image in search template."
+msgstr ""
+
+#: admin/options/pages/image-sizes.php:103
+msgid "Single Image Size"
+msgstr ""
+
+#: admin/options/pages/image-sizes.php:104
+msgid "Used for the featured image in single post template."
+msgstr ""
+
+#: admin/options/pages/image-sizes.php:110
+msgid "More Posts Image Size"
+msgstr ""
+
+#: admin/options/pages/image-sizes.php:111
+msgid "Used for the featured image in more posts block."
+msgstr ""
+
+#: admin/options/pages/license.php:79
+msgid "Enter your purchase code to activate the license."
+msgstr ""
+
+#: admin/options/pages/license.php:92
+msgid "Activate License"
+msgstr ""
+
+#: admin/options/pages/license.php:105
+msgid "Deactivate License"
+msgstr ""
+
+#: admin/options/pages/license.php:110
+msgid "Deactivate"
+msgstr ""
+
+#: admin/options/pages/license.php:131
+msgid "Yikes! The theme activation failed. Please try again."
+msgstr ""
+
+#: admin/options/pages/license.php:161
+msgid "Yikes! The theme deactivation failed. Please try again."
+msgstr ""
+
+#: admin/options/pages/license.php:169
+msgid "Your license is deactivated!"
+msgstr ""
+
+#: comments.php:14
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:30
+msgid "Trackbacks and Pingbacks"
+msgstr ""
+
+#: comments.php:44
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:45
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:63
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:68
+msgid "Your name"
+msgstr ""
+
+#: comments.php:71
+msgid "Your email"
+msgstr ""
+
+#: comments.php:78
+msgid ""
+"Save my name, email, and website in this browser for the next time I comment."
+msgstr ""
+
+#: comments.php:85
+msgid "Comment"
+msgstr ""
+
+#: comments.php:110
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: comments.php:119
+msgid "Reply"
+msgstr ""
+
+#: comments.php:122
+msgid "Edit"
+msgstr ""
+
+#: core/core.php:314 kits/settings/main/main.php:126
+msgid "Sidebar"
+msgstr ""
+
+#: core/core.php:316
+msgid "Widgets in this area will be shown in all left and right sidebars."
+msgstr ""
+
+#: core/core.php:326
+msgid "Archive Sidebar"
+msgstr ""
+
+#: core/core.php:328 core/core.php:340
+msgid ""
+"Widgets in this area will be shown in all left and right sidebars on "
+"archives pages."
+msgstr ""
+
+#: core/core.php:338
+msgid "Search Sidebar"
+msgstr ""
+
+#: core/core.php:350
+msgid "Footer 1"
+msgstr ""
+
+#: core/core.php:352 core/core.php:364 core/core.php:376 core/core.php:388
+#: core/core.php:400
+msgid "Widgets in this area will be shown in footer area."
+msgstr ""
+
+#: core/core.php:362
+msgid "Footer 2"
+msgstr ""
+
+#: core/core.php:374
+msgid "Footer 3"
+msgstr ""
+
+#: core/core.php:386
+msgid "Footer 4"
+msgstr ""
+
+#: core/core.php:398
+msgid "Footer 5"
+msgstr ""
+
+#: core/core.php:426
+msgid "Header Top Navigation"
+msgstr ""
+
+#: core/core.php:427
+msgid "Header Middle Navigation"
+msgstr ""
+
+#: core/core.php:428
+msgid "Header Bottom Navigation"
+msgstr ""
+
+#: core/core.php:429
+msgid "Footer Navigation"
+msgstr ""
+
+#: core/core.php:547
+msgid ""
+"This content is password protected. To view it please enter your password "
+"below:"
+msgstr ""
+
+#: core/core.php:549
+msgid "Password"
+msgstr ""
+
+#: core/core.php:550
+msgid "Enter"
+msgstr ""
+
+#: core/utils/api-requests.php:253
+msgid "Your token data is invalid."
+msgstr ""
+
+#: core/utils/file-manager.php:92
+msgid "Required plugins not activated"
+msgstr ""
+
+#: core/utils/file-manager.php:107
+msgid "Incompatible archive"
+msgstr ""
+
+#: kits/classes/kit-globals.php:119 kits/classes/kit-globals.php:179
+msgid "Primary"
+msgstr ""
+
+#: kits/classes/kit-globals.php:124 kits/classes/kit-globals.php:186
+msgid "Secondary"
+msgstr ""
+
+#: kits/classes/kit-globals.php:129 kits/classes/kit-globals.php:193
+#: kits/settings/elements/slider-arrows.php:113
+#: kits/settings/elements/slider-arrows.php:262
+#: kits/settings/elements/slider-bullets.php:125
+#: kits/settings/elements/slider-fraction.php:79
+#: kits/settings/general/caption.php:100 kits/settings/general/colors.php:71
+#: kits/settings/general/logo.php:77 kits/settings/general/table.php:113
+#: kits/settings/heading/breadcrumbs.php:104
+#: kits/traits/controls-groups/button-icon.php:57
+#: kits/traits/controls-groups/custom-html.php:80
+#: kits/traits/controls-groups/post-meta.php:106
+#: kits/traits/controls-groups/quotes.php:72
+#: kits/traits/controls-groups/short-info.php:71
+#: kits/traits/controls-groups/short-info.php:310
+msgid "Text"
+msgstr ""
+
+#: kits/classes/kit-globals.php:134 kits/classes/kit-globals.php:206
+#: kits/traits/controls-groups/nav-dropdown-item.php:62
+#: kits/traits/controls-groups/nav-title-item.php:91
+msgid "Accent"
+msgstr ""
+
+#: kits/classes/kit-globals.php:139 kits/classes/kit-globals.php:219
+msgid "Alternate Accent"
+msgstr ""
+
+#: kits/classes/kit-globals.php:144
+#: kits/settings/elements/slider-arrows.php:250
+#: kits/settings/elements/slider-bullets.php:113
+#: kits/settings/elements/slider-bullets.php:237
+#: kits/settings/elements/slider-fraction.php:91
+#: kits/settings/general/caption.php:136 kits/settings/general/caption.php:263
+#: kits/settings/general/table.php:149
+#: kits/traits/controls-groups/nav-item.php:92
+#: kits/traits/controls-groups/quotes.php:117
+#: kits/traits/controls-groups/social-icons.php:80
+#: kits/traits/controls-groups/social-icons.php:331
+#: kits/traits/controls-groups/states.php:145
+#: kits/traits/controls-groups/states.php:278
+msgid "Background"
+msgstr ""
+
+#: kits/classes/kit-globals.php:149 kits/settings/general/colors.php:131
+msgid "Alternate Background"
+msgstr ""
+
+#: kits/classes/kit-globals.php:154
+#: kits/settings/elements/slider-arrows.php:275
+#: kits/settings/elements/slider-bullets.php:140
+#: kits/settings/elements/slider-fraction.php:103
+#: kits/settings/general/caption.php:148 kits/settings/general/caption.php:275
+#: kits/settings/general/colors.php:143 kits/settings/general/table.php:161
+#: kits/traits/controls-groups/quotes.php:132
+#: kits/traits/controls-groups/social-icons.php:92
+#: kits/traits/controls-groups/social-icons.php:343
+#: kits/traits/controls-groups/states.php:306
+msgid "Border"
+msgstr ""
+
+#: kits/classes/kit-globals.php:232
+msgid "Meta"
+msgstr ""
+
+#: kits/classes/kit-globals.php:245
+msgid "Alternate Meta"
+msgstr ""
+
+#: kits/classes/kit-globals.php:258
+msgid "Small"
+msgstr ""
+
+#: kits/classes/kit-globals.php:271
+msgid "H1"
+msgstr ""
+
+#: kits/classes/kit-globals.php:284
+msgid "H2"
+msgstr ""
+
+#: kits/classes/kit-globals.php:297
+msgid "H3"
+msgstr ""
+
+#: kits/classes/kit-globals.php:310
+msgid "H4"
+msgstr ""
+
+#: kits/classes/kit-globals.php:323
+msgid "H5"
+msgstr ""
+
+#: kits/classes/kit-globals.php:336
+msgid "H6"
+msgstr ""
+
+#: kits/classes/kit-globals.php:349 kits/settings/general/button.php:41
+#: kits/settings/header-bot/button.php:42
+#: kits/settings/header-bot/header-bot.php:170
+#: kits/settings/header-mid/button.php:42
+#: kits/settings/header-mid/header-mid.php:209
+msgid "Button"
+msgstr ""
+
+#: kits/classes/kit-globals.php:362 kits/settings/general/blockquote.php:41
+msgid "Blockquote"
+msgstr ""
+
+#: kits/documents/kit.php:388
+msgid "Design System"
+msgstr ""
+
+#: kits/documents/kit.php:389
+msgid "Theme Style"
+msgstr ""
+
+#: kits/documents/kit.php:390
+msgid "Settings"
+msgstr ""
+
+#: kits/documents/kit.php:391
+msgid "Additional Settings"
+msgstr ""
+
+#: kits/settings/archive/archive.php:42 kits/settings/archive/section.php:38
+msgid "Archive"
+msgstr ""
+
+#: kits/settings/archive/archive.php:69
+msgid ""
+"If you use an 'Archive' template, then the settings will not be applied, if "
+"you set the template to 'All Archives', then these settings will be hidden."
+msgstr ""
+
+#: kits/settings/archive/media.php:40 kits/settings/search/media.php:40
+#: kits/settings/single/media.php:42 kits/settings/single/single.php:122
+#: kits/traits/controls-groups/archive.php:129
+#: kits/traits/controls-groups/archive.php:255
+#: kits/traits/controls-groups/archive.php:290
+msgid "Media"
+msgstr ""
+
+#: kits/settings/archive/meta-first.php:40
+#: kits/settings/search/meta-first.php:40
+#: kits/settings/single/meta-first.php:40 kits/settings/single/single.php:124
+#: kits/traits/controls-groups/archive.php:131
+#: kits/traits/controls-groups/archive.php:257
+#: kits/traits/controls-groups/archive.php:424
+msgid "Meta Data 1"
+msgstr ""
+
+#: kits/settings/archive/meta-second.php:40
+#: kits/settings/search/meta-second.php:40
+#: kits/settings/single/meta-second.php:40 kits/settings/single/single.php:125
+#: kits/traits/controls-groups/archive.php:132
+#: kits/traits/controls-groups/archive.php:258
+#: kits/traits/controls-groups/archive.php:425
+msgid "Meta Data 2"
+msgstr ""
+
+#: kits/settings/archive/more.php:42 kits/settings/search/more.php:42
+#: kits/traits/controls-groups/archive.php:134
+#: kits/traits/controls-groups/archive.php:260
+#: kits/traits/controls-groups/archive.php:427
+msgid "Read More"
+msgstr ""
+
+#: kits/settings/archive/more.php:131
+#: kits/settings/elements/slider-arrows.php:226
+#: kits/settings/elements/slider-bullets.php:81
+#: kits/settings/elements/slider-bullets.php:101
+#: kits/settings/footer/nav.php:92 kits/settings/footer/social.php:81
+#: kits/settings/general/button.php:77 kits/settings/general/input.php:80
+#: kits/settings/general/link.php:135 kits/settings/header-bot/button.php:85
+#: kits/settings/header-bot/nav-burger-button.php:83
+#: kits/settings/header-bot/nav-burger-dropdown-item.php:83
+#: kits/settings/header-bot/nav-burger-title-item.php:83
+#: kits/settings/header-bot/nav-dropdown-item.php:83
+#: kits/settings/header-bot/nav-title-item.php:83
+#: kits/settings/header-bot/search-button.php:85
+#: kits/settings/header-bot/social.php:85
+#: kits/settings/header-mid/button.php:84
+#: kits/settings/header-mid/nav-burger-button.php:84
+#: kits/settings/header-mid/nav-burger-dropdown-item.php:84
+#: kits/settings/header-mid/nav-burger-title-item.php:84
+#: kits/settings/header-mid/nav-dropdown-item.php:84
+#: kits/settings/header-mid/nav-title-item.php:84
+#: kits/settings/header-mid/search-button.php:84
+#: kits/settings/header-mid/social.php:84
+#: kits/settings/header-top/nav-burger-button.php:84
+#: kits/settings/header-top/nav-burger-dropdown-item.php:84
+#: kits/settings/header-top/nav-burger-title-item.php:84
+#: kits/settings/header-top/nav-dropdown-item.php:84
+#: kits/settings/header-top/nav-title-item.php:84
+#: kits/settings/header-top/social.php:84
+#: kits/settings/header-top/toggle.php:81 kits/settings/search/more.php:131
+msgid "Normal"
+msgstr ""
+
+#: kits/settings/archive/more.php:132
+#: kits/settings/elements/slider-arrows.php:227
+#: kits/settings/elements/slider-bullets.php:102
+#: kits/settings/footer/nav.php:104 kits/settings/footer/social.php:82
+#: kits/settings/general/button.php:78 kits/settings/general/link.php:83
+#: kits/settings/general/link.php:211 kits/settings/general/logo.php:173
+#: kits/settings/general/logo.php:219 kits/settings/header-bot/button.php:86
+#: kits/settings/header-bot/nav-dropdown-item.php:84
+#: kits/settings/header-bot/nav-title-item.php:84
+#: kits/settings/header-bot/search-button.php:86
+#: kits/settings/header-bot/social.php:86
+#: kits/settings/header-mid/button.php:85
+#: kits/settings/header-mid/nav-dropdown-item.php:85
+#: kits/settings/header-mid/nav-title-item.php:85
+#: kits/settings/header-mid/search-button.php:85
+#: kits/settings/header-mid/social.php:85
+#: kits/settings/header-top/nav-dropdown-item.php:85
+#: kits/settings/header-top/nav-title-item.php:85
+#: kits/settings/header-top/social.php:85 kits/settings/search/more.php:132
+#: kits/traits/controls-groups/post-title.php:74
+msgid "Hover"
+msgstr ""
+
+#: kits/settings/archive/more.php:134 kits/settings/search/more.php:134
+msgid "Read more"
+msgstr ""
+
+#: kits/settings/archive/more.php:147
+#: kits/settings/elements/slider-arrows.php:663
+#: kits/settings/elements/slider-bullets.php:350
+#: kits/settings/footer-widgets/footer-widgets.php:683
+#: kits/settings/footer/footer.php:198 kits/settings/general/logo.php:238
+#: kits/settings/header-bot/button.php:96
+#: kits/settings/header-bot/header-bot.php:248
+#: kits/settings/header-mid/button.php:95
+#: kits/settings/header-mid/header-mid.php:280
+#: kits/settings/header-top/header-top.php:241
+#: kits/settings/heading/breadcrumbs.php:299 kits/settings/main/main.php:235
+#: kits/settings/search/more.php:147 kits/settings/single/more-posts.php:169
+#: kits/settings/single/nav.php:138 kits/settings/single/single.php:195
+#: kits/traits/controls-groups/archive.php:452
+#: kits/traits/controls-groups/custom-html.php:128
+#: kits/traits/controls-groups/icon.php:115
+#: kits/traits/controls-groups/nav-burger-container.php:122
+#: kits/traits/controls-groups/post-content.php:116
+#: kits/traits/controls-groups/post-media.php:280
+#: kits/traits/controls-groups/post-meta.php:321
+#: kits/traits/controls-groups/short-info.php:275
+#: kits/traits/controls-groups/social-icons.php:224
+msgid "Save & Reload"
+msgstr ""
+
+#: kits/settings/archive/pagination.php:42
+#: kits/settings/search/pagination.php:42
+msgid "Pagination Container"
+msgstr ""
+
+#: kits/settings/archive/post.php:42 kits/settings/search/post.php:42
+msgid "Post"
+msgstr ""
+
+#: kits/settings/archive/post.php:69 kits/settings/elements/gutenberg.php:77
+#: kits/settings/elements/gutenberg.php:110 kits/settings/footer/footer.php:160
+#: kits/settings/footer/nav.php:140 kits/settings/header-bot/header-bot.php:190
+#: kits/settings/header-mid/header-mid.php:157
+#: kits/settings/header-mid/header-mid.php:226
+#: kits/settings/header-top/header-top.php:185
+#: kits/settings/heading/breadcrumbs.php:219 kits/settings/search/post.php:69
+#: kits/traits/controls-groups/nav-title-item.php:62
+#: kits/traits/controls-groups/post-meta.php:83
+#: kits/traits/controls-groups/quotes.php:246
+#: kits/traits/controls-groups/short-info.php:146
+#: kits/traits/controls-groups/social-icons.php:192
+msgid "Gap Between"
+msgstr ""
+
+#: kits/settings/archive/post.php:94
+#: kits/settings/elements/slider-arrows.php:485
+#: kits/settings/elements/slider-bullets.php:228
+#: kits/settings/elements/slider-progressbar.php:139
+#: kits/settings/footer-widgets/title.php:128 kits/settings/search/post.php:94
+#: kits/settings/sidebar-widgets/title.php:115
+#: kits/traits/controls-groups/container-box.php:40
+#: kits/traits/controls-groups/post-content.php:89
+#: kits/traits/controls-groups/post-media.php:250
+#: kits/traits/controls-groups/post-title.php:90
+msgid "Container"
+msgstr ""
+
+#: kits/settings/archive/title.php:40 kits/settings/general/logo.php:141
+#: kits/settings/heading/title.php:42 kits/settings/search/title.php:40
+#: kits/settings/single/author.php:86 kits/settings/single/more-posts.php:87
+#: kits/settings/single/single.php:123 kits/settings/single/title.php:42
+#: kits/traits/controls-groups/archive.php:130
+#: kits/traits/controls-groups/archive.php:256
+#: kits/traits/controls-groups/archive.php:423
+#: kits/traits/controls-groups/social-icons.php:271
+msgid "Title"
+msgstr ""
+
+#: kits/settings/elements/gutenberg.php:42
+msgid "Gutenberg"
+msgstr ""
+
+#: kits/settings/elements/gutenberg.php:69
+#: kits/settings/footer-widgets/footer-widgets.php:106
+#: kits/traits/controls-groups/archive.php:187
+msgid "Columns"
+msgstr ""
+
+#: kits/settings/elements/gutenberg.php:102
+msgid "Gallery Columns"
+msgstr ""
+
+#: kits/settings/elements/pullquote.php:40
+msgid "Gutenberg Pullquote"
+msgstr ""
+
+#: kits/settings/elements/section.php:38
+msgid "Additional Elements"
+msgstr ""
+
+#: kits/settings/elements/slider-arrows.php:44
+msgid "Slider Arrows"
+msgstr ""
+
+#: kits/settings/elements/slider-arrows.php:71
+#: kits/settings/elements/slider-bullets.php:67
+#: kits/settings/elements/slider-fraction.php:67
+#: kits/settings/elements/slider-progressbar.php:67
+msgid "Used in: more posts, single post gallery, archive post gallery."
+msgstr ""
+
+#: kits/settings/elements/slider-arrows.php:81
+#: kits/settings/footer-widgets/footer-widgets.php:80
+#: kits/settings/header-bot/header-bot.php:80
+#: kits/settings/header-top/header-top.php:80
+#: kits/settings/heading/breadcrumbs.php:70
+#: kits/traits/controls-groups/archive.php:302
+#: kits/traits/controls-groups/nav-title-item.php:151
+#: kits/traits/controls-groups/post-meta.php:198
+msgid "Visibility"
+msgstr ""
+
+#: kits/settings/elements/slider-arrows.php:83
+#: kits/settings/elements/slider-arrows.php:114
+#: kits/settings/elements/slider-arrows.php:123
+#: kits/settings/elements/slider-arrows.php:139
+#: kits/settings/elements/slider-arrows.php:205
+#: kits/settings/elements/slider-bullets.php:78
+#: kits/settings/footer-widgets/footer-widgets.php:82
+#: kits/settings/footer-widgets/footer-widgets.php:108
+#: kits/settings/footer-widgets/footer-widgets.php:163
+#: kits/settings/footer-widgets/footer-widgets.php:191
+#: kits/settings/footer-widgets/footer-widgets.php:220
+#: kits/settings/footer-widgets/footer-widgets.php:268
+#: kits/settings/footer-widgets/footer-widgets.php:296
+#: kits/settings/footer-widgets/footer-widgets.php:328
+#: kits/settings/footer-widgets/footer-widgets.php:364
+#: kits/settings/footer-widgets/footer-widgets.php:403
+#: kits/settings/footer-widgets/footer-widgets.php:421
+#: kits/settings/footer-widgets/footer-widgets.php:439
+#: kits/settings/footer-widgets/footer-widgets.php:457
+#: kits/settings/footer-widgets/footer-widgets.php:475
+#: kits/settings/footer-widgets/footer-widgets.php:493
+#: kits/settings/footer-widgets/footer-widgets.php:520
+#: kits/settings/footer-widgets/footer-widgets.php:538
+#: kits/settings/footer-widgets/footer-widgets.php:556
+#: kits/settings/footer-widgets/footer-widgets.php:574
+#: kits/settings/footer-widgets/footer-widgets.php:592
+#: kits/settings/footer-widgets/footer-widgets.php:610
+#: kits/settings/footer/copyright.php:87 kits/settings/footer/footer.php:82
+#: kits/settings/footer/footer.php:139 kits/settings/footer/logo.php:84
+#: kits/settings/footer/logo.php:105 kits/settings/general/logo.php:73
+#: kits/settings/general/logo.php:90 kits/settings/general/logo.php:116
+#: kits/settings/general/logo.php:150 kits/settings/general/logo.php:196
+#: kits/settings/header-bot/header-bot.php:81
+#: kits/settings/header-bot/header-bot.php:103
+#: kits/settings/header-bot/header-bot.php:166
+#: kits/settings/header-mid/header-mid.php:82
+#: kits/settings/header-mid/header-mid.php:136
+#: kits/settings/header-mid/header-mid.php:205
+#: kits/settings/header-top/header-top.php:81
+#: kits/settings/header-top/header-top.php:163
+#: kits/settings/heading/breadcrumbs.php:71
+#: kits/settings/heading/breadcrumbs.php:166
+#: kits/settings/heading/breadcrumbs.php:192
+#: kits/settings/heading/breadcrumbs.php:278 kits/settings/main/main.php:72
+#: kits/settings/single/author.php:88 kits/settings/single/more-posts.php:89
+#: kits/settings/single/more-posts.php:122
+#: kits/settings/single/more-posts.php:140 kits/settings/single/nav.php:88
+#: kits/settings/single/nav.php:107 kits/settings/single/nav.php:118
+#: kits/settings/single/single.php:82 kits/settings/single/single.php:119
+#: kits/settings/single/single.php:146 kits/settings/single/single.php:170
+#: kits/traits/controls-groups/archive.php:52
+#: kits/traits/controls-groups/archive.php:84
+#: kits/traits/controls-groups/archive.php:126
+#: kits/traits/controls-groups/archive.php:166
+#: kits/traits/controls-groups/archive.php:189
+#: kits/traits/controls-groups/archive.php:252
+#: kits/traits/controls-groups/archive.php:303
+#: kits/traits/controls-groups/archive.php:329
+#: kits/traits/controls-groups/archive.php:420
+#: kits/traits/controls-groups/button-icon.php:58
+#: kits/traits/controls-groups/button-icon.php:73
+#: kits/traits/controls-groups/button-icon.php:116
+#: kits/traits/controls-groups/button-icon.php:187
+#: kits/traits/controls-groups/custom-html.php:52
+#: kits/traits/controls-groups/nav-burger-container.php:99
+#: kits/traits/controls-groups/post-content.php:72
+#: kits/traits/controls-groups/post-meta.php:60
+#: kits/traits/controls-groups/short-info.php:248
+#: kits/traits/controls-groups/short-info.php:311
+#: kits/traits/controls-groups/short-info.php:320
+#: kits/traits/controls-groups/short-info.php:329
+#: kits/traits/controls-groups/slider.php:55
+#: kits/traits/controls-groups/slider.php:82
+#: kits/traits/controls-groups/slider.php:104
+#: kits/traits/controls-groups/slider.php:132
+#: kits/traits/controls-groups/slider.php:148
+#: kits/traits/controls-groups/slider.php:168
+#: kits/traits/controls-groups/slider.php:185
+#: kits/traits/controls-groups/slider.php:204
+#: kits/traits/controls-groups/slider.php:225
+#: kits/traits/controls-groups/slider.php:241
+#: kits/traits/controls-groups/slider.php:258
+#: kits/traits/controls-groups/slider.php:278
+#: kits/traits/controls-groups/slider.php:294
+#: kits/traits/controls-groups/slider.php:312
+#: kits/traits/controls-groups/social-icons.php:262
+#: kits/traits/controls-groups/social-icons.php:272
+#: kits/traits/controls-groups/social-icons.php:282
+#: kits/traits/controls-groups/states.php:74
+#: kits/traits/controls-groups/states.php:115
+msgid "This setting will be applied after save and reload."
+msgstr ""
+
+#: kits/settings/elements/slider-arrows.php:86
+msgid "Always"
+msgstr ""
+
+#: kits/settings/elements/slider-arrows.php:87
+msgid "On Hover"
+msgstr ""
+
+#: kits/settings/elements/slider-arrows.php:100
+#: kits/settings/single/nav.php:109
+msgid "Previous"
+msgstr ""
+
+#: kits/settings/elements/slider-arrows.php:122
+#: kits/settings/elements/slider-arrows.php:237
+#: kits/traits/controls-groups/button-icon.php:95
+#: kits/traits/controls-groups/quotes.php:274
+#: kits/traits/controls-groups/short-info.php:116
+#: kits/traits/controls-groups/short-info.php:175
+#: kits/traits/controls-groups/short-info.php:328
+#: kits/traits/controls-groups/social-icons.php:261
+#: kits/traits/controls-groups/states.php:73
+#: kits/traits/controls-groups/states.php:114
+msgid "Icon"
+msgstr ""
+
+#: kits/settings/elements/slider-arrows.php:138
+msgid "Icon Position"
+msgstr ""
+
+#: kits/settings/elements/slider-arrows.php:142
+#: kits/traits/controls-groups/button-icon.php:192
+#: kits/traits/controls-groups/short-info.php:252
+msgid "Before"
+msgstr ""
+
+#: kits/settings/elements/slider-arrows.php:143
+#: kits/traits/controls-groups/button-icon.php:196
+#: kits/traits/controls-groups/short-info.php:255
+msgid "After"
+msgstr ""
+
+#: kits/settings/elements/slider-arrows.php:204
+msgid "Text Direction"
+msgstr ""
+
+#: kits/settings/elements/slider-arrows.php:208
+#: kits/settings/elements/slider-arrows.php:499
+#: kits/settings/footer/footer.php:86
+msgid "Horizontal"
+msgstr ""
+
+#: kits/settings/elements/slider-arrows.php:209
+#: kits/settings/elements/slider-arrows.php:503
+#: kits/settings/footer/footer.php:90
+msgid "Vertical"
+msgstr ""
+
+#: kits/settings/elements/slider-arrows.php:296
+#: kits/settings/elements/slider-bullets.php:161
+#: kits/settings/elements/slider-fraction.php:117
+#: kits/settings/general/caption.php:162 kits/settings/general/caption.php:289
+#: kits/traits/controls-groups/quotes.php:153
+#: kits/traits/controls-groups/states.php:387
+msgid "Border Width"
+msgstr ""
+
+#: kits/settings/elements/slider-arrows.php:305
+#: kits/settings/elements/slider-bullets.php:170
+#: kits/settings/elements/slider-bullets.php:251
+#: kits/settings/elements/slider-fraction.php:125
+#: kits/settings/elements/slider-progressbar.php:121
+#: kits/settings/general/caption.php:171 kits/settings/general/caption.php:297
+#: kits/traits/controls-groups/container-box.php:137
+#: kits/traits/controls-groups/nav-dropdown-container.php:86
+#: kits/traits/controls-groups/nav-title-item.php:241
+#: kits/traits/controls-groups/post-meta.php:284
+#: kits/traits/controls-groups/quotes.php:167
+#: kits/traits/controls-groups/social-icons.php:152
+#: kits/traits/controls-groups/states.php:323
+msgid "Border Radius"
+msgstr ""
+
+#: kits/settings/elements/slider-arrows.php:327
+#: kits/traits/controls-groups/icon.php:66
+msgid "Icon Size"
+msgstr ""
+
+#: kits/settings/elements/slider-arrows.php:351
+msgid "Arrows Spacing"
+msgstr ""
+
+#: kits/settings/elements/slider-arrows.php:371
+msgid "Arrows Box Width"
+msgstr ""
+
+#: kits/settings/elements/slider-arrows.php:393
+msgid "Arrows Box Height"
+msgstr ""
+
+#: kits/settings/elements/slider-arrows.php:417
+msgid "Icon Gap"
+msgstr ""
+
+#: kits/settings/elements/slider-arrows.php:418
+msgid "Gap Between Icon and Text"
+msgstr ""
+
+#: kits/settings/elements/slider-arrows.php:448
+#: kits/settings/elements/slider-bullets.php:263
+#: kits/settings/elements/slider-fraction.php:165
+#: kits/settings/general/caption.php:193 kits/settings/general/caption.php:319
+#: kits/settings/general/input.php:88 kits/settings/general/table.php:174
+#: kits/settings/single/content.php:107
+#: kits/traits/controls-groups/buttons.php:80
+#: kits/traits/controls-groups/container-box.php:165
+#: kits/traits/controls-groups/content.php:109
+#: kits/traits/controls-groups/icon.php:89
+#: kits/traits/controls-groups/nav-burger-container.php:77
+#: kits/traits/controls-groups/nav-dropdown-container.php:104
+#: kits/traits/controls-groups/nav-item.php:111
+#: kits/traits/controls-groups/quotes.php:191
+#: kits/traits/controls-groups/social-icons.php:170
+msgid "Padding"
+msgstr ""
+
+#: kits/settings/elements/slider-arrows.php:463
+msgid "Text On Tablet/Mobile"
+msgstr ""
+
+#: kits/settings/elements/slider-arrows.php:468
+#: kits/settings/header-bot/header-bot.php:84
+#: kits/settings/header-top/header-top.php:84
+#: kits/settings/heading/breadcrumbs.php:74
+#: kits/settings/heading/breadcrumbs.php:281
+#: kits/settings/single/single.php:149
+#: kits/traits/controls-groups/archive.php:306
+#: kits/traits/controls-groups/nav-dropdown-item.php:67
+#: kits/traits/controls-groups/nav-dropdown-item.php:87
+#: kits/traits/controls-groups/nav-title-item.php:96
+#: kits/traits/controls-groups/nav-title-item.php:116
+#: kits/traits/controls-groups/nav-title-item.php:156
+#: kits/traits/controls-groups/post-meta.php:203
+#: kits/traits/controls-groups/quotes.php:281
+#: kits/traits/controls-groups/slider.php:297
+msgid "Show"
+msgstr ""
+
+#: kits/settings/elements/slider-arrows.php:471
+#: kits/settings/header-bot/header-bot.php:83
+#: kits/settings/header-top/header-top.php:83
+#: kits/settings/heading/breadcrumbs.php:73 kits/settings/single/single.php:148
+#: kits/traits/controls-groups/archive.php:305
+#: kits/traits/controls-groups/nav-dropdown-item.php:66
+#: kits/traits/controls-groups/nav-dropdown-item.php:86
+#: kits/traits/controls-groups/nav-title-item.php:95
+#: kits/traits/controls-groups/nav-title-item.php:115
+#: kits/traits/controls-groups/nav-title-item.php:155
+#: kits/traits/controls-groups/post-meta.php:202
+#: kits/traits/controls-groups/quotes.php:280
+#: kits/traits/controls-groups/slider.php:296
+msgid "Hide"
+msgstr ""
+
+#: kits/settings/elements/slider-arrows.php:494
+#: kits/settings/elements/slider-progressbar.php:163
+#: kits/traits/controls-groups/archive.php:327
+#: kits/traits/controls-groups/button-icon.php:186
+#: kits/traits/controls-groups/nav-dropdown-container.php:135
+#: kits/traits/controls-groups/short-info.php:246
+msgid "Position"
+msgstr ""
+
+#: kits/settings/elements/slider-arrows.php:517
+#: kits/settings/elements/slider-arrows.php:585
+#: kits/settings/elements/slider-bullets.php:293
+#: kits/settings/elements/slider-fraction.php:195
+#: kits/traits/controls-groups/quotes.php:333
+msgid "Horizontal Alignment"
+msgstr ""
+
+#: kits/settings/elements/slider-arrows.php:526
+#: kits/settings/elements/slider-arrows.php:594
+#: kits/settings/elements/slider-arrows.php:624
+#: kits/settings/elements/slider-bullets.php:302
+#: kits/settings/elements/slider-bullets.php:329
+#: kits/settings/elements/slider-fraction.php:204
+#: kits/settings/elements/slider-fraction.php:231
+#: kits/traits/controls-groups/archive.php:386
+#: kits/traits/controls-groups/container-box.php:90
+#: kits/traits/controls-groups/quotes.php:342
+#: kits/traits/controls-groups/quotes.php:401
+msgid "Center"
+msgstr ""
+
+#: kits/settings/elements/slider-arrows.php:530
+#: kits/settings/elements/slider-arrows.php:564
+#: kits/settings/elements/slider-arrows.php:598
+#: kits/settings/elements/slider-arrows.php:628
+#: kits/settings/elements/slider-bullets.php:306
+#: kits/settings/elements/slider-bullets.php:333
+#: kits/settings/elements/slider-fraction.php:208
+#: kits/settings/elements/slider-fraction.php:235
+#: kits/settings/elements/slider-progressbar.php:169
+#: kits/traits/controls-groups/quotes.php:346
+#: kits/traits/controls-groups/quotes.php:405
+msgid "End"
+msgstr ""
+
+#: kits/settings/elements/slider-arrows.php:534
+#: kits/settings/elements/slider-arrows.php:568
+#: kits/traits/controls-groups/slider.php:103
+msgid "Space Between"
+msgstr ""
+
+#: kits/settings/elements/slider-arrows.php:551
+#: kits/settings/elements/slider-arrows.php:615
+#: kits/settings/elements/slider-bullets.php:320
+#: kits/settings/elements/slider-fraction.php:222
+#: kits/traits/controls-groups/archive.php:376
+#: kits/traits/controls-groups/quotes.php:392
+msgid "Vertical Alignment"
+msgstr ""
+
+#: kits/settings/elements/slider-arrows.php:560
+msgid "Middle"
+msgstr ""
+
+#: kits/settings/elements/slider-arrows.php:645
+#: kits/settings/elements/slider-bullets.php:278
+#: kits/settings/elements/slider-fraction.php:180
+#: kits/settings/elements/slider-progressbar.php:148
+#: kits/settings/sidebar-widgets/sidebar-widgets.php:77
+#: kits/settings/single/content.php:125
+#: kits/traits/controls-groups/container-box.php:188
+msgid "Margin"
+msgstr ""
+
+#: kits/settings/elements/slider-bullets.php:40
+msgid "Slider Bullets"
+msgstr ""
+
+#: kits/settings/elements/slider-bullets.php:82
+msgid "Dynamic"
+msgstr ""
+
+#: kits/settings/elements/slider-bullets.php:83
+msgid "Numbered"
+msgstr ""
+
+#: kits/settings/elements/slider-bullets.php:192
+#: kits/traits/controls-groups/button-icon.php:127
+#: kits/traits/controls-groups/short-info.php:187
+msgid "Size"
+msgstr ""
+
+#: kits/settings/elements/slider-bullets.php:210
+#: kits/settings/elements/slider-fraction.php:147
+msgid "Spacing"
+msgstr ""
+
+#: kits/settings/elements/slider-fraction.php:40
+msgid "Slider Fraction"
+msgstr ""
+
+#: kits/settings/elements/slider-progressbar.php:40
+msgid "Slider Progressbar"
+msgstr ""
+
+#: kits/settings/elements/slider-progressbar.php:77
+msgid "Normal Background"
+msgstr ""
+
+#: kits/settings/elements/slider-progressbar.php:89
+msgid "Fill Background"
+msgstr ""
+
+#: kits/settings/elements/slider-progressbar.php:103
+#: kits/settings/general/link.php:248
+msgid "Thickness"
+msgstr ""
+
+#: kits/settings/elements/slider-progressbar.php:167
+#: kits/settings/general/link.php:108 kits/settings/general/link.php:134
+#: kits/settings/main/main.php:168 kits/traits/controls-groups/nav-item.php:137
+#: kits/traits/controls-groups/states.php:347
+#: kits/traits/var-group-controls/border.php:37
+msgid "Default"
+msgstr ""
+
+#: kits/settings/footer-widgets/footer-widgets.php:43
+#: kits/settings/footer-widgets/section.php:38
+msgid "Footer Widgets"
+msgstr ""
+
+#: kits/settings/footer-widgets/footer-widgets.php:70
+#: kits/settings/footer/footer.php:70
+msgid ""
+"If you use a 'Footer' template, then the settings will not be applied, if "
+"you set the template to sitewide, then these settings will be hidden."
+msgstr ""
+
+#: kits/settings/footer-widgets/footer-widgets.php:85
+msgid "Show On All Devices"
+msgstr ""
+
+#: kits/settings/footer-widgets/footer-widgets.php:86
+msgid "Hide On Tablet And Less"
+msgstr ""
+
+#: kits/settings/footer-widgets/footer-widgets.php:87
+msgid "Hide On Mobile"
+msgstr ""
+
+#: kits/settings/footer-widgets/footer-widgets.php:88
+msgid "Hide On All Devices"
+msgstr ""
+
+#: kits/settings/footer-widgets/footer-widgets.php:113
+#: kits/settings/footer-widgets/footer-widgets.php:273
+#: kits/settings/footer-widgets/footer-widgets.php:301
+#: kits/settings/footer-widgets/footer-widgets.php:333
+#: kits/settings/footer-widgets/footer-widgets.php:369
+#: kits/traits/controls-groups/archive.php:194
+msgid "One"
+msgstr ""
+
+#: kits/settings/footer-widgets/footer-widgets.php:117
+#: kits/settings/footer-widgets/footer-widgets.php:277
+#: kits/settings/footer-widgets/footer-widgets.php:305
+#: kits/settings/footer-widgets/footer-widgets.php:337
+#: kits/settings/footer-widgets/footer-widgets.php:373
+#: kits/traits/controls-groups/archive.php:198
+msgid "Two"
+msgstr ""
+
+#: kits/settings/footer-widgets/footer-widgets.php:121
+#: kits/settings/footer-widgets/footer-widgets.php:309
+#: kits/settings/footer-widgets/footer-widgets.php:341
+#: kits/settings/footer-widgets/footer-widgets.php:377
+#: kits/traits/controls-groups/archive.php:202
+msgid "Three"
+msgstr ""
+
+#: kits/settings/footer-widgets/footer-widgets.php:125
+#: kits/settings/footer-widgets/footer-widgets.php:345
+#: kits/settings/footer-widgets/footer-widgets.php:381
+#: kits/traits/controls-groups/archive.php:206
+msgid "Four"
+msgstr ""
+
+#: kits/settings/footer-widgets/footer-widgets.php:129
+#: kits/settings/footer-widgets/footer-widgets.php:385
+#: kits/traits/controls-groups/archive.php:210
+msgid "Five"
+msgstr ""
+
+#: kits/settings/footer-widgets/footer-widgets.php:154
+msgid "Desktop"
+msgstr ""
+
+#: kits/settings/footer-widgets/footer-widgets.php:161
+#: kits/settings/footer-widgets/footer-widgets.php:189
+#: kits/settings/footer-widgets/footer-widgets.php:218
+#: kits/settings/main/main.php:70 kits/settings/single/single.php:80
+#: kits/traits/controls-groups/archive.php:50
+msgid "Layout"
+msgstr ""
+
+#: kits/settings/footer-widgets/footer-widgets.php:244
+msgid "Layout for this columns count will be"
+msgstr ""
+
+#: kits/settings/footer-widgets/footer-widgets.php:259
+msgid "Tablet"
+msgstr ""
+
+#: kits/settings/footer-widgets/footer-widgets.php:266
+#: kits/settings/footer-widgets/footer-widgets.php:294
+#: kits/settings/footer-widgets/footer-widgets.php:326
+#: kits/settings/footer-widgets/footer-widgets.php:362
+msgid "Columns in Row"
+msgstr ""
+
+#: kits/settings/footer-widgets/footer-widgets.php:402
+#: kits/settings/footer-widgets/footer-widgets.php:519
+msgid "Reverse Columns"
+msgstr ""
+
+#: kits/settings/footer-widgets/footer-widgets.php:405
+#: kits/settings/footer-widgets/footer-widgets.php:423
+#: kits/settings/footer-widgets/footer-widgets.php:441
+#: kits/settings/footer-widgets/footer-widgets.php:459
+#: kits/settings/footer-widgets/footer-widgets.php:477
+#: kits/settings/footer-widgets/footer-widgets.php:495
+#: kits/settings/footer-widgets/footer-widgets.php:522
+#: kits/settings/footer-widgets/footer-widgets.php:540
+#: kits/settings/footer-widgets/footer-widgets.php:558
+#: kits/settings/footer-widgets/footer-widgets.php:576
+#: kits/settings/footer-widgets/footer-widgets.php:594
+#: kits/settings/footer-widgets/footer-widgets.php:612
+msgid "No"
+msgstr ""
+
+#: kits/settings/footer-widgets/footer-widgets.php:406
+#: kits/settings/footer-widgets/footer-widgets.php:424
+#: kits/settings/footer-widgets/footer-widgets.php:442
+#: kits/settings/footer-widgets/footer-widgets.php:460
+#: kits/settings/footer-widgets/footer-widgets.php:478
+#: kits/settings/footer-widgets/footer-widgets.php:496
+#: kits/settings/footer-widgets/footer-widgets.php:523
+#: kits/settings/footer-widgets/footer-widgets.php:541
+#: kits/settings/footer-widgets/footer-widgets.php:559
+#: kits/settings/footer-widgets/footer-widgets.php:577
+#: kits/settings/footer-widgets/footer-widgets.php:595
+#: kits/settings/footer-widgets/footer-widgets.php:613
+msgid "Yes"
+msgstr ""
+
+#: kits/settings/footer-widgets/footer-widgets.php:420
+#: kits/settings/footer-widgets/footer-widgets.php:537
+msgid "Hide \"Footer 1\" widgets area"
+msgstr ""
+
+#: kits/settings/footer-widgets/footer-widgets.php:438
+#: kits/settings/footer-widgets/footer-widgets.php:555
+msgid "Hide \"Footer 2\" widgets area"
+msgstr ""
+
+#: kits/settings/footer-widgets/footer-widgets.php:456
+#: kits/settings/footer-widgets/footer-widgets.php:573
+msgid "Hide \"Footer 3\" widgets area"
+msgstr ""
+
+#: kits/settings/footer-widgets/footer-widgets.php:474
+#: kits/settings/footer-widgets/footer-widgets.php:591
+msgid "Hide \"Footer 4\" widgets area"
+msgstr ""
+
+#: kits/settings/footer-widgets/footer-widgets.php:492
+#: kits/settings/footer-widgets/footer-widgets.php:609
+msgid "Hide \"Footer 5\" widgets area"
+msgstr ""
+
+#: kits/settings/footer-widgets/footer-widgets.php:512
+msgid "Mobile"
+msgstr ""
+
+#: kits/settings/footer-widgets/footer-widgets.php:631
+msgid "Columns Gap"
+msgstr ""
+
+#: kits/settings/footer-widgets/footer-widgets.php:656
+msgid "Widgets Gap Between"
+msgstr ""
+
+#: kits/settings/footer-widgets/title.php:42
+#: kits/settings/sidebar-widgets/title.php:42
+msgid "Widget Title"
+msgstr ""
+
+#: kits/settings/footer-widgets/title.php:84 kits/settings/footer/nav.php:84
+#: kits/settings/general/caption.php:92 kits/settings/general/colors.php:42
+#: kits/settings/general/table.php:105 kits/settings/heading/breadcrumbs.php:93
+#: kits/settings/sidebar-widgets/title.php:71
+#: kits/traits/controls-groups/custom-html.php:69
+#: kits/traits/controls-groups/post-meta.php:147
+#: kits/traits/controls-groups/quotes.php:61
+#: kits/traits/controls-groups/short-info.php:60
+msgid "Colors"
+msgstr ""
+
+#: kits/settings/footer-widgets/title.php:92
+#: kits/settings/footer/copyright.php:98 kits/settings/general/input.php:130
+#: kits/settings/general/link.php:71 kits/settings/general/link.php:196
+#: kits/settings/general/logo.php:161 kits/settings/general/logo.php:207
+#: kits/settings/heading/title.php:71 kits/settings/main/main.php:211
+#: kits/settings/sidebar-widgets/title.php:79
+#: kits/traits/controls-groups/nav-item.php:80
+#: kits/traits/controls-groups/nav-item.php:186
+#: kits/traits/controls-groups/nav-title-item.php:171
+#: kits/traits/controls-groups/post-content.php:56
+#: kits/traits/controls-groups/post-meta.php:127
+#: kits/traits/controls-groups/post-meta.php:218
+#: kits/traits/controls-groups/post-title.php:58
+#: kits/traits/controls-groups/quotes.php:231
+#: kits/traits/controls-groups/quotes.php:315
+#: kits/traits/controls-groups/social-icons.php:68
+#: kits/traits/controls-groups/social-icons.php:319
+#: kits/traits/controls-groups/states.php:292
+msgid "Color"
+msgstr ""
+
+#: kits/settings/footer-widgets/title.php:104
+#: kits/settings/general/caption.php:112 kits/settings/general/colors.php:83
+#: kits/settings/general/link.php:42 kits/settings/general/table.php:125
+#: kits/settings/heading/breadcrumbs.php:119
+#: kits/settings/sidebar-widgets/title.php:91
+#: kits/traits/controls-groups/button-icon.php:72
+#: kits/traits/controls-groups/custom-html.php:95
+#: kits/traits/controls-groups/post-meta.php:107
+#: kits/traits/controls-groups/quotes.php:87
+#: kits/traits/controls-groups/short-info.php:86
+#: kits/traits/controls-groups/short-info.php:319
+#: kits/traits/controls-groups/social-icons.php:281
+msgid "Link"
+msgstr ""
+
+#: kits/settings/footer-widgets/title.php:116
+#: kits/settings/general/caption.php:124 kits/settings/general/colors.php:95
+#: kits/settings/general/table.php:137
+#: kits/settings/heading/breadcrumbs.php:134
+#: kits/settings/sidebar-widgets/title.php:103
+#: kits/traits/controls-groups/custom-html.php:110
+#: kits/traits/controls-groups/post-meta.php:108
+#: kits/traits/controls-groups/quotes.php:102
+#: kits/traits/controls-groups/short-info.php:101
+msgid "Link Hover"
+msgstr ""
+
+#: kits/settings/footer/copyright.php:42 kits/settings/footer/footer.php:142
+msgid "Copyright"
+msgstr ""
+
+#: kits/settings/footer/copyright.php:80
+#, php-format
+msgid "cmsmasters © %d / All Rights Reserved"
+msgstr ""
+
+#: kits/settings/footer/footer.php:43 kits/settings/footer/section.php:38
+#: kits/settings/general/table.php:79
+msgid "Footer"
+msgstr ""
+
+#: kits/settings/footer/footer.php:105
+#: kits/settings/header-top/header-top.php:101
+#: kits/settings/heading/heading.php:80
+#: kits/traits/controls-groups/container-box.php:80
+msgid "Alignment"
+msgstr ""
+
+#: kits/settings/footer/footer.php:110
+#: kits/settings/header-bot/header-bot.php:110
+#: kits/settings/header-mid/header-mid.php:89
+#: kits/settings/header-top/header-top.php:110
+#: kits/settings/heading/heading.php:89
+#: kits/traits/controls-groups/nav-burger-container.php:103
+msgid "Centered"
+msgstr ""
+
+#: kits/settings/footer/footer.php:114
+msgid "Justified"
+msgstr ""
+
+#: kits/settings/footer/footer.php:129
+#: kits/settings/header-top/header-top.php:150
+#: kits/settings/single/single.php:109
+#: kits/traits/controls-groups/archive.php:112
+#: kits/traits/controls-groups/archive.php:238
+#: kits/traits/controls-groups/archive.php:406
+msgid "Elements Order"
+msgstr ""
+
+#: kits/settings/footer/footer.php:143 kits/settings/footer/nav.php:42
+#: kits/settings/header-mid/header-mid.php:142
+#: kits/settings/header-top/header-top.php:169
+#: kits/traits/controls-groups/slider.php:311
+msgid "Navigation"
+msgstr ""
+
+#: kits/settings/footer/footer.php:144 kits/settings/footer/social.php:42
+#: kits/settings/header-bot/header-bot.php:169
+#: kits/settings/header-bot/social.php:42
+#: kits/settings/header-mid/header-mid.php:208
+#: kits/settings/header-mid/social.php:42
+#: kits/settings/header-top/header-top.php:168
+#: kits/settings/header-top/social.php:42
+msgid "Social Icons"
+msgstr ""
+
+#: kits/settings/footer/footer.php:145 kits/settings/footer/info.php:42
+#: kits/settings/header-mid/header-mid.php:140
+#: kits/settings/header-mid/info.php:42
+#: kits/settings/header-top/header-top.php:166
+#: kits/settings/header-top/info.php:42
+msgid "Short Info"
+msgstr ""
+
+#: kits/settings/footer/footer.php:146 kits/settings/footer/logo.php:43
+#: kits/settings/general/logo.php:44
+msgid "Logo"
+msgstr ""
+
+#: kits/settings/footer/footer.php:147 kits/settings/footer/html.php:42
+#: kits/settings/header-mid/header-mid.php:141
+#: kits/settings/header-mid/html.php:42
+#: kits/settings/header-top/header-top.php:167
+#: kits/settings/header-top/html.php:42
+msgid "Custom HTML"
+msgstr ""
+
+#: kits/settings/footer/logo.php:93
+msgid "Retina Logo"
+msgstr ""
+
+#: kits/settings/footer/nav.php:116
+#: kits/settings/header-bot/nav-burger-dropdown-item.php:84
+#: kits/settings/header-bot/nav-burger-title-item.php:84
+#: kits/settings/header-bot/nav-dropdown-item.php:85
+#: kits/settings/header-bot/nav-title-item.php:85
+#: kits/settings/header-mid/nav-burger-dropdown-item.php:85
+#: kits/settings/header-mid/nav-burger-title-item.php:85
+#: kits/settings/header-mid/nav-dropdown-item.php:86
+#: kits/settings/header-mid/nav-title-item.php:86
+#: kits/settings/header-top/nav-burger-dropdown-item.php:85
+#: kits/settings/header-top/nav-burger-title-item.php:85
+#: kits/settings/header-top/nav-dropdown-item.php:86
+#: kits/settings/header-top/nav-title-item.php:86
+msgid "Current"
+msgstr ""
+
+#: kits/settings/footer/nav.php:128 kits/settings/heading/breadcrumbs.php:149
+#: kits/traits/controls-groups/nav-title-item.php:131
+#: kits/traits/controls-groups/post-meta.php:177
+#: kits/traits/controls-groups/short-info.php:131
+msgid "Divider"
+msgstr ""
+
+#: kits/settings/general/blockquote.php:68
+msgid "Used in: default blockquote, Gutenberg editor."
+msgstr ""
+
+#: kits/settings/general/body-background.php:42
+msgid "Body Background"
+msgstr ""
+
+#: kits/settings/general/body-background.php:58
+msgid "Mobile Browser Background"
+msgstr ""
+
+#: kits/settings/general/body-background.php:60
+msgid ""
+"The `theme-color` meta tag will only be available in supported browsers and "
+"devices."
+msgstr ""
+
+#: kits/settings/general/button.php:68
+msgid "Used in: default form, default button, Gutenberg editor."
+msgstr ""
+
+#: kits/settings/general/caption.php:42
+msgid "Caption"
+msgstr ""
+
+#: kits/settings/general/caption.php:69
+msgid "Used in: default caption, Gutenberg editor."
+msgstr ""
+
+#: kits/settings/general/caption.php:79
+msgid "Outside"
+msgstr ""
+
+#: kits/settings/general/caption.php:80
+msgid "Inside"
+msgstr ""
+
+#: kits/settings/general/caption.php:213 kits/settings/main/main.php:134
+#: kits/traits/controls-groups/button-icon.php:156
+#: kits/traits/controls-groups/short-info.php:216
+msgid "Gap"
+msgstr ""
+
+#: kits/settings/general/caption.php:244
+msgid "Image with Caption"
+msgstr ""
+
+#: kits/settings/general/caption.php:253
+msgid "Used for classic wp-caption image."
+msgstr ""
+
+#: kits/settings/general/colors.php:107 kits/settings/heading/heading.php:43
+#: kits/settings/heading/section.php:38
+msgid "Heading"
+msgstr ""
+
+#: kits/settings/general/colors.php:119
+msgid "Main Background"
+msgstr ""
+
+#: kits/settings/general/container.php:42
+msgid "Global Container"
+msgstr ""
+
+#: kits/settings/general/container.php:71
+msgid ""
+"Global settings that are used as defaults for the container and content in "
+"Header Top, Header Middle, Header Bottom, Main, Heading, Breadcrumbs (new "
+"row type), Footer Widgets, Footer."
+msgstr ""
+
+#: kits/settings/general/container.php:81
+msgid "Container Max Width"
+msgstr ""
+
+#: kits/settings/general/container.php:112
+msgid "Content Max Width"
+msgstr ""
+
+#: kits/settings/general/container.php:143
+msgid "Content Horizontal Padding"
+msgstr ""
+
+#: kits/settings/general/input.php:42
+msgid "Form Fields"
+msgstr ""
+
+#: kits/settings/general/input.php:69
+msgid "Used in: default form, Gutenberg editor."
+msgstr ""
+
+#: kits/settings/general/input.php:81
+msgid "Focus"
+msgstr ""
+
+#: kits/settings/general/input.php:107
+msgid "Placeholder Color"
+msgstr ""
+
+#: kits/settings/general/input.php:119
+msgid "Label"
+msgstr ""
+
+#: kits/settings/general/link.php:98
+msgid "Please note:"
+msgstr ""
+
+#: kits/settings/general/link.php:99
+msgid "The settings below will be applied to the links inside paragraphs only."
+msgstr ""
+
+#: kits/settings/general/link.php:118
+msgid "Font Weight"
+msgstr ""
+
+#: kits/settings/general/link.php:131
+msgid "Font Style"
+msgstr ""
+
+#: kits/settings/general/link.php:136
+msgid "Italic"
+msgstr ""
+
+#: kits/settings/general/link.php:137
+msgid "Oblique"
+msgstr ""
+
+#: kits/settings/general/link.php:149
+msgid "Letter Spacing"
+msgstr ""
+
+#: kits/settings/general/link.php:168
+#: kits/traits/controls-groups/states.php:344
+msgid "Text Decoration"
+msgstr ""
+
+#: kits/settings/general/link.php:180
+#: kits/settings/header-mid/header-mid.php:139 kits/settings/main/main.php:169
+#: kits/settings/single/nav.php:91 kits/traits/controls-groups/nav-item.php:138
+#: kits/traits/controls-groups/slider.php:315
+#: kits/traits/controls-groups/states.php:348
+#: kits/traits/var-group-controls/border.php:38
+msgid "None"
+msgstr ""
+
+#: kits/settings/general/link.php:181
+#: kits/traits/controls-groups/states.php:349
+msgid "Underline"
+msgstr ""
+
+#: kits/settings/general/link.php:182
+#: kits/traits/controls-groups/states.php:350
+msgid "Overline"
+msgstr ""
+
+#: kits/settings/general/link.php:183
+#: kits/traits/controls-groups/states.php:351
+msgid "Line Through"
+msgstr ""
+
+#: kits/settings/general/link.php:184
+msgid "Underline, Overline"
+msgstr ""
+
+#: kits/settings/general/link.php:226
+#: kits/traits/controls-groups/archive.php:164
+msgid "Style"
+msgstr ""
+
+#: kits/settings/general/link.php:229 kits/settings/main/main.php:170
+#: kits/traits/controls-groups/nav-item.php:139
+#: kits/traits/var-group-controls/border.php:39
+msgid "Solid"
+msgstr ""
+
+#: kits/settings/general/link.php:230 kits/settings/main/main.php:171
+#: kits/traits/controls-groups/nav-item.php:140
+#: kits/traits/var-group-controls/border.php:40
+msgid "Double"
+msgstr ""
+
+#: kits/settings/general/link.php:231 kits/settings/main/main.php:172
+#: kits/traits/controls-groups/nav-item.php:141
+#: kits/traits/var-group-controls/border.php:41
+msgid "Dotted"
+msgstr ""
+
+#: kits/settings/general/link.php:232 kits/settings/main/main.php:173
+#: kits/traits/controls-groups/nav-item.php:142
+#: kits/traits/var-group-controls/border.php:42
+msgid "Dashed"
+msgstr ""
+
+#: kits/settings/general/link.php:233
+msgid "Wavy"
+msgstr ""
+
+#: kits/settings/general/link.php:276
+msgid "Underline Position"
+msgstr ""
+
+#: kits/settings/general/link.php:279
+msgid "Auto"
+msgstr ""
+
+#: kits/settings/general/link.php:280
+msgid "Under"
+msgstr ""
+
+#: kits/settings/general/link.php:281
+msgid "From Font"
+msgstr ""
+
+#: kits/settings/general/link.php:299
+msgid "Underline Offset"
+msgstr ""
+
+#: kits/settings/general/logo.php:76
+#: kits/traits/controls-groups/post-media.php:55
+msgid "Image"
+msgstr ""
+
+#: kits/settings/general/logo.php:102
+msgid "Retina Image"
+msgstr ""
+
+#: kits/settings/general/logo.php:152
+#: template-functions/general-elements.php:62
+msgid "Site logo"
+msgstr ""
+
+#: kits/settings/general/logo.php:187
+msgid "Subtitle"
+msgstr ""
+
+#: kits/settings/general/logo.php:198
+msgid "Logo subtitle"
+msgstr ""
+
+#: kits/settings/general/section.php:38
+msgid "General"
+msgstr ""
+
+#: kits/settings/general/table.php:42
+msgid "Table"
+msgstr ""
+
+#: kits/settings/general/table.php:69
+msgid "Used in: default table, Gutenberg editor."
+msgstr ""
+
+#: kits/settings/general/table.php:78
+msgid "Header"
+msgstr ""
+
+#: kits/settings/general/typography.php:42
+#: kits/traits/var-group-controls/typography.php:42
+msgid "Typography"
+msgstr ""
+
+#: kits/settings/general/typography.php:54
+msgid "Base Font"
+msgstr ""
+
+#: kits/settings/general/typography.php:58
+msgid "H1 Font"
+msgstr ""
+
+#: kits/settings/general/typography.php:62
+msgid "H2 Font"
+msgstr ""
+
+#: kits/settings/general/typography.php:66
+msgid "H3 Font"
+msgstr ""
+
+#: kits/settings/general/typography.php:70
+msgid "H4 Font"
+msgstr ""
+
+#: kits/settings/general/typography.php:74
+msgid "H5 Font"
+msgstr ""
+
+#: kits/settings/general/typography.php:78
+msgid "H6 Font"
+msgstr ""
+
+#: kits/settings/header-bot/header-bot.php:43
+#: kits/settings/header-bot/section.php:38
+msgid "Header Bottom"
+msgstr ""
+
+#: kits/settings/header-bot/header-bot.php:70
+#: kits/settings/header-mid/header-mid.php:70
+#: kits/settings/header-top/header-top.php:70
+#: kits/settings/heading/heading.php:70
+msgid ""
+"If you use a 'Header' template, then the settings will not be applied, if "
+"you set the template to sitewide, then these settings will be hidden."
+msgstr ""
+
+#: kits/settings/header-bot/header-bot.php:107
+#: kits/settings/header-mid/header-mid.php:86
+#: kits/settings/header-top/header-top.php:106
+#: kits/settings/heading/heading.php:85
+#: kits/traits/controls-groups/nav-burger-container.php:102
+msgid "Wide"
+msgstr ""
+
+#: kits/settings/header-bot/header-bot.php:150
+#: kits/settings/header-mid/header-mid.php:192
+msgid "Additional Content Elements Order"
+msgstr ""
+
+#: kits/settings/header-bot/header-bot.php:171
+#: kits/settings/header-bot/search-button.php:42
+#: kits/settings/header-mid/header-mid.php:210
+#: kits/settings/header-mid/search-button.php:42
+msgid "Search Button"
+msgstr ""
+
+#: kits/settings/header-bot/header-bot.php:191
+#: kits/settings/header-mid/header-mid.php:227
+msgid "Gap between additional content items"
+msgstr ""
+
+#: kits/settings/header-bot/header-bot.php:228
+#: kits/settings/header-mid/header-mid.php:261
+#: kits/settings/header-top/header-top.php:221
+msgid "Z-Index"
+msgstr ""
+
+#: kits/settings/header-bot/nav-burger-button.php:42
+#: kits/settings/header-mid/nav-burger-button.php:42
+#: kits/settings/header-top/nav-burger-button.php:42
+msgid "Hamburger Navigation Button"
+msgstr ""
+
+#: kits/settings/header-bot/nav-burger-container.php:42
+#: kits/settings/header-mid/nav-burger-container.php:42
+#: kits/settings/header-top/nav-burger-container.php:42
+msgid "Hamburger Navigation Container"
+msgstr ""
+
+#: kits/settings/header-bot/nav-burger-dropdown-item.php:42
+#: kits/settings/header-mid/nav-burger-dropdown-item.php:42
+#: kits/settings/header-top/nav-burger-dropdown-item.php:42
+msgid "Hamburger Navigation Dropdown Item"
+msgstr ""
+
+#: kits/settings/header-bot/nav-burger-title-item.php:42
+#: kits/settings/header-mid/nav-burger-title-item.php:42
+#: kits/settings/header-top/nav-burger-title-item.php:42
+msgid "Hamburger Navigation Title Item"
+msgstr ""
+
+#: kits/settings/header-bot/nav-dropdown-container.php:42
+#: kits/settings/header-mid/nav-dropdown-container.php:42
+#: kits/settings/header-top/nav-dropdown-container.php:42
+msgid "Navigation Dropdown Container"
+msgstr ""
+
+#: kits/settings/header-bot/nav-dropdown-item.php:42
+#: kits/settings/header-mid/nav-dropdown-item.php:42
+#: kits/settings/header-top/nav-dropdown-item.php:42
+msgid "Navigation Dropdown Item"
+msgstr ""
+
+#: kits/settings/header-bot/nav-title-item.php:42
+#: kits/settings/header-mid/nav-title-item.php:42
+#: kits/settings/header-top/nav-title-item.php:42
+msgid "Navigation Title Item"
+msgstr ""
+
+#: kits/settings/header-mid/header-mid.php:43
+#: kits/settings/header-mid/section.php:38
+msgid "Header Middle"
+msgstr ""
+
+#: kits/settings/header-mid/header-mid.php:123
+msgid "Content Element"
+msgstr ""
+
+#: kits/settings/header-mid/header-mid.php:158
+msgid "Gap between content and additional content"
+msgstr ""
+
+#: kits/settings/header-top/header-top.php:43
+#: kits/settings/header-top/section.php:38
+msgid "Header Top"
+msgstr ""
+
+#: kits/settings/header-top/toggle.php:40
+msgid "Responsive Toggle Button"
+msgstr ""
+
+#: kits/settings/heading/breadcrumbs.php:43
+msgid "Breadcrumbs"
+msgstr ""
+
+#: kits/settings/heading/breadcrumbs.php:170
+msgid "In Title"
+msgstr ""
+
+#: kits/settings/heading/breadcrumbs.php:173
+msgid "New Row"
+msgstr ""
+
+#: kits/settings/heading/breadcrumbs.php:190
+msgid "Position of title"
+msgstr ""
+
+#: kits/settings/heading/breadcrumbs.php:196
+msgid "Above"
+msgstr ""
+
+#: kits/settings/heading/breadcrumbs.php:199
+msgid "Below"
+msgstr ""
+
+#: kits/settings/heading/breadcrumbs.php:220
+msgid "Gap between breadcrumbs and title"
+msgstr ""
+
+#: kits/settings/heading/breadcrumbs.php:276
+msgid "Visibility on Devices"
+msgstr ""
+
+#: kits/settings/heading/breadcrumbs.php:282
+msgid "Hide on mobile"
+msgstr ""
+
+#: kits/settings/heading/breadcrumbs.php:283
+msgid "Hide on tablet and mobile"
+msgstr ""
+
+#: kits/settings/main/main.php:76 kits/settings/single/single.php:86
+#: kits/traits/controls-groups/archive.php:56
+#: kits/traits/controls-groups/archive.php:334
+#: kits/traits/controls-groups/container-box.php:86
+msgid "Left"
+msgstr ""
+
+#: kits/settings/main/main.php:77 kits/settings/single/single.php:87
+#: kits/traits/controls-groups/archive.php:57
+msgid "Left Sidebar"
+msgstr ""
+
+#: kits/settings/main/main.php:80 kits/settings/single/single.php:90
+#: kits/traits/controls-groups/archive.php:60
+msgid "Full"
+msgstr ""
+
+#: kits/settings/main/main.php:81 kits/settings/single/single.php:91
+#: kits/traits/controls-groups/archive.php:61
+msgid "Full Width"
+msgstr ""
+
+#: kits/settings/main/main.php:84 kits/settings/single/single.php:94
+#: kits/traits/controls-groups/archive.php:64
+#: kits/traits/controls-groups/archive.php:338
+#: kits/traits/controls-groups/container-box.php:94
+msgid "Right"
+msgstr ""
+
+#: kits/settings/main/main.php:85 kits/settings/single/single.php:95
+#: kits/traits/controls-groups/archive.php:65
+msgid "Right Sidebar"
+msgstr ""
+
+#: kits/settings/main/main.php:108
+msgid "This value will be used for page layouts with sidebar."
+msgstr ""
+
+#: kits/settings/main/main.php:108
+msgid "The width of the sidebar will be equal \"100% - this value\"."
+msgstr ""
+
+#: kits/settings/main/main.php:108
+msgid "For example: 74% - content width, then sidebar width will be 26%."
+msgstr ""
+
+#: kits/settings/main/main.php:108
+msgid "Default value is 74%."
+msgstr ""
+
+#: kits/settings/main/main.php:135
+msgid "Gap between content and sidebar."
+msgstr ""
+
+#: kits/settings/main/main.php:135
+msgid "Default value is 40px."
+msgstr ""
+
+#: kits/settings/main/main.php:135
+msgid "Note: This gap reduces the width of the sidebar."
+msgstr ""
+
+#: kits/settings/main/main.php:165 kits/traits/controls-groups/nav-item.php:134
+msgid "Divider Type"
+msgstr ""
+
+#: kits/settings/main/main.php:174 kits/traits/controls-groups/nav-item.php:143
+#: kits/traits/var-group-controls/border.php:43
+msgid "Groove"
+msgstr ""
+
+#: kits/settings/search/search.php:42 kits/settings/search/section.php:38
+#: template-functions/header-elements.php:176
+msgid "Search"
+msgstr ""
+
+#: kits/settings/search/search.php:69
+msgid ""
+"If you use an 'Archive' template for 'Search Results', then the settings "
+"will not be applied and will be hidden."
+msgstr ""
+
+#: kits/settings/sidebar-widgets/section.php:38
+msgid "Sidebar Widgets"
+msgstr ""
+
+#: kits/settings/sidebar-widgets/sidebar-widgets.php:42
+msgid "Widget Container"
+msgstr ""
+
+#: kits/settings/single/author.php:42 kits/settings/single/single.php:174
+msgid "Author Box"
+msgstr ""
+
+#: kits/settings/single/author.php:90
+msgid "About Author"
+msgstr ""
+
+#: kits/settings/single/comments.php:42
+#: kits/traits/controls-groups/post-meta.php:66
+#: template-functions/post-elements.php:345
+msgid "Comments"
+msgstr ""
+
+#: kits/settings/single/comments.php:69
+msgid "Items Vertical Gap Between"
+msgstr ""
+
+#: kits/settings/single/comments.php:89
+msgid "Child Items Horizontal Gap"
+msgstr ""
+
+#: kits/settings/single/content.php:86
+#: kits/traits/controls-groups/container.php:73
+#: kits/traits/controls-groups/content.php:75
+msgid "Max Width"
+msgstr ""
+
+#: kits/settings/single/content.php:87
+msgid "Maximum content width (%), applies only when the layout is fullwidth."
+msgstr ""
+
+#: kits/settings/single/more-posts.php:43
+#: kits/settings/single/more-posts.php:91 kits/settings/single/single.php:175
+msgid "More Posts"
+msgstr ""
+
+#: kits/settings/single/more-posts.php:110
+#: kits/traits/controls-groups/post-media.php:78
+#: kits/traits/controls-groups/post-media.php:113
+#: kits/traits/controls-groups/post-media.php:184
+#: kits/traits/controls-groups/post-media.php:215
+#: kits/traits/controls-groups/short-info.php:352
+#: kits/traits/controls-groups/social-icons.php:375
+msgid "This setting will be applied after save and reload"
+msgstr ""
+
+#: kits/settings/single/more-posts.php:120
+msgid "Order by"
+msgstr ""
+
+#: kits/settings/single/more-posts.php:125
+msgid "Recent"
+msgstr ""
+
+#: kits/settings/single/more-posts.php:126
+msgid "Related by Categories"
+msgstr ""
+
+#: kits/settings/single/more-posts.php:127
+msgid "Related by Tags"
+msgstr ""
+
+#: kits/settings/single/more-posts.php:139
+msgid "Count"
+msgstr ""
+
+#: kits/settings/single/nav.php:42 kits/settings/single/single.php:173
+msgid "Posts Navigation"
+msgstr ""
+
+#: kits/settings/single/nav.php:86
+msgid "Order by Taxonomy"
+msgstr ""
+
+#: kits/settings/single/nav.php:92
+msgid "Category"
+msgstr ""
+
+#: kits/settings/single/nav.php:93
+msgid "Tag"
+msgstr ""
+
+#: kits/settings/single/nav.php:105
+msgid "Text Above Previous Post Title"
+msgstr ""
+
+#: kits/settings/single/nav.php:116
+msgid "Text Above Next Post Title"
+msgstr ""
+
+#: kits/settings/single/section.php:38 kits/settings/single/single.php:43
+msgid "Single"
+msgstr ""
+
+#: kits/settings/single/single.php:70
+msgid ""
+"If you use an 'Singular' template, then the settings will not be applied, if "
+"you set the template to 'All Singular', then these settings will be hidden."
+msgstr ""
+
+#: kits/settings/single/single.php:145
+msgid "Heading Visibility"
+msgstr ""
+
+#: kits/settings/single/single.php:160
+msgid "Blocks Order"
+msgstr ""
+
+#: kits/traits/controls-groups/archive.php:87
+msgid "Large"
+msgstr ""
+
+#: kits/traits/controls-groups/archive.php:88
+msgid "Grid"
+msgstr ""
+
+#: kits/traits/controls-groups/archive.php:89
+msgid "Compact"
+msgstr ""
+
+#: kits/traits/controls-groups/archive.php:169
+msgid "Fit Rows"
+msgstr ""
+
+#: kits/traits/controls-groups/archive.php:170
+msgid "Masonry"
+msgstr ""
+
+#: kits/traits/controls-groups/archive.php:382
+msgid "Top"
+msgstr ""
+
+#: kits/traits/controls-groups/archive.php:390
+msgid "Bottom"
+msgstr ""
+
+#: kits/traits/controls-groups/button-icon.php:157
+msgid "Gap between icon and text."
+msgstr ""
+
+#: kits/traits/controls-groups/container-box.php:112
+msgid "Background Color"
+msgstr ""
+
+#: kits/traits/controls-groups/container.php:52
+msgid "Container Advanced"
+msgstr ""
+
+#: kits/traits/controls-groups/content.php:54
+msgid "Content Advanced"
+msgstr ""
+
+#: kits/traits/controls-groups/content.php:131
+msgid "Elementor page custom padding"
+msgstr ""
+
+#: kits/traits/controls-groups/nav-burger-container.php:97
+msgid "Items Alignment"
+msgstr ""
+
+#: kits/traits/controls-groups/nav-dropdown-container.php:124
+msgid "First Dropdown"
+msgstr ""
+
+#: kits/traits/controls-groups/nav-dropdown-container.php:138
+msgid "Below Item"
+msgstr ""
+
+#: kits/traits/controls-groups/nav-dropdown-container.php:139
+msgid "Below Header"
+msgstr ""
+
+#: kits/traits/controls-groups/nav-dropdown-container.php:154
+msgid "Horizontal Position"
+msgstr ""
+
+#: kits/traits/controls-groups/nav-dropdown-container.php:177
+msgid "Vertical Gap"
+msgstr ""
+
+#: kits/traits/controls-groups/nav-dropdown-container.php:200
+msgid "Second Dropdown"
+msgstr ""
+
+#: kits/traits/controls-groups/nav-dropdown-container.php:211
+msgid "Horizontal Gap"
+msgstr ""
+
+#: kits/traits/controls-groups/nav-dropdown-item.php:82
+#: kits/traits/controls-groups/nav-title-item.php:111
+msgid "Child menu indicator"
+msgstr ""
+
+#: kits/traits/controls-groups/nav-item.php:59
+#: kits/traits/controls-groups/social-icons.php:293
+#: kits/traits/controls-groups/states.php:87
+msgid "States"
+msgstr ""
+
+#: kits/traits/controls-groups/post-content.php:71
+msgid "Excerpt Length"
+msgstr ""
+
+#: kits/traits/controls-groups/post-media.php:90
+msgid "Gallery"
+msgstr ""
+
+#: kits/traits/controls-groups/post-media.php:136
+msgid "Video"
+msgstr ""
+
+#: kits/traits/controls-groups/post-media.php:200
+msgid "Gallery Image Size"
+msgstr ""
+
+#: kits/traits/controls-groups/post-media.php:228
+msgid "Video Height"
+msgstr ""
+
+#: kits/traits/controls-groups/post-meta.php:58
+msgid "Elements"
+msgstr ""
+
+#: kits/traits/controls-groups/post-meta.php:63
+msgid "Categories"
+msgstr ""
+
+#: kits/traits/controls-groups/post-meta.php:64
+msgid "Author"
+msgstr ""
+
+#: kits/traits/controls-groups/post-meta.php:65
+msgid "Date"
+msgstr ""
+
+#: kits/traits/controls-groups/post-meta.php:67
+msgid "Tags"
+msgstr ""
+
+#: kits/traits/controls-groups/quotes.php:213
+msgid "Cite"
+msgstr ""
+
+#: kits/traits/controls-groups/quotes.php:366
+msgid "Horizontal Offset"
+msgstr ""
+
+#: kits/traits/controls-groups/quotes.php:425
+msgid "Vertical Offset"
+msgstr ""
+
+#: kits/traits/controls-groups/short-info.php:217
+msgid "Gap between icon and text"
+msgstr ""
+
+#: kits/traits/controls-groups/slider.php:54
+msgid "Slides Per View"
+msgstr ""
+
+#: kits/traits/controls-groups/slider.php:81
+msgid "Slides to Scroll"
+msgstr ""
+
+#: kits/traits/controls-groups/slider.php:82
+msgid "Set how many slides are scrolled per swipe."
+msgstr ""
+
+#: kits/traits/controls-groups/slider.php:104
+msgid "Distance between slides in px."
+msgstr ""
+
+#: kits/traits/controls-groups/slider.php:131
+msgid "Autoplay"
+msgstr ""
+
+#: kits/traits/controls-groups/slider.php:147
+msgid "Autoplay Speed"
+msgstr ""
+
+#: kits/traits/controls-groups/slider.php:167
+msgid "Animation Speed"
+msgstr ""
+
+#: kits/traits/controls-groups/slider.php:184
+msgid "Pause On Hover"
+msgstr ""
+
+#: kits/traits/controls-groups/slider.php:203
+msgid "Autoplay Reverse"
+msgstr ""
+
+#: kits/traits/controls-groups/slider.php:224
+msgid "Infinite Loop"
+msgstr ""
+
+#: kits/traits/controls-groups/slider.php:240
+msgid "Mousewheel Control"
+msgstr ""
+
+#: kits/traits/controls-groups/slider.php:257
+msgid "Centered Slides"
+msgstr ""
+
+#: kits/traits/controls-groups/slider.php:258
+msgid "Turn on for a slider with an even number of slides only."
+msgstr ""
+
+#: kits/traits/controls-groups/slider.php:277
+msgid "Free Mode / No Fixed Positions"
+msgstr ""
+
+#: kits/traits/controls-groups/slider.php:278
+msgid "If enable then slides will not have fixed positions."
+msgstr ""
+
+#: kits/traits/controls-groups/slider.php:293
+msgid "Arrows"
+msgstr ""
+
+#: kits/traits/controls-groups/slider.php:316
+msgid "Bullets"
+msgstr ""
+
+#: kits/traits/controls-groups/slider.php:317
+msgid "Progress"
+msgstr ""
+
+#: kits/traits/controls-groups/slider.php:318
+msgid "Fraction"
+msgstr ""
+
+#: kits/traits/controls-groups/social-icons.php:111
+msgid "Icons Size"
+msgstr ""
+
+#: kits/traits/controls-groups/social-icons.php:274
+msgid "Icon title"
+msgstr ""
+
+#: kits/traits/controls-groups/states.php:125
+msgid "Background Type"
+msgstr ""
+
+#: kits/traits/controls-groups/states.php:129
+msgid "Classic"
+msgstr ""
+
+#: kits/traits/controls-groups/states.php:133
+msgid "Gradient"
+msgstr ""
+
+#: kits/traits/controls-groups/states.php:160
+msgid "Background Location"
+msgstr ""
+
+#: kits/traits/controls-groups/states.php:177
+msgid "Second Background"
+msgstr ""
+
+#: kits/traits/controls-groups/states.php:190
+msgid "Second Background Location"
+msgstr ""
+
+#: kits/traits/controls-groups/states.php:207
+msgid "Gradient Type"
+msgstr ""
+
+#: kits/traits/controls-groups/states.php:210
+msgid "Linear"
+msgstr ""
+
+#: kits/traits/controls-groups/states.php:211
+msgid "Radial"
+msgstr ""
+
+#: kits/traits/controls-groups/states.php:224
+msgid "Gradient Angle"
+msgstr ""
+
+#: kits/traits/controls-groups/states.php:250
+msgid "Gradient Position"
+msgstr ""
+
+#: kits/traits/controls-groups/states.php:253
+msgid "Center Center"
+msgstr ""
+
+#: kits/traits/controls-groups/states.php:254
+msgid "Center Left"
+msgstr ""
+
+#: kits/traits/controls-groups/states.php:255
+msgid "Center Right"
+msgstr ""
+
+#: kits/traits/controls-groups/states.php:256
+msgid "Top Center"
+msgstr ""
+
+#: kits/traits/controls-groups/states.php:257
+msgid "Top Left"
+msgstr ""
+
+#: kits/traits/controls-groups/states.php:258
+msgid "Top Right"
+msgstr ""
+
+#: kits/traits/controls-groups/states.php:259
+msgid "Bottom Center"
+msgstr ""
+
+#: kits/traits/controls-groups/states.php:260
+msgid "Bottom Left"
+msgstr ""
+
+#: kits/traits/controls-groups/states.php:261
+msgid "Bottom Right"
+msgstr ""
+
+#: template-functions/general-elements.php:452
+msgid "Pages"
+msgstr ""
+
+#: template-functions/general-elements.php:470
+msgid "Search products&hellip;"
+msgstr ""
+
+#: template-functions/general-elements.php:470
+msgid "Search..."
+msgstr ""
+
+#: template-functions/heading-elements.php:37
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: template-functions/heading-elements.php:41
+#, php-format
+msgid "&nbsp;&ndash; Page %s"
+msgstr ""
+
+#: template-functions/heading-elements.php:51
+msgid "Y"
+msgstr ""
+
+#: template-functions/heading-elements.php:53
+msgid "F Y"
+msgstr ""
+
+#: template-functions/heading-elements.php:55
+msgid "F j, Y"
+msgstr ""
+
+#: template-functions/heading-elements.php:141
+msgid "Search results for"
+msgstr ""
+
+#: template-functions/heading-elements.php:161
+msgid "Galleries"
+msgstr ""
+
+#: template-functions/heading-elements.php:163
+msgid "Images"
+msgstr ""
+
+#: template-functions/heading-elements.php:165
+msgid "Videos"
+msgstr ""
+
+#: template-functions/heading-elements.php:167
+msgid "Audio"
+msgstr ""
+
+#: template-functions/heading-elements.php:174
+msgid "No breadcrumbs"
+msgstr ""
+
+#: template-functions/heading-elements.php:179
+msgid "Home"
+msgstr ""
+
+#: template-functions/post-elements.php:300
+msgid "Posts by"
+msgstr ""
+
+#: template-functions/post-elements.php:341
+#: template-functions/post-elements.php:346
+msgid "Comment on"
+msgstr ""
+
+#: template-functions/post-elements.php:416
+msgid "In"
+msgstr ""
+
+#: template-functions/single-elements.php:131
+msgid "website"
+msgstr ""
+
+#: template-parts/404.php:12
+msgid "404"
+msgstr ""
+
+#: template-parts/404.php:15
+msgid "We're sorry, but the page you were looking for doesn't exist"
+msgstr ""
+
+#: template-parts/archive.php:42
+msgid "Nothing found"
+msgstr ""
+
+#: template-parts/archive.php:44
+msgid "Sorry, no posts matched your criteria. Please try another search."
+msgstr ""
+
+#: template-parts/archive.php:45
+msgid ""
+"You might want to consider some of our suggestions to get better results:"
+msgstr ""
+
+#: template-parts/archive.php:47
+msgid "Check your spelling."
+msgstr ""
+
+#: template-parts/archive.php:48
+msgid "Try a similar keyword, for example: tablet instead of laptop."
+msgstr ""
+
+#: template-parts/archive.php:49
+msgid "Try using more than one keyword."
+msgstr ""
+
+#: template-parts/footer.php:61
+#, php-format
+msgid "cmsmasters &copy; %d / All Rights Reserved"
+msgstr ""

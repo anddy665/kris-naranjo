@@ -1,0 +1,87 @@
+<wpml-config>
+	<custom-fields>
+		<custom-field action="translate">_elementor_page_settings</custom-field>
+	</custom-fields>
+	<custom-fields-texts>
+		<key name="_elementor_page_settings">
+			<key name="cmsmasters_slider_arrows_prev_text" />
+			<key name="cmsmasters_slider_arrows_next_text" />
+			<key name="cmsmasters_footer_copyright_text" />
+			<key name="cmsmasters_logo_title_text" />
+			<key name="cmsmasters_logo_subtitle_text" />
+			<key name="cmsmasters_single_author_title_text" />
+			<key name="cmsmasters_single_more_posts_title_text" />
+			<key name="cmsmasters_single_nav_text_above_prev" />
+			<key name="cmsmasters_single_nav_text_above_next" />
+			<key name="cmsmasters_archive_more_text" />
+			<key name="cmsmasters_search_more_text" />
+			<key name="cmsmasters_header_mid_button_text" />
+			<key name="cmsmasters_header_mid_button_link">
+				<key name="url" />
+			</key>
+			<key name="cmsmasters_header_bot_button_text" />
+			<key name="cmsmasters_header_bot_button_link">
+				<key name="url" />
+			</key>
+			<key name="cmsmasters_header_top_info_items">
+				<key name="*">
+					<key name="text" />
+					<key name="link">
+						<key name="url" />
+					</key>
+				</key>
+			</key>
+			<key name="cmsmasters_header_mid_info_items">
+				<key name="*">
+					<key name="text" />
+					<key name="link">
+						<key name="url" />
+					</key>
+				</key>
+			</key>
+			<key name="cmsmasters_footer_info_items">
+				<key name="*">
+					<key name="text" />
+					<key name="link">
+						<key name="url" />
+					</key>
+				</key>
+			</key>
+			<key name="cmsmasters_header_top_social_items">
+				<key name="*">
+					<key name="title" />
+					<key name="link">
+						<key name="url" />
+					</key>
+				</key>
+			</key>
+			<key name="cmsmasters_header_mid_social_items">
+				<key name="*">
+					<key name="title" />
+					<key name="link">
+						<key name="url" />
+					</key>
+				</key>
+			</key>
+			<key name="cmsmasters_header_bot_social_items">
+				<key name="*">
+					<key name="title" />
+					<key name="link">
+						<key name="url" />
+					</key>
+				</key>
+			</key>
+			<key name="cmsmasters_footer_social_items">
+				<key name="*">
+					<key name="title" />
+					<key name="link">
+						<key name="url" />
+					</key>
+				</key>
+			</key>
+			<key name="cmsmasters_header_top_html_text" />
+			<key name="cmsmasters_header_mid_html_text" />
+			<key name="cmsmasters_footer_html_text" />
+		</key>
+	</custom-fields-texts>
+</wpml-config>

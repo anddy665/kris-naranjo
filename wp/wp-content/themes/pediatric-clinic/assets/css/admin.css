@@ -1,0 +1,53 @@
+.cmsmasters-popup-notice.notice.notice-error {
+  border: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  z-index: 100000;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.cmsmasters-popup-notice__inner {
+  background-color: #ffffff;
+  border-radius: 3px;
+  max-width: 80vw;
+  max-height: 80vh;
+  padding: 20px 30px;
+  overflow-y: auto;
+}
+.cmsmasters-popup-notice .notice-dismiss {
+  color: #ffffff;
+  font-size: 40px;
+  width: 1em;
+  height: 1em;
+  padding: 0;
+  position: absolute;
+  right: 40px;
+  top: 40px;
+  bottom: auto;
+  left: auto;
+  transition: color 0.3s ease-in-out;
+}
+.cmsmasters-popup-notice .notice-dismiss:focus {
+  border: 0;
+  box-shadow: none;
+  outline: none;
+}
+.cmsmasters-popup-notice .notice-dismiss:hover {
+  color: #d63638;
+}
+.cmsmasters-popup-notice .notice-dismiss:before {
+  content: "\f335";
+  color: inherit;
+  font-size: inherit;
+  line-height: 1em;
+  width: 1em;
+  height: 1em;
+}
+/*# sourceMappingURL=admin.css.map */

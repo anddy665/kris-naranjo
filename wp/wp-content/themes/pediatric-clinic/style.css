@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/*
+Theme Name: Pediatric Clinic
+Theme URI: https://pediatric-clinic.cmsmasters.net/
+Author: cmsmasters
+Author URI: https://cmsmasters.net/
+Description: Pediatric Clinic – Children’s Doctor WordPress Theme is a modern, responsive solution designed specifically for pediatricians, children’s clinics, and family healthcare centers. It comes with custom post types for Doctors’ Profiles, allowing you to showcase your team’s expertise, and Services, so you can highlight the care and treatments you provide. The theme is fully compatible with WooCommerce, enabling seamless online product sales or service packages.
+Version: 1.0.1
+Tested up to: 6.6
+Requires PHP: 7.4
+License:
+License URI:
+Text Domain: pediatric-clinic
+Domain Path: /theme-config/languages
+Copyright: cmsmasters 2024 / All Rights Reserved
+Tags: one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-image-header, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+*/
+
+
+.sticky,
+.bypostauthor,
+.screen-reader-text {
+  outline: none;
+}

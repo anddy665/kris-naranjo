@@ -1,0 +1,236 @@
+/*! cmsmasters-elementor-addon - v1.24.1 - 06-04-2026 */
+/* Editor dark mode styles */
+#cmsmasters-template-library-header-menu {
+  color: #e0e1e3;
+}
+
+.cmsmasters-template-library-menu-item.elementor-active {
+  background-image: linear-gradient(to bottom, #26292c, #34383c);
+  border-color: #71d7f7;
+}
+
+#cmsmasters-template-library-filter {
+  border-color: #34383c;
+}
+#cmsmasters-template-library-filter-text {
+  background-color: transparent;
+}
+#cmsmasters-template-library-filter-text:focus + i {
+  color: #e0e1e3;
+}
+
+label.cmsmasters-template-library-order-label:hover,
+#cmsmasters-template-library-filter-my-favorites:hover {
+  color: #b4b5b7;
+}
+
+#cmsmasters-template-library-templates[data-template-source=remote] .cmsmasters-template-library-order-input:checked + .cmsmasters-template-library-order-label {
+  color: #7d7e82;
+}
+
+#cmsmasters-template-library-filter-my-favorites:checked + #cmsmasters-template-library-filter-my-favorites-label {
+  color: #7d7e82;
+}
+
+#cmsmasters-template-library-header-preview-back {
+  border-color: #4c4f56;
+}
+
+.cmsmasters-template-library-template-remote {
+  background-color: #404349;
+}
+.cmsmasters-template-library-template-remote .cmsmasters-template-library-template-name {
+  color: #e0e1e3;
+}
+.cmsmasters-template-library-template-remote:not(.cmsmasters-template-library-template-page) .cmsmasters-template-library-template-footer {
+  background-color: #404349;
+}
+
+.cmsmasters-template-library-template-local {
+  background-color: #4c4f56;
+}
+.cmsmasters-template-library-template-local:hover {
+  background-color: #64666a;
+}
+.cmsmasters-template-library-template-local .cmsmasters-template-library-template-controls > div:not(:hover), .cmsmasters-template-library-template-local .cmsmasters-template-library-template-controls > div a {
+  color: #b4b5b7;
+}
+.cmsmasters-template-library-template-local .cmsmasters-template-library-template-more {
+  background-color: #4c4f56;
+}
+.cmsmasters-template-library-template-local .cmsmasters-template-library-template-more:before {
+  border-bottom-color: #4c4f56;
+}
+.cmsmasters-template-library-template-local .cmsmasters-template-library-template-more:hover,
+.cmsmasters-template-library-template-local .cmsmasters-template-library-template-more a:hover {
+  color: #e0e1e3;
+}
+.cmsmasters-template-library-template-local .cmsmasters-template-library-template-more .cmsmasters-template-library-template-delete:hover {
+  color: #f84343;
+}
+
+#cmsmasters-template-library-save-template-name {
+  background-color: #26292c;
+}
+
+#cmsmasters-template-library-import-form {
+  background-color: transparent;
+}
+#cmsmasters-template-library-import-form:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Select2 & child controls dark mode styles */
+.elementor-control .select2-container.select2-container--default .select2-selection--multiple .select2-selection__choice__remove:hover {
+  color: #e0e1e3;
+}
+.elementor-control .select2-container.select2-container--default .select2-selection--single .select2-selection__arrow b {
+  border-top-color: #e0e1e3;
+}
+.elementor-control .select2-container.select2-container--default .select2-selection--single .select2-selection__clear:hover {
+  color: #e0e1e3;
+}
+.elementor-control .select2-container--open .select2-selection--single .select2-selection__arrow b {
+  border-bottom-color: #e0e1e3;
+}
+
+.elementor-control-type-selectize .selectize-control.plugin-drag_drop .ui-sortable > div.ui-sortable-placeholder {
+  background-color: #34383c !important;
+  box-shadow: inset 0 0 5px 5px rgba(76, 79, 86, 0.3);
+}
+.elementor-control-type-selectize .selectize-control.multi .selectize-input > div {
+  background-color: #4c4f56;
+  color: #e0e1e3;
+}
+.elementor-control-type-selectize .selectize-control.multi .selectize-input > div .remove {
+  border-left: 1px solid #64666a;
+}
+.elementor-control-type-selectize .selectize-control.multi .selectize-input > div .remove:hover {
+  background-color: #64666a;
+  color: #cccccc;
+}
+.elementor-control-type-selectize .selectize-input {
+  background-color: #34383c;
+  border-color: #64666a;
+  color: #e0e1e3;
+}
+.elementor-control-type-selectize .selectize-input.input-active {
+  border-color: #7d7e82;
+}
+.elementor-control-type-selectize .selectize-input.input-active:before {
+  display: none;
+}
+.elementor-control-type-selectize .selectize-input input {
+  color: #e0e1e3;
+}
+.elementor-control-type-selectize .selectize-dropdown {
+  background-color: #34383c;
+  border-color: #7d7e82;
+}
+.elementor-control-type-selectize .selectize-dropdown .optgroup {
+  border-color: #7d7e82;
+}
+.elementor-control-type-selectize .selectize-dropdown .optgroup-header {
+  color: #e0e1e3;
+}
+.elementor-control-type-selectize .selectize-dropdown .option {
+  color: #e0e1e3;
+}
+.elementor-control-type-selectize .selectize-dropdown .option:hover, .elementor-control-type-selectize .selectize-dropdown .option.active {
+  background-color: #4c4f56;
+  color: #e0e1e3;
+}
+.elementor-control-type-selectize .selectize-dropdown .option .highlight {
+  background-color: rgba(125, 126, 130, 0.5);
+}
+
+/* Locations repeater control dark mode styles */
+.elementor-control-type-locations_repeater .elementor-repeater-fields {
+  box-shadow: 0 2px 12px rgba(255, 255, 255, 0.06);
+}
+.elementor-control-type-locations_repeater .elementor-repeater-fields[data-cmsmasters-location-statement=exclude] .elementor-repeater-row-tools {
+  background-color: #bc5d89;
+}
+.elementor-control-type-locations_repeater .elementor-repeater-fields[data-cmsmasters-location-statement=exclude] .elementor-repeater-row-tools .elementor-repeater-row-item-title {
+  color: #d192af;
+}
+.elementor-control-type-locations_repeater .elementor-repeater-fields[data-cmsmasters-location-statement=exclude] .elementor-repeater-row-controls {
+  border-color: #bc5d89;
+}
+.elementor-control-type-locations_repeater .elementor-repeater-fields.elementor-error .elementor-control-input-wrapper,
+.elementor-control-type-locations_repeater .elementor-repeater-fields.elementor-error .elementor-repeater-row-controls,
+.elementor-control-type-locations_repeater .elementor-repeater-fields.elementor-error .select2-container .select2-selection,
+.elementor-control-type-locations_repeater .elementor-repeater-fields.elementor-error input, .elementor-control-type-locations_repeater .elementor-repeater-fields.elementor-error select, .elementor-control-type-locations_repeater .elementor-repeater-fields.elementor-error textarea {
+  border-color: #bf2727;
+}
+.elementor-control-type-locations_repeater .elementor-repeater-fields.elementor-error .elementor-repeater-row-tools {
+  background-color: #bf2727;
+}
+.elementor-control-type-locations_repeater .elementor-repeater-row-controls {
+  border-color: #6fb280;
+}
+.elementor-control-type-locations_repeater .elementor-repeater-row-tools {
+  color: #e0e1e3;
+  background-color: #6fb280;
+}
+.elementor-control-type-locations_repeater .elementor-repeater-row-tools > div {
+  background-color: #4c4f56;
+}
+.elementor-control-type-locations_repeater .elementor-repeater-row-tools .elementor-repeater-row-item-title {
+  color: #7bbc8a;
+}
+.elementor-control-type-locations_repeater .elementor-repeater-row-tools .elementor-repeater-tool-remove:hover {
+  color: #e66a6a;
+}
+.elementor-control-type-locations_repeater .elementor-button-wrapper .elementor-button.elementor-repeater-add {
+  background-color: #4e7560;
+}
+.elementor-control-type-locations_repeater .elementor-button-wrapper .elementor-button.elementor-repeater-exception {
+  color: #d4739d;
+}
+.elementor-control-type-locations_repeater .elementor-button-wrapper .elementor-button.elementor-repeater-exception:hover:not(:disabled) {
+  color: #e986ad;
+}
+.elementor-control-type-locations_repeater .elementor-button-wrapper .elementor-button.elementor-repeater-exception:disabled {
+  opacity: 0.6;
+}
+.elementor-control-type-locations_repeater .cmsmasters-location-error-message {
+  color: #fc7373;
+}
+.elementor-control-type-locations_repeater .cmsmasters-location-error-message-tag {
+  background-color: #34383c;
+  color: #ff5353;
+}
+.elementor-control-type-locations_repeater .select2-container.select2-container--default .select2-selection--multiple .select2-selection__choice.cmsmasters-location-error {
+  border-color: #ff5353;
+  color: #ff5353;
+}
+.elementor-control-type-locations_repeater .select2-container.select2-container--default .select2-selection--multiple .select2-selection__choice.cmsmasters-location-error .select2-selection__choice__remove {
+  color: #a4afb7;
+}
+.elementor-control-type-locations_repeater .select2-container.select2-container--default .select2-selection--multiple .select2-selection__choice.cmsmasters-location-error .select2-selection__choice__remove:hover {
+  color: #e0e1e3;
+}
+
+.elementor-panel #elementor-panel__editor__help__link[href*="go.cmsmasters.net"]:before, .elementor-panel .elementor-control-type-section[class*=elementor-control-cmsmasters_section_] .elementor-panel-heading:before, .elementor-panel #elementor-panel-categories .elementor-panel-category[id*=-cmsmasters]:before, .elementor-panel-menu-item-icon i.cmsms-logo:before, .elementor-panel-menu-group-title i.cmsms-logo:before, .elementor-panel #elementor-panel-categories .elementor-panel-category[id*=-cmsmasters] .elementor-panel-category-items .elementor-element:before, .elementor-panel #elementor-panel-elements .cmsmasters-elementor-widget:before {
+  filter: grayscale(100%) brightness(1.5);
+}
+
+.elementor-panel .elementor-control-type-section[class*=elementor-control-cmsmasters_section_]:hover .elementor-panel-heading:before, .elementor-panel .elementor-control-type-section[class*=elementor-control-cmsmasters_section_].elementor-open .elementor-panel-heading:before, .elementor-panel .elementor-control-type-section[class*=elementor-control-cmsmasters_section_].e-open .elementor-panel-heading:before, .elementor-panel-menu-item:hover .elementor-panel-menu-group-title i.cmsms-logo:before, .elementor-panel-menu-group:hover .elementor-panel-menu-item-title i.cmsms-logo:before, .elementor-panel #elementor-panel-categories .elementor-panel-category[id*=-cmsmasters] .elementor-panel-category-items .elementor-element:hover:before, .elementor-panel #elementor-panel-elements .cmsmasters-elementor-widget:hover:before {
+  filter: brightness(1.1);
+}
+
+.elementor-panel #elementor-panel-categories .elementor-panel-category[id*=-cmsmasters]:hover:before, .elementor-panel #elementor-panel-categories .elementor-panel-category[id*=-cmsmasters].elementor-active:before {
+  filter: none;
+}
+.elementor-panel #elementor-panel__editor__help__link[href*="go.cmsmasters.net"]:hover:before {
+  filter: none;
+}
+
+.dialog-widget .elementor-panel-alert {
+  background-color: #4c4f56;
+}
+.dialog-widget .elementor-panel-alert-info {
+  background-color: #4c4f56;
+}
+/*# sourceMappingURL=editor-dark-mode.css.map */

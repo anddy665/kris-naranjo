@@ -1,0 +1,79 @@
+== Changelog ==
+
+
+= 1.0.16 - 2026-04-02 =
+* Bug Fix: Fixed cmsmasters theme settings compatibility with Elementor V4.
+
+
+= 1.0.15 - 2026-03-24 =
+* Bug Fix: Fixed bugs after WP 7.0 update.
+
+
+= 1.0.14 - 2026-03-23 =
+* Tweak: Added notices from API.
+* Bug Fix: Fixed license activation.
+
+
+= 1.0.13 - 2026-03-03 =
+* Bug Fix: Fixed loop in updater for themes and plugins.
+
+
+= 1.0.12 - 2026-02-23 =
+* New Functionality: Added Updater for Themes and Plugins.
+
+
+= 1.0.11 - 2025-12-25 =
+* Tweak: Enable ACF Pro updates and license.
+
+
+= 1.0.10 - 2025-12-24 =
+* Tweak: Added logger for connection errors.
+
+
+= 1.0.9 - 2025-10-21 =
+* New Functionality: Added Theme Updater.
+
+
+= 1.0.8 - 2025-10-14 =
+* Bug Fix: Fixed location on templates after manual import.
+* Bug Fix: Fixed Give API rest.
+
+
+= 1.0.7 - 2025-08-30 =
+* Bug Fix: Fixed Elementor containers on import to old Elementor version.
+
+
+= 1.0.6 - 2025-08-20 =
+* Bug Fix: Fixed standard WP import.
+
+
+= 1.0.5 - 2025-08-11 =
+* Bug Fix: Fixed GiveWp forms meta import.
+
+
+= 1.0.4 - 2025-08-07 =
+* Tweak: Added notice for Designs tab for theme with Demos type.
+* Tweak: Added check for XML Reader.
+* Tweak: Removed imagick from required php modules.
+* Bug Fix: Fixed templates locations conflicts on import.
+
+
+= 1.0.3 - 2025-07-24 =
+* Bug Fix: Fixed customizer and widgets import.
+
+
+= 1.0.2 - 2025-07-15 =
+* Tweak: Added generate child button.
+* Tweak: Added link to changelog.
+* Tweak: Added notice for required PHP modules.
+* Tweak: Added notice before broken the installation process.
+* Bug Fix: Fixed import forms for GiveWP plugin after GiveWP plugin update.
+
+
+= 1.0.1 - 2025-06-19 =
+* Bug Fix: Fixed import for GoDaddy server.
+* Bug Fix: Fixed templates import.
+
+
+= 1.0.0 - 2025-03-15 =
+* Release

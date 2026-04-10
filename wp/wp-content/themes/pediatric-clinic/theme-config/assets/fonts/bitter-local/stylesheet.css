@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Bitter Local';
+    src: url('BitterThin-Medium.woff2') format('woff2'),
+        url('BitterThin-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bitter Local';
+    src: url('BitterThin-Regular.woff2') format('woff2'),
+        url('BitterThin-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bitter Local';
+    src: url('BitterThin-Italic.woff2') format('woff2'),
+        url('BitterThin-Italic.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bitter Local';
+    src: url('BitterThin-SemiBold.woff2') format('woff2'),
+        url('BitterThin-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+

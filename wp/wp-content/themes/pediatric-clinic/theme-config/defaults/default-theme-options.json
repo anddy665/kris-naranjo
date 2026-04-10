@@ -1,0 +1,24 @@
+{
+	"image_sizes": {
+		"archive": {
+			"width": "260",
+			"height": "260",
+			"crop": "1"
+		},
+		"search": {
+			"width": "260",
+			"height": "260",
+			"crop": "1"
+		},
+		"single": {
+			"width": "860",
+			"height": "300",
+			"crop": "0"
+		},
+		"more-posts": {
+			"width": "330",
+			"height": "180",
+			"crop": "1"
+		}
+	}
+}

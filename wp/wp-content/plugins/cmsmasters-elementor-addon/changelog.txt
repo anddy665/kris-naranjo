@@ -1,0 +1,1042 @@
+== Changelog ==
+
+
+= 1.24.1 - 2026-04-06 =
+* Bug Fix: Fixed WPML & Polylang plugins compatibility.
+* Bug Fix: Fixed recalculate background video dimensions after popup becomes visible in popup template.
+* Bug Fix: Fixed extra padding for sticky header after elementor update.
+
+
+= 1.24.0 - 2026-04-02 =
+* Tweak: Cleanup implementation.
+* Bug Fix: Fixed images displaying in Post Grid on mobile.
+* Bug Fix: Reset theme style for Atomic button widget.
+* Bug Fix: Fixed loading atomic widget styles in the template location.
+
+
+= 1.23.0 - 2026-03-06 =
+* New Functionality: Added new `Text Editor` widget.
+* Bug Fix: Fixed errors with `Elementor PRO`.
+* Bug Fix: Fixed Alignment control in adaptive mode in `Advanced Title` and `Highlight Title` widgets.
+
+
+= 1.22.0 - 2026-03-01 =
+* New Functionality: Added new control 'Display Type' for displayed items in Highlight Title widget.
+* New Functionality: Added new Display Type and Vertical Alignment controls for displayed items in Advanced Title widget.
+* New Functionality: Added new Type 'Image' for widget items in Advanced Title widget.
+* New Functionality: Added new Height, Border Radius and Image Resolution controls for item Type 'Image' in Advanced Title widget.
+* New Functionality: Added Starting Number control for marker type numeric in Icon List widget.
+* New Functionality: Added new Split Button widget.
+* Bug Fix: Fixed extra indentation in Icon List widget in Safari.
+* Bug Fix: Fixed Donutty.
+* Bug Fix: Fixed word wrap in Animated Text widget.
+* Bug Fix: Fixed Space Between in Marquee widget on mobile.
+* Bug Fix: Fixed Image Accordion widget on responsive.
+* Bug Fix: Fixed empty excerpt issue in Post Excerpt widget and Excerpt dynamic tag.
+* Bug Fix: Fixed custom colors applying in Highlight Title widget.
+* Bug Fix: Fixed Swap button widget height in Safari.
+
+
+= 1.21.2 - 2026-02-15 =
+* Bug Fix: Fixed gradient application in the Swap Button widget.
+* Bug Fix: Fixed global typography for repeatable item in Advanced Title widget.
+
+
+= 1.21.1 - 2026-02-01 =
+* Bug Fix: Fixed Swap Button on hover on iPhone.
+
+
+= 1.21.0 - 2026-01-27 =
+* New Functionality: Added Image Accordion Widget.
+* New Functionality: Added Swap Button Widget.
+
+
+= 1.20.2 - 2026-01-26 =
+* Bug Fix: Removed CMS Logo from Theme Builder.
+
+
+= 1.20.1 - 2026-01-23 =
+* Bug Fix: Fixed the display of the indicator and pointer in menu items.
+* Bug Fix: Fixed highlight text widget on responsive.
+* Bug Fix: Fixed adaptive in "Entrance Animation".
+* Bug Fix: Fixed the display of the "Templates" menu item in the Elementor admin menu after updating Elementor to version 3.34.2.
+
+
+= 1.20.0 - 2026-01-02 =
+* New Functionality: Added new Highlight Title widget.
+* New Functionality: Added new Advanced title widget.
+* Tweak: Added new Mobile Only option to the Sticky on Sizes control.
+
+
+= 1.19.4 - 2025-12-12 =
+* Bug Fix: Fixed WPML and Polylang plugins compatibility - problem with locations on templates.
+
+
+= 1.19.3 - 2025-12-03 =
+* New Functionality: Added animation types for entrance animation in Title widget.
+* Bug Fix: Added additional validation for empty venues and organizer in dynamic tags.
+* Bug Fix: Fixed active link term without Load via AJAX.
+* Bug Fix: Fixed displaying all categories when using filter type query.
+* Bug Fix: Fix "Add to Cart" and "Add to Cart Button" widgets appearing.
+* Bug Fix: Fixed adding class for popup effect in Search widget.
+
+
+= 1.19.2 - 2025-11-30 =
+* Bug Fix: Fixed Terms and Conditions displaying in Checkout widget.
+* Bug Fix: Fixed accessibility for toggle title.
+* Bug Fix: Fixed Loop setting in Post Navigation
+
+
+= 1.19.1 - 2025-11-03 =
+* New Functionality: Added animation for the gradient in the Title widget.
+* Bug Fix: Changed the output of the short description to the description in Product Data Tabs widget.
+* Bug Fix: Fixed Lazy Load in Give widgets.
+* Bug Fix: Fixed dynamic cart (products quantity after cart update).
+* Bug Fix: Fixed Post Grid filter loading without AJAX.
+* Bug Fix: Fixed entrance animation type settings displaying.
+
+
+= 1.19.0 - 2025-10-14 =
+* New Functionality: Add new GiveWP Donation Form widget.
+* New Functionality: Add new GiveWP Donation Form Grid widget.
+* Bug Fix: Fix audio widget in popup.
+
+
+= 1.18.5 - 2025-10-02 =
+* Bug Fix: Fixed entrance animation in entrys in sliders.
+* Bug Fix: Fixed Animation on Fancy text widget.
+
+
+= 1.18.4 - 2025-09-21 =
+* New Functionality: Add Label control for change clear button text in Add To Cart widget.
+* Bug Fix: Fixed animation control styles in lazyload widget.
+* Bug Fix: Fixed icons on widgets in Elementor Element manager.
+* Bug Fix: Fixed Fancy text on iPhone.
+* Bug Fix: Fixed application title html tag on responsive in Tab widget.
+
+
+= 1.18.3 - 2025-09-04 =
+* Bug Fix: Fixed Marquee widget on mobile.
+* Bug Fix: Fixed check theme compatibility for old theme versions.
+
+
+= 1.18.2 - 2025-09-02 =
+* Bug Fix: Fixed Forminator styles after update.
+
+
+= 1.18.1 - 2025-08-31 =
+* Bug Fix: Fixed clickability of the navigation menu parent item in the small menu.
+* Bug Fix: Fixed check theme compatibility for old theme versions.
+
+
+= 1.18.0 - 2025-08-19 =
+* New Functionality: Add new Events Venue Map widget.
+* New Functionality: Adding new Entrance Animation on specific widgets.
+* Tweak: Added check theme compatibility.
+* Tweak: Added container template class.
+* Bug Fix: Fixed countdown_due_date format.
+* Bug Fix: Fixed default icon size in Featured Box widget.
+* Bug Fix: Fixed blurred images in Lazy Load Widget.
+* Bug Fix: Fixed alignment in tabs widget.
+* Bug Fix: Fixed product widget on mobile.
+* Bug Fix: Fixed Sharing via email coding
+
+
+= 1.17.5 - 2025-08-05 =
+* Bug Fix: Forminator button in Text Editor.
+* Bug Fix: Fixed popup widget assets in lazyload widget.
+* Bug Fix: Fixed Forminator styles after update.
+
+
+= 1.17.4 - 2025-07-25 =
+* Tweak: Added Input Placeholder and Button Text controls for coupon container.
+* Tweak: Added button for regenerate Local Fonts after domain change.
+* Tweak: Added button for regenerate Local Icons after domain change.
+* Tweak: Added check nonce trigger in Ajax requests.
+* Bug Fix: Fixed slash in lazyload widget.
+* Bug Fix: Fixed clickable add to cart button.
+* Bug Fix: Fixed border display in coupon container.
+* Bug Fix: Remove WBW Filter styles from events.
+
+
+= 1.17.3 - 2025-07-14 =
+* New Functionality: Added Type Icon in marquee Item in Marquee widget.
+* New Functionality: Added type image for item in Marquee widget.
+* Tweak: Added custom clip-path functionality Cut Corner.
+* Bug Fix: Fixed clickability default event button in Events Grid widget.
+* Bug Fix: Fixed elementor accordion H title color.
+* Bug Fix: Posts Slider/Posts Grid: Fixed duplicate permalink post thumbnail in default layout.
+* Bug Fix: Fixed link redirection to External Product in Add to Cart widget.
+* Bug Fix: Fixed applying main & dropdown menu alignment when a menu widget is inserted into a menu widget.
+* Bug Fix: Fixed arrows for RTL mode in Slider widget.
+* Bug Fix: Fixed space between widgets by default.
+
+
+= 1.17.2 - 2025-06-23 =
+* Bug Fix: Fix open menu in canvas for touch devices.
+
+
+= 1.17.1 - 2025-06-20 =
+* Tweak: Added cover custom ratio in Video Widget.
+* Bug Fix: Fixed display Sender widget when there is no Sender plugin activated.
+* Bug Fix: Fixed display default icons in Sender widget.
+* Bug Fix: Fixed applied button loader icon color in Sender widget.
+
+
+= 1.17.0 - 2025-06-18 =
+* New Functionality: Added `Marquee` widget.
+* Bug Fix: Fixed DatePicker in popup.
+
+
+= 1.16.6 - 2025-06-05 =
+* Tweak: Implemented accessibility improvements.
+* Tweak: Extended Elementor entrance animation effects.
+* Tweak: Extended the Elementor's basic Entrance Animation effects list with the additional effects.
+* Tweak: Extended Mouse Track Effects.
+* Bug Fix: Mouse Track Effect (Tilt) is broken on Safari (not visible).
+* Bug Fix: Fixed conflict between tags used for icons and tags used for italics.
+* Bug Fix: Fixed display of Prefix Icon in metadata widget.
+* Bug Fix: Fixed alignment issue for the Icon List widget.
+* Bug Fix: Fixed incorrect image size issue for the Product Image widget.
+* Bug Fix: Fixed lazyloaded images in slider.
+
+
+= 1.16.5 - 2025-05-16 =
+* Tweak: Added option to choose hover color for the WooCommerce cart widget.
+* Tweak: Optimize images loading.
+* Bug Fix: Fixed image dynamic tag in Tribe Events.
+* Bux Fix: Fixed custom template render in Tribe Events.
+* Bug Fix: Fixed default box-shadow display for buttons.
+* Bug Fix: Fixed tab title width in Mozilla Firefox.
+* Bug Fix: Fixed conflict between <i> tags used for icons and <i> tags used for italics.
+* Bug Fix: Fixed icon list widget width in Mozilla Firefox.
+
+
+= 1.16.4 - 2025-04-24 =
+* Tweak: Added closing of dropdown menu when esc key is pressed or outside widget for "Layout" dropdown "Type" default in Navigation Menu widget.
+* Bug Fix: Fixed Line Clamp in short text module.
+* Bug Fix: Fixed display svg icon in products reviews comments navigation.
+* Bug Fix: Fixed custom field tag data.
+* Bug Fix: Fixed the issue with time not being displayed in Forminator email notifications.
+* Bug Fix: Fixed display author social end name in author box widget.
+* Bug Fix: Fixed for Elementor Pro compatibility.
+
+
+= 1.16.3 - 2025-04-04 =
+* Tweak: Added `Start Autoplay` control for autoplay video on hover ans scroll in Video widget.
+* Tweak: Removed slider height type 'auto' in Slider Widget.
+* Tweak: Added `Event Start Date` query option for `Order By` control in `Events Grid` widget.
+* Tweak: Added `Event End Date` query option for `Order By` control in `Events Grid` widget.
+* Bug Fix: Fixed display started events.
+* Bug Fix: Date translation fixed in the Events Grid widget.
+* Bug Fix: Fixed lazyload images in blog grid.
+* Bug Fix: Fixed tooltip button display in the Hot Spot Widget.
+* Bug Fix: Fixed default view icon shape square in Button widget.
+* Bug Fix: Fixed svg icon width in Gallery widget.
+* Bug Fix: Fixed render content in Archive widgget.
+* Bug Fix: Fixed render default text for header title in Posts Grid widget.
+* Bug Fix: Fixed give form border without image in Give Form widget.
+* Bug Fix: Fixed default email and preloader icon in mailchimp widget.
+* Bug Fix: Fixed label placeholder in mailchimp widget.
+* Bug Fix: Fixed render global icon in Sitemap widget.
+* Bug Fix: Fixed display widget when tabs is empty in Tabs widget.
+* Bug Fix: Fixed render audio player in Post Media widget.
+* Bug Fix: Fixed render past events in `Events Grid` widget.
+* Bug Fix: Fixed render separator in Weather widget.
+* Bug Fix: Fixed `Add To Cart Button` style if widget not in woocommerce page.
+* Bug Fix: Fixed render reviews title in Comments module.
+* Bug Fix: Change render product tab `description` on product short description in Product Data Tabs widget.
+
+
+= 1.16.2 - 2025-03-19 =
+* Tweak: Added the "Use Loop" setting for the Post Navigation Widgets.
+* Bug Fix: Fix slider module for elementor update 3.28.
+* Bug Fix: Fixed video and audio playback stopping when the popup window is closed.
+
+
+= 1.16.1 - 2025-02-14 =
+* Tweak: Added `Close Active Tab on Click` control for active tab.
+* Tweak: Added the `Inline Elements` setting for the Fancy Text widget.
+* Tweak: Added `Color` control for normal and hover state button icon in Posts Grid widget.
+* Tweak: Added `Color` and `Gap` controls for subtotal amount in Dynamic Cart widget.
+* Tweak: Added `Custom Aspect Ratio` control and `Custom` option for `Aspect Ratio` control in video widget.
+* Bug Fix: Fixed animation for the `Fancy Text` widget.
+
+
+= 1.16.0 - 2025-01-31 =
+* Tweak: Added dependency of connecting swiper script for widgets with swiper slider after elementor 3.27 version.
+* Bug Fix: Fixed widgets css after Elementor Update.
+* Bug Fix: Fixed recurrence events for The Events Calendar Pro.
+* Bug Fix: Fixed unnecessary animation for mega menu.
+* Bug Fix: Fixed critical error (remove escaping for the register widget).
+* Bug Fix: Fixed disabling caching for login and register widgets.
+
+
+= 1.15.5 - 2025-01-23 =
+* Tweak: Importer optimization.
+* Tweak: Added `Vertical Spacing` control for gallery item in Gallery widget.
+* Tweak: Removed Instagram widget.
+* Tweak: Removed Instagram item in Social Counter widget.
+* Tweak: Removed Instagram settings in Addon Settings.
+* Bug Fix: Fixed Toggle widget width in container row direction.
+* Bug Fix: Fixed error after import for give forms.
+
+
+= 1.15.4 - 2025-01-06 =
+* Bug Fix: Added dependency of connecting swiper styles for widgets with swiper slider after elementor 3.26 version.
+* Bug Fix: Replaced elementor-screen-only on aria-label attribute.
+* Bug Fix: Fixed empty provider in post video format (Post Media widget).
+* Bug Fix: Fixed archive title in event category and tag pages.
+* Bug Fix: Fixed swiper pagination properties.
+
+
+= 1.15.3 - 2024-12-19 =
+* Bug Fix: Added dependency of connecting swiper styles for widgets with swiper slider after elementor 3.26 version.
+
+
+= 1.15.2 - 2024-12-17 =
+* Tweak: Added `Width` and `Alignment` controls for image in column position (Featured Box widget).
+* Bug Fix: Fixed video opening in lightbox (Video widget).
+* Bug Fix: Cleaning default list style in Related Product widget.
+* Bug Fix: Fixed console.warn for Donutty JS.
+
+
+= 1.15.1 - 2024-12-10 =
+* Bug Fix: Fixed content rendering in `Post Content` widget.
+* Bug Fix: Fixed content rendering in `Archive Description` widget.
+* Bug Fix: Fixed item alignment on responsive in Icon List widget.
+
+
+= 1.15.0 - 2024-12-02 =
+* New Functionality: `Sender` widget.
+* Tweak: Security update.
+* Tweak: Added `Border Radius` controls for main menu items on hover and active state.
+* Tweak: Added `Separator` controls for main menu items.
+* Bug Fix: Fixed post creation time taking into account Local time in Meta Data widget.
+* Bug Fix: Fixed post creation date and time taking into account Local time in Meta Data widget.
+* Bug Fix: Fixed add to cart in duplicate Post Slider items.
+* Bug Fix: Fixed animation for sticky elements.
+* Bug Fix: Fixed logo alignment when image is at max width.
+* Bug Fix: Fixed modify menu items final HTML after WP 6.7 in Navigation Menu widget.
+* Bug Fix: Fixed modify menu items final HTML after WP 6.7 in Offcanvas widget.
+* Bug Fix: Date translation fixed in the Event Date widget.
+* Bug Fix: Fixed woocommerce archive description message when empty.
+* Bug Fix: Fixed template preview when preview type arguments are empty.
+
+
+= 1.14.7 - 2024-10-04 =
+* Bug Fix: Fixed infinite scrolling in the pagination.
+* Bug Fix: Fixed Product Slider image thumbnail repeating in lightbox.
+
+
+= 1.14.6 - 2024-09-26 =
+* Tweak: Update translation.
+
+
+= 1.14.5 - 2024-09-25 =
+* Tweak: Added the ability to disable animation for the fancy tex widget.
+* Bug Fix: Fixed message when the select form is empty in the Forminator widget.
+* Bug Fix: Fixed type arch for circle progress bar widget.
+* Bug Fix: Fixed pagination bullet after updating Sweeper library and styles in elementor.
+* Bug Fix: Fixed Add to Cart widget after WooCommerce plugin update.
+* Bug Fix: Fixed widgets styles in template on LazyLoad widget.
+* Bug Fix: Fixed Element Caching for authorization links widget.
+* Bug Fix: Fixed separator in Blog Grid widget.
+
+
+= 1.14.4 - 2024-09-12 =
+* Tweak: Added `Side Gap` control for close button in offcanvas widget.
+* Tweak: Added LazyLoad to the Events Grid widget.
+* Tweak: Added LazyLoad to the Events Slider widget.
+* Bug Fix: Fixed `Separators` in the Events Grid widget.
+* Bug Fix: Fixed using the `Container` template in the Tabs widget.
+* Bug Fix: Fixed using the `Container` template in the Toggle widget.
+* Bug Fix: Fixed organizer email prefix mailto in Event Organizer widget.
+* Bug Fix: Fixed not publish posts in Blog Widgets with LazyLoad Widget.
+
+
+= 1.14.3 - 2024-08-21 =
+* Bug Fix: Fixed the width of the slides in the vertical direction of the slider.
+* Bug Fix: Fixed offcanvas widget in sticky header.
+* Bug Fix: Fixed empty `Load More` button text.
+
+
+= 1.14.2 - 2024-08-19 =
+* Bug Fix: Fixed Elementor Pro loop-item document.
+
+
+= 1.14.1 - 2024-08-14 =
+* Bug Fix: Fixed caching of the widgets by default.
+* Bug Fix: Fixed applying a reference to a value if that value is empty.
+
+
+= 1.14.0 - 2024-08-14 =
+* New Functionality: Added `Circle Progress Bar` widget.
+* Tweak: Added caching of the widgets by default.
+* Tweak: Changed waypoint library to observer in table of content widget and pagination module.
+* Tweak: Added categories to global view.
+* Tweak: Changed compatibility with Elementor Pro.
+* Bug Fix: Fixed background gradient for button elements.
+
+
+= 1.13.1 - 2024-07-18 =
+* Bug Fix: Fixed z-index for elements in the Featured Box widget.
+
+
+= 1.13.0 - 2024-07-09 =
+* New Functionality: Added Tribe Events Templates.
+
+
+= 1.12.7 - 2024-07-08 =
+* Bug Fix: Fixed line clamp count in post navigation widget.
+
+
+= 1.12.6 - 2024-07-02 =
+* Tweak: Added controls setting for Testimonials Item in Testimonials Slider widget.
+* Bug Fix: Fixed buttons svg icon in Mailchimp widget.
+* Bug Fix: Fixed `Minimum Height` and `Content Width` controls in sticky effect.
+* Bug Fix: Fixed lazyload widget preloader.
+
+
+= 1.12.5 - 2024-06-25 =
+* Bug Fix: Fixed locations in templates.
+
+
+= 1.12.4 - 2024-06-24 =
+* Tweak: Added `Open in a new window` control for social links in Author Box widget.
+* Bug Fix: Fixed displayed website link and added mailto to email in Author Box widget.
+* Bug Fix: Fixed lazyload widget preloader.
+* Bug Fix: Fixed injections after elementor update.
+* Bug Fix: Fixed link color change on focus in Offcanvas widget.
+
+
+= 1.12.3 - 2024-06-20 =
+* Bug Fix: Fixed slider breakpoints.
+* Bug Fix: Fixed active toggle in toggles.
+
+
+= 1.12.2 - 2024-05-31 =
+* Tweak: Added possibility to deactivate lazyload images functionality.
+* Bug Fix: Fixed displaying headline title when enabling title and hiding filter in Posts Grid widget.
+
+
+= 1.12.1 - 2024-05-22 =
+* Tweak: Added `Single Post Subcategories` control for Breadcrumbs widget.
+* Bug Fix: Fixed deprecation on php 8.2.
+* Bug Fix: Add checking template.
+* Bug Fix: Add checking navigation menu.
+* Bug Fix: Fixed displaying headline title when enabling title and hiding filter in Posts Grid widget.
+* Bug Fix: Fixed data validation for Weather Widget.
+
+
+= 1.12.0 - 2024-05-14 =
+* New Functionality: Table Of Contents widget.
+* Bug Fix: Fixed border radius on single button mode in Mode Switcher.
+* Bug Fix: Fix on separator in last meta item.
+
+
+= 1.11.13 - 2024-05-09 =
+* Tweak: Add image height setting for Featured Box.
+* Bug Fix: Fixed Load More Button for pagination.
+
+
+= 1.11.12 - 2024-05-02 =
+* Bug Fix: Fixed export\import container templates.
+* Bug Fix: Fixed deprecated args.
+
+
+= 1.11.11 - 2024-04-23 =
+* Tweak: Added new `Space Between` control in notices widget.
+* Tweak: Added `Odd Products Background Color` and `Odd Products Background Color` controls in cart page widget.
+* Tweak: Added `Icon Animation Type` control for `Lazyload Widget`.
+* Tweak: Added `Image Resolution` control for avatar in Author Box widget.
+* Bug Fix: Fixed empty author website and posts url in author box widget.
+* Bug Fix: Fixed API key validation in Weather widget.
+
+
+= 1.11.10 - 2024-04-09 =
+* Tweak: Added `Color` control for Temperature in Line Skin.
+* Tweak: Added megamenu templates containers.
+* Bug Fix: Fixed render Author Box icons.
+* Bug Fix: Fixed dropdown for Forminator widget.
+
+
+= 1.11.9 - 2024-03-28 =
+* Bug Fix: Fixed meta data default value.
+* Bug Fix: Fixed woocommerce widgets templates in editor.
+* Bug Fix: Fixed touch link on touch devices in Offcanvas.
+* Bug Fix: Fixed add to cart button.
+* Bug Fix: Fixed default excerpt length on frontend in blog grid/slider widgets.
+* Bug Fix: Fixed opening the dropdown when the svg indicator icon is selected.
+* Bug Fix: Fixed display of container templates in saved sections.
+
+
+= 1.11.8 - 2024-03-15 =
+* Tweak: Added `blur` effect for transform effect.
+* Tweak: Added grid type to lazyload widget preloader.
+* Bug Fix: Fixed depended scripts in templates on lazyload widget.
+* Bug Fix: Fixed authorization links icons.
+* Bug Fix: Fixed the trigger of the hotspot widget for touch devices.
+* Bug Fix: Fixed price typography for Fibo Ajax Search for Woocommerce.
+
+
+= 1.11.7 - 2024-02-20 =
+* Tweak: Added `Hide On` control for Thumbnails in Product Images widget.
+* Tweak: Added `Show` control for Reset in Product Add To Cart widget.
+* Tweak: Added `Border Radius` control for Before & After container.
+* Bug Fix: Fixed image output if only 1 image in gallery is selected in Product Images widget.
+* Bug Fix: Fixed Give Form Grid 'condition' for progress bar
+* Bug Fix: Fixed Video widget if parent container flex-wrap - wrap.
+* Bug Fix: Fixed add to cart button icons.
+* Bug Fix: Fixed height icon wrapper for featured box widget.
+* Bug Fix: Fixed display of notice after WooCommerce update.
+* Bug Fix: Fixed popup for lazyload widget.
+* Bug Fix: Fixed woo functions on import.
+* Bug Fix: Fixed render empty content for Products Archive.
+* Bug Fix: Fixed swiper slider styles.
+* Bug Fix: Fixed widget depended scripts in `Widget Lazy Load`.
+
+
+= 1.11.6 - 2024-01-09 =
+* Tweak: Added cache functionality for lazy load widgets.
+* Tweak: Added `Layout` control and `Columns` control for Self Size Layout in Product Images Skin Slider.
+* Bug Fix: Fixed icons in `Offcanvas` widget.
+* Bug Fix: Fixed icons in `Search` widget.
+* Bug Fix: Fixed icons in `Audio` widget.
+* Bug Fix: Fixed icons in `Audio Playlist` widget.
+* Bug Fix: Fixed icons in `Button` widget.
+* Bug Fix: Fixed icons in `Add To Cart Button` widget.
+* Bug Fix: Fixed icons in `Navigation Menu` widget.
+* Bug Fix: Fixed icons in `Breadcrumbs` widget.
+* Bug Fix: Fixed icons in `Woo Breadcrumbs` widget.
+* Bug Fix: Fixed icons in `Video Slider` widget.
+* Bug Fix: Fixed icons in `Video Playlist` widget.
+* Bug Fix: Fixed icons in `Post Navigation` widget.
+* Bug Fix: Fixed icons in `Post Navigation Fixed` widget.
+* Bug Fix: Fixed icons in `Popup` module.
+* Bug Fix: Fixed icons in `Dynamic Cart` widget.
+* Bug Fix: Fixed icons in `Product Price` widget.
+* Bug Fix: Fixed icons in `Product Rating` widget.
+* Bug Fix: Fixed icons in `Post Comments` widget.
+* Bug Fix: Fixed icons in `Product Reviews` widget.
+* Bug Fix: Fixed icons in `Share buttons` widget.
+* Bug Fix: Fixed `Offcanvas` in fixed container.
+* Bug Fix: Fixed wp admin bar on mobile.
+* Bug Fix: Fixed mega menu show/hide transition.
+* Bug Fix: Fixed lazyload image sizes.
+* Bug Fix: Fixed styles for add to cart button widget.
+* Bug Fix: Fixed alignment for icons list widget.
+* Bug Fix: Fixed js error & icon styles for add to cart button widget.
+* Bug Fix: Remove PMPro subscribe form in post excerpt widget.
+* Bug Fix: Fixed ajax pagination state.
+* Bug Fix: Fixed notice for give widgets.
+* Bug Fix: Fixed posts-grid masonry view.
+* Bug Fix: Fixed icons for `Hotspot` widget.
+* Bug Fix: Fixed icons for `WPClever Button` widget.
+* Bug Fix: Fixed choose image size for product image thumbnail in `Product Images` widget.
+
+
+= 1.11.5 - 2023-12-06 =
+* Tweak: Added vertical gap control for meta data items.
+* Tweak: Added typography control for meta data links.
+* Bug Fix: Fixed icons in `Author Box` widget.
+* Bug Fix: Fixed issues for Elementor 3.18.0.
+
+
+= 1.11.4 - 2023-11-15 =
+* Tweak: Added a "Container Selection" control for selection a custom container in the transform advanced effect on hover.
+* Tweak: Added new `Login Form` tab controls for login form in My Account widget.
+* Tweak: Added `Side Gap` control for scroll bar in Offcanvas widget.
+* Bug Fix: Fixed password reset in My Account widget.
+* Bug Fix: Fixed loop dynamic css for post template.
+
+
+= 1.11.3 - 2023-10-19 =
+* Tweak: Added `Width` control for slider arrows container.
+* Bug Fix: Fixed ajax rendering for `Products` widget.
+* Bug Fix: Fixed background color for pagination.
+
+
+= 1.11.2 - 2023-10-12 =
+* Tweak: Added sticky, background image effects and effects in advanced tab for container.
+* Bug Fix: Fixed background image effects and transform effects in advanced tab for section and column.
+* Bug Fix: Fixed logo retina image size in Site Logo widget.
+* Bug Fix: Fixed twitter connection.
+* Bug Fix: Fixed extra indentation for title in the Icon List widget.
+
+
+= 1.11.1 - 2023-09-08 =
+* Tweak: Added posts per page control for `Ticker` widget.
+* Tweak: Added view to posts filter items.
+* Tweak: Run widgets scripts on observe.
+* Tweak: Optimized loading CSS in templates.
+* Tweak: Added LazyLoad Widget functionality for widgets:
+        - Featured Posts
+        - Posts Grid
+        - Posts Slider
+        - Template
+        - Tabs
+        - Toggles
+        - Product Data Tabs
+        - Offcanvas
+        - Product Categories
+        - Product Categories Slider
+        - Related Products
+        - Products Slider
+        - Products
+* Bug Fix: Fixed video in LightBox.
+* Bug Fix: Fixed controls hosted player for video slider widget.
+* Bug Fix: Fixed popup template id checking in `Popup`.
+* Bug Fix: Fixed WP Clever options update.
+* Bug Fix: Fixed warning if included wbw product filter for products widget.
+* Bug Fix: Fixed render popup template.
+* Bug Fix: Fixed link to addon settings for instagram.
+
+
+= 1.11.0 - 2023-08-08 =
+* New Functionality: Added `Mega Menu` functionality and extended widget `Navigation Menu`.
+* New Functionality: Added `WPC Variation Swatches` integration.
+* New Functionality: Added `Products Slider` widget.
+* New Functionality: Added `Product Category` widget.
+* New Functionality: Added `Product Category Slider` widget.
+* New Functionality: Added `Wpclever Smart Compare Button` widget.
+* New Functionality: Added `Wpclever Smart Compare Counter` widget.
+* New Functionality: Added `Wpclever Smart Compare List` widget.
+* New Functionality: Added `Wpclever Smart Quick View Button` widget.
+* New Functionality: Added `Wpclever Smart Wishlist Button` widget.
+* New Functionality: Added `Wpclever Smart Wishlist Counter` widget.
+* New Functionality: Added `Wpclever Smart Wishlist` widget.
+* New Functionality: Added `WBW Product Filter` widget.
+* New Functionality: Added `Overlap Content for Header` functionality.
+* Tweak: When creating new filters, the force templates setting will be enabled by default for wbw product filter.
+* Bug Fix: Fixed `locations repeater` control for elementor 3.15.0.
+* Bug Fix: Fixed product functional for wbw product filter.
+* Bug Fix: Fixed conflict between wpclever and cmsmasters-addon scripts.
+
+
+= 1.10.1 - 2023-08-01 =
+* Tweak: Added `Padding` control for order summary quantity.
+* Tweak: Added `Border Color` control for social icons in Author Box widget.
+* Tweak: Added a new top option to the icon trigger position controls for the Search widget.
+* Tweak: Added `Size`, `Spacing` and `Min Size` controls for trigger image in the Dynamic Cart widget.
+* Tweak: Added a new top option to the icon trigger position controls for the Dynamic Cart widget.
+* Tweak: Added `Position` control for trigger icon in Offcanvas widget.
+* Tweak: Added `Direction` control for Authorization Links widget.
+* Tweak: Added `Background Color` control for cart type canvas in Dynamic Cart widget.
+* Tweak: Added `Discount Rounding` control for sale discount in Product Badge Sale widget.
+* Tweak: Added new `Layout` functionality and style controls for it in the widget header.
+* Tweak: Added `Alignment`control for stock in Add To Cart widget.
+* Tweak: Added `Tab Name` control for wishlist and compare in My Account widget.
+* Bug Fix: Fixed been use of a variable picture in Product Images widget.
+* Bug Fix: Fixed lightbox in Product Images widget.
+* Bug Fix: Fixed close for popup.
+* Bug Fix: Fixed conditions for authorization links.
+* Bug Fix: Fixed My Account widget in guest mode.
+* Bug Fix: Fixed sale discount update in Product Badge Sale widget at the time of change product variations.
+* Bug Fix: Fixed the countdown widget in the Products widget at the time of Ajax loading.
+* Bug Fix: Fixed display notices in checkout page.
+* Bug Fix: Fixed coupon in Checkout widget.
+* Bug Fix: Fixed the application of typography, colors and spacing for stock in Add To Cart widget.
+* Bug Fix: Fixed deprecated control attribute `scheme` to `global`.
+* Bug Fix: Fixed aspect ratio for media widgets.
+* Bug Fix: Added overlay background color on hover for featured box widget.
+* Bug Fix: Fixed image settings for hotspot widget.
+* Bug Fix: Fixed forminator custom select dropdown.
+* Bug Fix: Fixed display notices in checkout page.
+* Bug Fix: Fixed coupon in Checkout widget.
+
+
+= 1.10.0 - 2023-06-07 =
+* New Functionality: `Mode Switcher` widget and functionality.
+* Tweak: Added `Color`, `Background`, `Border Color`, `Border Radius` and `Box Shadow` controls for button counter in Dynamic Cart widget.
+* Bug Fix: Fixed content width for popup.
+* Bug Fix: Added padding control for popup overlay.
+* Bug Fix: Added perfect scrollbar for give donation forms popup.
+* Bug Fix: Fixed responsive tabs for widget product tabs.
+
+
+= 1.9.2 - 2023-05-26 =
+* Tweak: Updated twitter api route.
+* Tweak: Added setting to select the amount of popup display.
+* Bug Fix: Fixed image render of tablets and mobile devices in `Slider` widget.
+* Bug Fix: Improved data validation in GiveWP.
+* Bug Fix: Fixed cancel button and close menu for dropdown type offcanvas.
+* Bug Fix: Fixed woocommerce notices.
+* Bug Fix: Fixed out data if empty woocommerce image id tag.
+* Bug Fix: Fixed out data if empty woocommerce image url tag.
+* Bug Fix: Fixed products archive on taxonomy page.
+* Bug Fix: Fixed logout button.
+* Bug Fix: Fixed popup for multiple links.
+* Bug Fix: Fixed products archive ordering.
+* Bug Fix: Fixed api url in instagram widget.
+
+
+= 1.9.1 - 2023-04-19 =
+* Bug Fix: Fixed editor icon for elementor 3.12.0.
+* Bug Fix: Fixed edit template button.
+* Bug Fix: Fixed empty template id for popup.
+* Bug Fix: Fixed woo cart variation.
+
+
+= 1.9.0 - 2023-04-07 =
+* New Functionality: Dynamic Tag For Popup.
+* New Functionality: Popup.
+* New Functionality: Timed Popup Widget.
+* Bug Fix: fixed loaded elements scripts in blog widgets
+
+
+= 1.8.0 - 2023-03-30 =
+* New Functionality: 'Hotspot' widget.
+* New Functionality: 'Countdown' widget.
+* New Functionality: 'Cart' widget.
+* New Functionality: 'Checkout' widget.
+* New Functionality: 'My Account' widget.
+* New Functionality: 'Shop Page' widget.
+* New Functionality: 'Shop Page' widget.
+* New Functionality: 'Notices' widget.
+* New Functionality: 'WooCommerce Pages' widget.
+* Tweak: Added `Border Radius` control for toggle title on hover/active state.
+* Tweak: Added margin left & right for woocommerce cart.
+* Bug Fix: fixed for elementor 3.12.0
+* Bug Fix: Fixed floating, scroll and tilt effect for offcanvas and search type `popup` widgets.
+* Bug Fix: Fixed social counter.
+
+
+= 1.7.5 - 2023-03-13 =
+* Tweak: Added `Custom ID` control for scrolling to the widget when on a link with/click the same id as the tab.
+* Bug Fix: Fixed global clickability of links.
+* Bug Fix: Fixed social counter.
+
+
+= 1.7.4 - 2023-02-23 =
+* Tweak: Add Upgrader.
+* Tweak: Added settings for wrapper in `Featured Box`.
+* Bug Fix: Fix for v8.45 swiper slider.
+* Bug Fix: Fixed reloading of styles on page load.
+* Bug Fix: Fixed offcanvas and search widgets having effects.
+* Bug Fix: Fixed GiveWP Button.
+
+
+= 1.7.3 - 2023-02-08 =
+* Bug Fix: Fixed widget icons for `Progress Tracker` and `Before & After`.
+* Bug Fix: Fixed separator for blog grid.
+
+
+= 1.7.2 - 2023-02-01 =
+* Bug Fix: Fixed currency gap for GiveWp.
+* Bug Fix: Fixed sorting in `Products Archive` widget.
+
+
+= 1.7.1 - 2023-01-26 =
+* Bug Fix: Fixed adaptive style for post content.
+* Bug Fix: Fixed svg images for WooCommerce Cart.
+* Bug Fix: Fixed lazyload for gif images.
+
+
+= 1.7.0 - 2023-01-19 =
+* New Functionality: `Before & After` widget.
+* New Functionality: `Progress Tracker` widget.
+
+
+= 1.6.5 - 2023-01-15 =
+* Tweak: JS Optimization.
+* Tweak: CSS Optimization.
+* Tweak: Added settings for GiveWp widgets.
+* Bug Fix: Fixed testimonial rating.
+* Bug Fix: Fixed GiveWP receipt title.
+* Bug Fix: Fixed border radius for product image on iphone.
+* Bug Fix: Fixed close button in offcanvas widget.
+* Bug Fix: Fixed menu item space between in navigation menu widget.
+* Bug Fix: The display of templates has been fixed.
+* Bug Fix: Fixed elementor deprecation.
+
+
+= 1.6.4 - 2022-10-06 =
+* Bug Fix: Fixed display Facebook for IOS.
+
+
+= 1.6.3 - 2022-09-19 =
+* Tweak: Added `Apply effects on:` control for scrolling and mouse track effects.
+* Bug Fix: Fixed product image with border radius.
+* Bug Fix: Fixed remove icon for woo cart.
+* Bug Fix: Fixed icon for woo button.
+
+
+= 1.6.2 - 2022-08-25 =
+* Bug Fix: Fixed notice "_skin" for woocommerce product review.
+* Bug Fix: Fixed editor custom icons for forms.
+
+
+= 1.6.1 - 2022-08-24 =
+* Bug Fix: Fixed twitter connection.
+* Bug Fix: Fixed notice "_skin" for woo product images.
+* Bug Fix: Fixed basedir in translations.
+
+
+= 1.6.0 - 2022-08-19 =
+* New Functionality: GiveWp widget.
+* New Functionality: Timetable widget.
+* Tweak: Added size controls for animation text.
+* Tweak: Added post navigation box shadow control.
+* Tweak: Added woo cart image border radius control.
+* Bug Fix: Replacing `_register_controls()` with `register_controls()` for TimeTable widget.
+* Bug Fix: Fixed condition controls responsive for elementor 3.7.0+.
+* Bug Fix: Fixed application of color for the icon.
+* Bug Fix: Fixed display content for editor
+* Bug Fix: Fixed lazyload for svg images.
+* Bug Fix: Fixed border radius for background overlay.
+
+
+= 1.5.1 - 2022-08-08 =
+* Tweak: Added `Aspect Ratio` and `Width` controls for video thumbnails.
+* Bug Fix: Fixed filter for finder categories in Elementor 3.7.0.
+* Bug Fix: Fixed applying styles for current menu ancestor.
+* Bug Fix: Fixed comments anchor.
+* Bug Fix: Fixed border radius for tabs list item.
+* Bug Fix: Fixed forminator login form.
+* Bug Fix: Removed padding for the search button in the link type.
+* Bug Fix: Fixed notice if empty key in weather widget.
+* Bug Fix: Fixed offcanvas scrollbar.
+* Bug Fix: Fixed button upload for forminator widget.
+* Bug Fix: Fixed notice "_skin".
+* Bug Fix: Fixed text shadow in list item.
+* Bug Fix: Fixed cover image with insert url.
+* Bug Fix: Fixed scroll bar in video list.
+* Bug Fix: Fixed display of widget template, page and section.
+
+
+= 1.5.0 - 2022-06-07 =
+* New Functionality: Ticker Widget.
+* New Functionality: Added current date time to dynamic tags.
+* Tweak: Added vertical alignment setting for blog grid.
+* Tweak: Added pointer animation for post navigation title.
+* Tweak: Added `Thumb` and `Track` controls for scrollbar in Offcanvas widget.
+* Bug Fix: Fixed display of controls on the Pointer Animation tab.
+* Bug Fix: Adds border & icon settings for taxonomy & author.
+* Bug Fix: Fixed post inner.
+* Bug Fix: Fixed notice "_skin" in Weather widget.
+* Bug Fix: Fixed notice "_skin" in Social Counter widget.
+* Bug Fix: Fixed quotes in data-html of Video Playlist widget.
+
+
+= 1.4.0 - 2022-05-26 =
+* New Functionality: Weather Widget.
+* Tweak: Added display of the date and time of the post update.
+* Tweak: Added sorting by likes & views.
+* Tweak: Added markers for post grid widget.
+* Bug Fix: Fixed display of advanced separator settings when adding a skin.
+* Bug Fix: Added settings stock & fix button position for Product Add To Cart.
+* Bug Fix: Fixed selectors for Post Comments.
+* Bug Fix: Fixed box shadow for tab item.
+* Bug Fix: Fixed applying background for tab link.
+* Bug Fix: Fixed image fit for media carousel widget.
+* Bug Fix: Fixed product images(not slider).
+* Bug Fix: Fixed admin menu icon.
+
+
+= 1.3.8 - 2022-03-25 =
+* Tweak: Added the menu item indicator in offcanvas widget.
+* Tweak: Added settings reply & edit buttons for comments list.
+* Tweak: Added hide background on responsive for section & column.
+* Bug Fix: Fixed settings for woo empty cart.
+* Bug Fix: Fixed controls in product badge stock.
+* Bug Fix: Fixed JS woo button add to cart.
+* Bug Fix: Fixed control label in product badge sale.
+* Bug Fix: Fixed deprecated function _content_template in breadcrumbs widget.
+* Bug Fix: Fixed `Entrance Animation` control when responsive in video and video stream widgets.
+* Bug Fix: Fixed google maps custom style script.
+* Bug Fix: Fixed border radius post nav.
+* Bug Fix: Fixed settings comments list.
+* Bug Fix: Fixed check box & radio buttons layout for Forminator Widget.
+* Bug Fix: Added support custom breakpoints for breadcrumbs, post navigation fixed, search, sitemap, blob, add to cart.
+* Bug Fix: Replacing `_register_skins()` with `register_skins()` for Elementor 3.6.0.
+
+
+= 1.3.7 - 2022-01-31 =
+* Bug Fix: Fixed alignment & position elements in tabs.
+* Bug Fix: Fixed background controls for custom breakpoints.
+* Bug Fix: Fixed woo button icon.
+* Bug Fix: Fixed icons in controls.
+
+
+= 1.3.6 - 2022-01-24 =
+* Bug Fix: Fixed for elementor pro document types.
+
+
+= 1.3.5 - 2022-01-18 =
+* Tweak: Added icon for add to cart button.
+* Bug Fix: Fixed cart popup.
+* Bug Fix: Added support custom breakpoints for meta data.
+* Bug Fix: Fixed logo image by default in `Site Logo` widget.
+* Bug Fix: Fixed empty button_icon in `Featured Box` widget.
+
+
+= 1.3.4 - 2021-12-23 =
+* Tweak: Added Elementor `Improved Asset Loading` support.
+
+
+= 1.3.3 - 2021-12-14 =
+* Tweak: Added `Active Toggle` control for first load.
+* Tweak: Added button icon for featured box widget.
+* Tweak: Changes for WPML compatibility.
+* Tweak: Added value top to the `Position` control in button widget.
+* Tweak: Added `Position` control for value item in icon list widget.
+* Tweak: Changed responsive controls for Elementor custom breakpoints.
+* Tweak: Added input focus at popup opened.
+* Bug Fix: Fixed toggle item close in accordion mode at the click him.
+* Bug Fix: Fixed image width for featured box widget.
+* Bug Fix: Fixed animation of parent block if offcanvas widget is inserted into it.
+* Bug Fix: Fixed `Icon Gap` control for icon.
+* Bug Fix: Fixed aria labelledby attribute for toggle title.
+* Bug Fix: Fixed title hover for featured box.
+* Bug Fix: Fixed empty woo cart text.
+* Bug Fix: Fixed border radius for the background of comment element in post comment widget.
+* Bug Fix: Fixed tabs list wrapper.
+* Bug Fix: Fixed tabs list items for safari.
+* Bug Fix: Fixed CSS filter for post navigation.
+* Bug Fix: Fixed position before text for meta data widget.
+* Bug Fix: Fixed post excerpt widget for safari.
+* Bug Fix: Fixed icon indent on rtl.
+* Bug Fix: Fixed popup trigger alignment on responsive in `search` widget.
+* Bug Fix: Fixed button alignment style on responsive in `button` widget.
+* Bug Fix: Fixed widgets for safari.
+
+
+= 1.3.2 - 2021-11-03 =
+* Bug Fix: Fixed `Prevent Duplicates` functionality in post query.
+* Bug Fix: Fixed date translations.
+* Bug Fix: Fixed lazyload image placeholder size.
+* Bug Fix: Fixed tab title wrapper.
+* Bug Fix: Fixed buttons transition.
+* Bug Fix: Fixed mailchimp fields ID.
+* Bug Fix: Fixed media carousel navigation.
+
+
+= 1.3.1 - 2021-10-19 =
+* Tweak: Added styles for Timetable widget.
+* Tweak: Update translations.
+* Tweak: Changed `Padding` control on responsive in `Author Box` widget.
+* Tweak: Added `Icon Position` control for dropdown toggle.
+* Bug Fix: Fixed animation in products ajax loading.
+* Bug Fix: Fixed unclosed div in multiple rows for grid skin.
+* Bug Fix: Fixed `Box Shadow` control for normal and hover states in `Share Button` widget
+* Bug Fix: Fixed extra space for button in `Featured Box` widget
+* Bug Fix: Fixed validation errors in `Animated Text` widget.
+* Bug Fix: Fixed validation errors in `Fancy Text` widget.
+* Bug Fix: Fixed image attributes in `Media Carousel` widget.
+* Bug Fix: Fixed for PHP 8.
+* Bug Fix: Disabled page scrolling on open canvas.
+
+
+= 1.3.0 - 2021-09-30 =
+* New Functionality: Toggles widget.
+* New Functionality: Sitemap Widget.
+* Tweak: `Spacing Top` control for subtotal.
+* Tweak: `Alignment` control for title in Icon List Widget.
+* Bug Fix: Fixed clickable of links in Navigation Menu Widget dropdown.
+* Bug Fix: Fixed product image display in slider and anchor skins if images are added to the gallery.
+* Bug Fix: applying border none controls.
+* Bug Fix: `Gap Between` for Cart Products.
+* Bug Fix: Error with responsive controls in elementor 3.4.0, Fixed 'width' control.
+* Bug Fix: Styles for product image.
+* Bug Fix: Render icons for WooCommerce data tabs.
+* Bug Fix: Fixed lazyload in slider.
+* Bug Fix: Fixed svg in slider arrows.
+
+
+= 1.2.4 - 2021-09-02 =
+* Tweak: Add microformats for Testimonials.
+* Bug Fix: Error with responsive controls in elementor 3.4.0.
+* Bug Fix: control `width` for Comment form.
+* Bug Fix: Display of the number of records for contact form.
+
+
+= 1.2.3 - 2021-08-30 =
+* Tweak: Added `Product Image` control for product image in product images grid widget.
+* Tweak: Added `Gap Between`, `Border`, `Border Radius`, `Box Shadow` controls for product gallery images in product images grid widget.
+* Bug Fix: Error with responsive controls in elementor 3.4.0
+* Bug Fix: unclosed div in multiple rows in product images grid widget.
+* Bug Fix: product image display if images are added to the gallery in product images grid widget.
+* Bug Fix: display of the `Padding` control for the button view in search widget.
+* Bug Fix: path in selectors for `Width`, `Background Color`, `Padding`, `Border` and `Box Shadow` controls for offcanvas content in offcanvas widget.
+* Bug Fix: Translations for the plugin.
+* Bug Fix: Fixed line-clamp css property.
+* Bug Fix: Fixed width control in Featured Box.
+
+
+= 1.2.2 - 2021-08-02 =
+* Bug Fix: for Site Logo image sizes.
+
+
+= 1.2.1 - 2021-07-26 =
+* Tweak: Added `Box Shadow` control for canvas.
+* Bug Fix: for Site Logo.
+* Bug Fix: Display select fields for Forminator forms.
+
+
+= 1.2.0 - 2021-07-08 =
+* New Functionality: Added Icon List widget.
+* Tweak: Added `Top Gap` control for dropdown menu. Fixed the visibility of the Padding control in Offcanvas.
+* Bug Fix: Fixed opening submenu in dropdown mode.
+* Bug Fix: for Repeater Fields.
+* Bug Fix: Fixed `Spacing` control for icon. Changed `Min Width` to responsive control in Button.
+* Bug Fix: Fixed `Border Radius` for icon in Post Navigation.
+* Bug Fix: Added `Size` control for main and submenu indicator icons. Fixed `Breakpoint` control in Navigation Menu.
+
+
+= 1.1.0 - 2021-06-28 =
+* New Functionality: Added Forminator widget.
+* New Functionality: Added Testimonial widget.
+* New Functionality: Added Testimonials Slider widget.
+* New Feature: Added the ability to set gradient background color to buttons.
+* New Feature: Added dynamic for `URL` control in Video Playlist.
+* New Feature: Added comments count with text, add text-before/after author avatar in Meta Data.
+* New Feature: Added Minimum Height & Maximum Width controls in Sticky.
+* New Feature: Added background gradient for tab list in Tabs.
+* New Feature: Added `Position` control for trigger in Offcanvas.
+* New Feature: Added background gradient to wrapper & icon in Post Navigation Fixed and Post Navigation.
+* Tweak: Code refactoring, added supported ACF Pro field types render.
+* Tweak: Added separate block for background color in Template Pages.
+* Tweak: Changes for `Site Logo` in Offcanvas.
+* Tweak: Added control groups for css vars.
+* Tweak: Added dynamic for `Title`, `Subtitle` and audio `Links` item controls in Audio Playlist.
+* Tweak: Added Disabled options for 'URL' control in Audio Playlist.
+* Bug Fix: slides per view control responsive mode.
+* Bug Fix: Elementor 3.2.1 lightbox.
+* Bug Fix: effect inheritance in child elements.
+* Bug Fix: rendering of widget items after removing media in Gallery.
+* Bug Fix: disabled options for dynamic fields in Audio.
+* Bug Fix: assignment `content_author_link` variable. Added check on empty in Video Slider.
+* Bug Fix: Update for new Elementor responsive mode breakpoints.
+* Bug Fix: `Alignment` control on responsive in Breadcrumbs.
+
+
+= 1.0.3 - 2021-03-10 =
+* New Functionality: Added 'archive-posts' widget.
+* Tweak: Added slider object check to move the slider to the first slide on lightbox open.
+* Tweak: Added anchor link for instagram settings.
+* Tweak: Added icon switcher & remove default icon in Slider.
+* Tweak: Added button `Text Shadow`, variations select `Options` styles and `Price Gap` in Add to Cart.
+* Bug Fix: icon switcher in Slider.
+* Bug Fix: display number of tweets without limits.
+* Bug Fix: Avatar Position gap on responsive in Author Box.
+* Bug Fix: bug if slider_to_scroll more than slider_per_view.
+* Bug Fix: responsive controls selectors in Effects.
+
+
+= 1.0.2 - 2021-03-05 =
+* New Feature: Added button Text Shadow group control in Forms.
+* New Feature: Added button width control & Text Shadow group control in Featured Box.
+* Tweak: Added Font Awesome Regular in Meta Data.
+* Tweak: removed 3 columns by default on mobile from `slider_per_view` control in Slider.
+* Bug Fix: template output in Search.
+* Bug Fix: rows gap control styles in Forms.
+* Bug Fix: preview background color control in updated elementor markup in Blog.
+
+
+= 1.0.1 - 2021-02-27 =
+* Bug Fix: PHP 5.6 and PHP strict standard.
+
+
+= 1.0.0 - 2021-02-26 =
+* Release
