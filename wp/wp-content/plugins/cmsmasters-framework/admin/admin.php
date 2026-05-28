@@ -6,6 +6,7 @@ use CmsmastersFramework\Admin\Options\Options_Manager;
 use CmsmastersFramework\Core\Utils\API_Requests;
 use CmsmastersFramework\Core\Utils\File_Manager;
 use CmsmastersFramework\Core\Utils\Utils;
+use CmsmastersFramework\Core\Utils\Feature_Flags;
 use CmsmastersFramework\Core\Utils\Logger;
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -173,6 +174,8 @@ class Admin {
 		}
 
 		add_action( 'admin_notices', array( $this, 'render_api_notices' ) );
+
+		add_action( 'admin_notices', array( $this, 'render_feature_flags_grace_notice' ) );
 
 		add_action( 'admin_notices', array( $this, 'apply_demo_notice' ) );
 
@@ -408,6 +411,35 @@ class Admin {
 			}
 
 			echo '<div class="' . $classes . '"' . $data_attrs . '>';
+			echo '<p>' . wp_kses_post( $text ) . '</p>';
+			echo '</div>';
+		}
+	}
+
+	/**
+	 * Render per-module feature flags grace period notices.
+	 *
+	 * @since 1.0.17
+	 */
+	public function render_feature_flags_grace_notice() {
+		$notices = Feature_Flags::get_grace_notices();
+
+		foreach ( $notices as $module => $notice ) {
+			$level = isset( $notice['level'] ) ? $notice['level'] : 'warning';
+			$text = isset( $notice['text'] ) ? $notice['text'] : '';
+			$dismiss = isset( $notice['dismiss'] ) ? $notice['dismiss'] : false;
+
+			if ( empty( $text ) ) {
+				continue;
+			}
+
+			$classes = 'notice notice-' . esc_attr( $level ) . ' cmsmasters-feature-flags-grace-notice';
+
+			if ( $dismiss ) {
+				$classes .= ' is-dismissible';
+			}
+
+			echo '<div class="' . $classes . '" data-module="' . esc_attr( $module ) . '">';
 			echo '<p>' . wp_kses_post( $text ) . '</p>';
 			echo '</div>';
 		}

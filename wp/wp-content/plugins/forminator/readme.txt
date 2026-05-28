@@ -2,8 +2,8 @@
 Contributors: WPMUDEV
 Tags: contact form, custom form, forms, payment form, WordPress form plugin
 Requires at least: 6.4
-Tested up to: 6.9
-Stable tag: 1.52	
+Tested up to: 7.0
+Stable tag: 1.53.2
 Requires PHP: 7.4
 License: GPL v3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -231,6 +231,112 @@ We take plugin security incredibly seriously; if you have a bug or vulnerability
 
 == Changelog ==
 
+
+= 1.54.0 ( 2026-05-20 ) =
+
+- Enhancement: Improve compatibility with WP 7.0
+- Enhancement: Support multiple Webhook integrations in a form
+- Enhancement: Improve Autofill based on current user data
+- Enhancement: Improve monthly average calculation in Reports
+- Enhancement: Add show/hide password toggle
+- Enhancement: Improve compatibility with Oxygen builder
+- Enhancement: Update Bunny fonts list
+- Enhancement: Add ability to copy and email draft entry links on Submissions page
+- Enhancement: Support .avif, .heif, .heics, .heifs file types in Upload fields
+- Enhancement: Simplified some country labels for better UX in Address fields
+- Enhancement: Remove default maximum value from Number and Currency fields
+- Enhancement: Support default date settings for all Date picker types
+- Enhancement: Reduce disk access load on server
+- Fix: Contact Form 7 File upload fields import
+- Fix: Login form reload issue with browser cache
+- Fix: Google Pay is incorrectly showing 0 for subscriptions
+- Fix: Conflict with Geolocation add-on and Turnstile
+- Fix: Sending option labels instead of values to Google Sheets integration
+- Fix: Payment Intent ID is not valid issue
+- Fix: reCAPTCHA js errors
+- Fix: Legacy Javascript usage
+- Fix: Border radius for dropdown options
+- Fix: Issue with special characters in the Radio field options
+- Fix: Upload field inline validation for draft entries
+- Fix: Issue with user meta mapping on Registration form
+- Fix: Incorrect repeated items calculations in draft entries
+- Fix: Select dropdown not working on 3rd-party popups
+- Fix: Empty Quiz answers in CSV
+- Fix: Inline validation not working for Post Field > Content subfield
+- Fix: Failed submissions due to forbidden MIME types are stored
+- Fix: Pagination steps labels overlapping
+- Fix: Signature field placeholder disappears
+- Fix: Signature field on Preview
+- Fix: Quiz cannot be saved when answer is '0'
+- Fix: Personality Quiz conditions inside Email Routing
+- Fix: Form submission requires double-click due to reCAPTCHA on Divi theme
+- Fix: Incorrect active forms count
+- Fix: File upload field view in Basic style
+- Fix: Quiz description alignment
+- Fix: PayPal payment option briefly shows up on form submission
+- Fix: Webhook fails to trigger due to Consent field condition value localization
+- Fix: Rounding in Calculation fields
+- Fix: Query parameter not working for Prefix options in Name fields
+- Fix: Polls can be published without answers
+
+
+= 1.53.2 ( 2026-05-11 ) =
+
+- Fix: Security improvements
+
+
+= 1.53.1 ( 2026-04-21 ) =
+
+- Enhancement: Improve Contact Form 7 import
+- Fix: Security improvements
+- Fix: Divi theme background pattern not loading correctly
+- Fix: Signature field not working properly
+- Fix: Phone field validation issues
+- Fix: Date Picker is displayed in the footer area when Default Date is set
+
+
+= 1.53.0 ( 2026-04-14 ) =
+
+- Enhancement: WordPress 7.0 compatibility updates
+- Enhancement: Improved HubSpot integration
+- Enhancement: Support multiple instances of the same integration in Reports widget
+- Enhancement: Improved compatibility with Elementor builder
+- Enhancement: Improved drag & drop performance and stability for large forms and grouped fields
+- Enhancement: Added server-side validation for hidden fields
+- Enhancement: Allow image insertion inside Post Field → Post Content for richer content creation
+- Enhancement: Improved conditional logic validation and behavior
+- Enhancement: Removed default maximum limits for number and currency fields in Templates
+- Enhancement: Improved inline success messages after submission in Templates
+- Enhancement: Improved date formatting consistency across forms and emails
+- Enhancement: Improved Webhook configuration with support for custom ports
+- Enhancement: Improved CSV export system for better flexibility and customization
+- Fix: Prevent form submission when payment providers (PayPal/Stripe) fail to load or are removed, avoiding empty payment data submission
+- Fix: Stripe payments now correctly support range Slider field used in amount calculation
+- Fix: PayPal validation issues causing incorrect errors or blocked submissions
+- Fix: Duplicate quiz submissions when navigating quickly between pages
+- Fix: Forms failing to render in reusable blocks or FSE patterns
+- Fix: Email notification issues including missing values, incorrect routing, and resend failures
+- Fix: Quiz and poll email delivery issues and conditional email logic problems
+- Fix: Field Group values not fully captured or sent to integrations and emails
+- Fix: Field Group items not resetting correctly after form submission
+- Fix: Calculation field issues including incorrect validation, preview errors, and editor freezes
+- Fix: Calculation instability when rapidly changing values
+- Fix: Date field issues with formats, default values, and dependencies between fields
+- Fix: Phone field issues including RTL support, formatting, and query parameter handling
+- Fix: File upload validation bypass allowing JSON file type
+- Fix: File upload validation errors blocking form submission
+- Fix: File upload linking issues when used with payment fields
+- Fix: PDF generation issues with incorrect values, labels, and formatting
+- Fix: Incorrect placeholder text shown for PDF title field
+- Fix: Admin UI issues including tooltips, labels, and layout inconsistencies
+- Fix: Incorrect redirect behavior after form submission
+- Fix: Submission data inconsistencies (draft values, submission ID)
+- Fix: Accessibility issues related to ARIA attributes and missing field identifiers
+- Fix: Field UI issues such as Rating reset, Select limits, and preview Select dropdown problems
+- Fix: UI rendering issues including hover effects, Sliders, and pagination glitches
+- Fix: Long labels not displaying correctly in Poll results
+
+
 = 1.52.2 ( 2026-04-07 ) =
 
 - Fix: Security improvements
@@ -367,96 +473,6 @@ We take plugin security incredibly seriously; if you have a bug or vulnerability
 - Fix: Name prefix is not translated on Submissions page
 - Fix: Calculation field causes Google PSI issue
 
-
-= 1.49.2 ( 2025-12-18 ) =
-
-- Fix: Security improvements
-
-
-= 1.49.1 ( 2025-12-12 ) =
-
-- Miscellaneous improvements
-
-
-= 1.49.0 ( 2025-01-12 ) =
-
-- Enhancement: Add Instant Preview
-- Enhancement: Add the ability to insert new fields at any location in the Form Editor
-- Enhancement: Update the Status Bar in the Editor
-- Enhancement: Update the Editor sidebar
-- Enhancement: Update Appearance settings
-- Enhancement: Remove other admin notices in the Editor
-- Enhancement: Show a success notification after creating an Appearance Preset
-- Enhancement: Show free templates without errors when the Hub has issues
-- Enhancement: Include information about using Cloud Templates in the Import and Export modals
-- Enhancement: Remove the file name format from the PDF title
-- Enhancement: Add a survey to collect user feedback
-- Fix: Stripe notice appears in logs when a subscription payment requiring additional steps is submitted
-- Fix: PayPal field throws an error when the amount is greater than 1000 in Japanese Yen
-- Fix: Visibility Conditions missing on the Email Notification tab for Quizzes
-- Fix: Some hidden fields trigger accessibility issues
-- Fix: Export adds a <br> tag when multiple checkbox values are selected
-- Fix: Active submissions count in form stats shows all submission types when clicked
-- Fix: Incomplete submissions appear in the stats graph on the forms listing page
-- Fix: Removing an image in the Upload field doesn't toggle visibility conditions
-- Fix: Notices appear when using Number and Calculation fields in a form
-- Fix: Issue with required Radio fields that have no options
-- Fix: Fatal error when using the {signature-1} placeholder in PDFs
-- Fix: Calculations not showing the slider value when it's not a whole number
-- Fix: Sending multiple options from Checkbox and Select fields to HubSpot
-- Fix: Fatal error on the Add-ons page when the Add-ons list from the Dashboard plugin is not synced due to a network issue
-- Fix: Retention description for the '0' case
-- Fix: Highlighting the parent block when selecting the child element in Appearance settings
-
-
-= 1.48.3 ( 2025-11-20 ) =
-
-- Miscellaneous improvements
-
-
-= 1.48.2 ( 2025-10-15 ) =
-
-- Fix: Issue with some submission data not properly rendering when object cache is enabled
-- Fix: Error message for required Select fields is not cleared after submission
-
-
-= 1.48.1 ( 2025-10-10 ) =
-
-- Fix: Google Sheets token refresh issue
-
-
-= 1.48.0 ( 2025-10-06 ) =
-
-- Enhancement: Respect WordPress network settings that disable site creation and display a notice on the Form Editor screen for registration forms on the main site of multisite networks
-- Enhancement: Respect WordPress settings that disable user registration and display a notice on the Form Editor screen for registration forms
-- Enhancement: Add a new "Map ID" field to Geolocation settings
-- Enhancement: Improve browser autofill
-- Enhancement: Add option to enable or disable browser autofill for input fields (Name, Address, and Phone)
-- Enhancement: Display Signature, Radio, Checkbox, and Upload fields in the email body as images instead of text or URLs
-- Enhancement: Add "status" column to "frmt_form_entry" table in the database for submissions
-- Enhancement: Improve WP caching for submissions based on their status
-- Enhancement: Improve compatibility with Photonic Gallery plugin
-- Enhancement: Hide integration API keys
-- Enhancement: Add add-on page notices when there is no connection to the Hub
-- Enhancement: Hide HTML field from Payment custom metadata
-- Enhancement: Enable the Slider step values toggle by default
-- Fix: Registration is still allowed even when the network option is deactivated
-- Fix: Can't set conditions that include the Date Picker field if the site language differs from English
-- Fix: Stripe payment method does not change on the front end if the user visited the form before and did not submit it
-- Fix: Select placeholder is duplicated when using an Elementor popup triggered by an On Click event
-- Fix: Single Upload field not working in the media library with the Stripe field
-- Fix: Sudden layout changes move the Submit button after filling out a required field
-- Fix: Calculation field removes the modulo operator without brackets
-- Fix: The min/max validation message is reversed for Number and Currency fields
-- Fix: Fields with conditional visibility inside repeater groups do not record all data
-- Fix: PayPal field breaks the selected values when the variable amount is not properly configured
-- Fix: Word "array" for the Upload field appears in the PDF if no files are uploaded
-- Fix: Show correct navigation links when some features are disabled
-- Fix: Categories and Tags (Multiple) in the Post Data field remain selected when the form is submitted
-- Fix: Incorrect classes on Submit button for paginated forms
-- Fix: Number field value does not display in HTML fields if it is on the same row as a hidden Calculation field
-- Fix: Default Radio/Checkbox image background color isn't working
-- Fix: Issue with Group field, HTML widget, and visibility conditionals
 
 **Full changelog can be found here – [Forminator changelog](https://wpmudev.com/project/forminator-pro/#changelog_all?utm_source=wordpress.org&utm_medium=readme&utm_campaign=forminator-readme&utm_content=wpmu_dev_changelog_link).**
 

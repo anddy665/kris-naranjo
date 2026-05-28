@@ -1,6 +1,10 @@
 == Changelog ==
 
 
+= 1.0.17 - 2026-04-27 =
+* New Functionality: Added Featured Flags functionality.
+
+
 = 1.0.16 - 2026-04-02 =
 * Bug Fix: Fixed cmsmasters theme settings compatibility with Elementor V4.
 

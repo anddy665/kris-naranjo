@@ -38,21 +38,45 @@ class Forminator_CForm_Front_Mail extends Forminator_Mail {
 	 * @param object $module Module.
 	 * @param object $entry Saved entry.
 	 * @param bool   $full_mode Use full mode or not.
+	 * @param bool   $is_email_recipient Is email recipient or not.
 	 * @return string
 	 */
-	private function replace_placeholders( $settings, $option_name, $module, $entry, $full_mode = false ) {
+	private function replace_placeholders( $settings, $option_name, $module, $entry, $full_mode = false, $is_email_recipient = false ) {
 		if ( ! isset( $settings[ $option_name ] ) ) {
 			return '';
 		}
+
+		if ( $is_email_recipient ) {
+			// For email recipient, we want to separate repeated field values by comma, instead of new line.
+			add_filter( 'forminator_formatted_repeated_field_values', array( __CLASS__, 'format_repeated_field_values_with_commas' ), 10, 2 );
+		}
+
 		if ( $full_mode ) {
 			$text = forminator_replace_form_data( $settings[ $option_name ], $module, $entry, true );
 		} else {
-			$text = forminator_replace_form_data( $settings[ $option_name ] );
+			$text = forminator_replace_form_data( $settings[ $option_name ], $module );
 		}
+
+		if ( $is_email_recipient ) {
+			// Remove the filter after use to avoid affecting other places.
+			remove_filter( 'forminator_formatted_repeated_field_values', array( __CLASS__, 'format_repeated_field_values_with_commas' ), 10 );
+		}
+
 		$text = forminator_replace_variables( $text, $module->id, $entry );
 		$text = forminator_replace_custom_form_data( $text, $module, $entry, $this->skip_custom_form_data['admin'] );
 
 		return $text;
+	}
+
+	/**
+	 * Format repeated field values with commas for email recipients.
+	 *
+	 * @param string $formatted_string The formatted string with repeated field values.
+	 * @param array  $field_values The original field values.
+	 * @return string The formatted string with repeated field values separated by commas.
+	 */
+	public static function format_repeated_field_values_with_commas( $formatted_string, $field_values ) {
+		return implode( ',', $field_values );
 	}
 
 	/**
@@ -220,6 +244,35 @@ class Forminator_CForm_Front_Mail extends Forminator_Mail {
 						}
 					}
 				}
+			}
+
+			/**
+			 * Exclude fields from the email based on their slugs or field types.
+			 *
+			 * @since 1.54.0
+			 *
+			 * @param array $exclude_fields An array of field slugs or types to be excluded from the email.
+			 * @param Forminator_Form_Model $custom_form Form model.
+			 * @param array                        $data Post data.
+			 * @param Forminator_Form_Entry_Model  $entry Saved entry.
+			 *
+			 * @return array $exclude_fields
+			 */
+			$exclude_fields = apply_filters( 'forminator_custom_form_mail_exclude_fields', array(), $custom_form, $data, $entry );
+			$fields         = $custom_form->fields;
+			if ( ! empty( $fields ) && ! empty( $exclude_fields ) && is_array( $exclude_fields ) ) {
+				$custom_form->fields = array_filter(
+					$fields,
+					function ( $field ) use ( $exclude_fields ) {
+						foreach ( $exclude_fields as $exclude_field ) {
+							// Exclude the field if its slug matches the excluded field or starts with the excluded field followed by a hyphen (to account for copies and field types).
+							if ( $field->slug === $exclude_field || 0 === strpos( $field->slug, $exclude_field . '-' ) ) {
+								return false;
+							}
+						}
+						return true;
+					}
+				);
 			}
 
 			/**
@@ -394,7 +447,7 @@ class Forminator_CForm_Front_Mail extends Forminator_Mail {
 		 */
 		$reply_to_address = apply_filters( 'forminator_custom_form_mail_admin_reply_to', $reply_to_address, $custom_form, $data, $entry, $this );
 
-		$notification_cc_addresses = $this->replace_placeholders( $notification, 'cc-email', $custom_form, $entry );
+		$notification_cc_addresses = $this->replace_placeholders( $notification, 'cc-email', $custom_form, $entry, false, true );
 		$notification_cc_addresses = array_map( 'trim', explode( ',', $notification_cc_addresses ) );
 
 		$cc_addresses = array();
@@ -419,7 +472,7 @@ class Forminator_CForm_Front_Mail extends Forminator_Mail {
 		 */
 		$cc_addresses = apply_filters( 'forminator_custom_form_mail_admin_cc_addresses', $cc_addresses, $custom_form, $data, $entry, $this, $notification );
 
-		$notification_bcc_addresses = $this->replace_placeholders( $notification, 'bcc-email', $custom_form, $entry );
+		$notification_bcc_addresses = $this->replace_placeholders( $notification, 'bcc-email', $custom_form, $entry, false, true );
 		$notification_bcc_addresses = array_map( 'trim', explode( ',', $notification_bcc_addresses ) );
 
 		$bcc_addresses = array();
@@ -589,7 +642,7 @@ class Forminator_CForm_Front_Mail extends Forminator_Mail {
 	 */
 	public function get_recipient( $recipient, $custom_form, $entry, $lead_model ) {
 		$settings  = array( 'recipient' => $recipient );
-		$recipient = $this->replace_placeholders( $settings, 'recipient', $custom_form, $entry );
+		$recipient = $this->replace_placeholders( $settings, 'recipient', $custom_form, $entry, false, true );
 
 		return $recipient;
 	}
@@ -699,12 +752,13 @@ class Forminator_CForm_Front_Mail extends Forminator_Mail {
 	 *
 	 * @since 1.0
 	 *
-	 * @param array $condition Condition.
-	 * @param mixed $module Module.
+	 * @param array  $condition Condition.
+	 * @param mixed  $module Module.
+	 * @param string $result_slug Result slug.
 	 *
 	 * @return bool
 	 */
-	public function is_routing( $condition, $module ) {
+	public function is_routing( $condition, $module, $result_slug = '' ) {
 		return Forminator_Field::is_condition_matched( $condition );
 	}
 

@@ -1323,7 +1323,7 @@ class Updater {
 	/**
 	 * Get plugin description from plugin header.
 	 *
-	 * @since 77.77.77
+	 * @since 1.0.17
 	 *
 	 * @param string $plugin_slug Plugin slug.
 	 * @return string Plugin description or empty string.

@@ -681,8 +681,14 @@
 			;
 
 			const $element_id = this.get_form_field(condition.field);
+			// A hidden dependency field has no value; treat it as empty for condition evaluation.
+			if ( forminatorUtils().is_hidden( $element_id ) ) {
+				const oppositeOperators = [ 'is_not', 'does_not_contain', 'day_is_not', 'month_is_not' ];
+				const isValidValue      = value2 != null && value2 !== '';
+				return oppositeOperators.includes( operator ) && isValidValue;
+			}
 
-			return ! forminatorUtils().is_hidden($element_id) && this.is_matching(value1, value2, operator);
+			return this.is_matching(value1, value2, operator);
 		},
 
 		is_matching: function (value1, value2, operator) {
@@ -919,29 +925,31 @@
 					if ($hidden_signature.length > 0) {
 						$hidden_signature.addClass('do-validate');
 					}
+					if ( 0 === element_id.indexOf( 'paypal' ) ) {
+						$pagination_field = self.$el.find( submit_selector );
+						self.$el.find( '.forminator-button-submit' ).addClass( 'forminator-hidden' );
+						$pagination_field.removeClass( 'forminator-hidden' );
+					}
 					setTimeout(
 						function() {
 							$pagination_field = self.$el.find( submit_selector );
 							if ( 'submit' === element_id ) {
 								$pagination_field.removeClass('forminator-hidden');
 							}
-							if ( 0 === element_id.indexOf( 'paypal' ) ) {
-								self.$el.find( '.forminator-button-submit' ).addClass( 'forminator-hidden' );
-								$pagination_field.removeClass( 'forminator-hidden' );
-							}
 						},
 						100
 					);
 				} else {
 					$column_field.addClass('forminator-hidden');
+					if ( 0 === element_id.indexOf( 'paypal' ) ) {
+						$pagination_field = self.$el.find( submit_selector );
+						self.$el.find( '.forminator-button-submit' ).removeClass( 'forminator-hidden' );
+						$pagination_field.addClass( 'forminator-hidden' );
+					}
 					setTimeout(
 						function() {
 							$pagination_field = self.$el.find( submit_selector );
 							if ( 'submit' === element_id ) {
-								$pagination_field.addClass('forminator-hidden');
-							}
-							if ( 0 === element_id.indexOf( 'paypal' ) ) {
-								self.$el.find( '.forminator-button-submit' ).removeClass( 'forminator-hidden' );
 								$pagination_field.addClass('forminator-hidden');
 							}
 						},
@@ -985,15 +993,16 @@
 					if ($sub_row_field.find('> .forminator-col:not(.forminator-hidden)').length === 0) {
 						$sub_row_fields.addClass('forminator-hidden');
 					}
+					if ( 0 === element_id.indexOf( 'paypal' ) ) {
+						$pagination_field = self.$el.find( submit_selector );
+						self.$el.find( '.forminator-button-submit' ).removeClass( 'forminator-hidden' );
+						$pagination_field.addClass( 'forminator-hidden' );
+					}
 					setTimeout(
 						function() {
 							$pagination_field = self.$el.find( submit_selector );
 							if ( 'submit' === element_id ) {
 								$pagination_field.addClass('forminator-hidden');
-							}
-							if ( 0 === element_id.indexOf( 'paypal' ) ) {
-								self.$el.find( '.forminator-button-submit' ).removeClass( 'forminator-hidden' );
-								$pagination_field.addClass( 'forminator-hidden' );
 							}
 						},
 						100
@@ -1012,15 +1021,16 @@
 					if ($hidden_signature.length > 0) {
 						$hidden_signature.addClass('do-validate');
 					}
+					if ( 0 === element_id.indexOf( 'paypal' ) ) {
+						$pagination_field = self.$el.find( submit_selector );
+						self.$el.find( '.forminator-button-submit' ).addClass( 'forminator-hidden' );
+						$pagination_field.removeClass( 'forminator-hidden' );
+					}
 					setTimeout(
 						function() {
 							$pagination_field = self.$el.find( submit_selector );
 							if ( 'submit' === element_id ) {
 								$pagination_field.removeClass('forminator-hidden');
-							}
-							if ( 0 === element_id.indexOf( 'paypal' ) ) {
-								self.$el.find( '.forminator-button-submit' ).addClass( 'forminator-hidden' );
-								$pagination_field.removeClass( 'forminator-hidden' );
 							}
 						},
 						100

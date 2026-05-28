@@ -427,6 +427,11 @@ class Forminator_Postdata extends Forminator_Field {
 				$field_markup['id'] = $field_markup['id'];
 			}
 
+			$is_post_content = ( 'post-content' === $input_suffix );
+			$media_enabled   = $is_post_content
+				&& ! empty( self::get_property( 'post_content_media', $field, '' ) )
+				&& current_user_can( 'upload_files' );
+
 			if ( 'wp_editor' === $type && ! $is_preview && ! $ajax ) {
 
 				if ( ! empty( $draft_value ) ) {
@@ -437,12 +442,19 @@ class Forminator_Postdata extends Forminator_Field {
 					$field_markup,
 					$label,
 					$description,
-					$required
+					$required,
+					'140',
+					0,
+					$media_enabled
 				);
-			} elseif ( ( 'textarea' === $type || 'wp_editor' === $type ) && ( $ajax || $is_preview ) ) {
+			} elseif ( 'textarea' === $type || ( 'wp_editor' === $type && ( $ajax || $is_preview ) ) ) {
 
 				if ( ! empty( $draft_value ) ) {
 					$field_markup['content'] = $draft_value;
+				}
+
+				if ( 'wp_editor' === $type && $required ) {
+					$field_markup['class'] .= ' do-validate';
 				}
 
 				$html .= self::create_textarea(
@@ -455,8 +467,7 @@ class Forminator_Postdata extends Forminator_Field {
 
 				if ( 'wp_editor' === $type ) {
 					$_id   = $field_markup['id'];
-					$args  = self::get_tinymce_args( $_id );
-					$html .= '<script>wp.editor.initialize("' . esc_attr( $_id ) . '", ' . $args . ');</script>';
+					$html .= $this->get_richtext_editor_script( $_id, $media_enabled );
 				}
 			} elseif ( 'select' === $type ) {
 

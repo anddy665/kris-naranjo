@@ -1,43 +1,44 @@
 <?php
 /* THIS IS A GENERATED FILE. DO NOT EDIT DIRECTLY. */
 $forminator_admin_locale = array(
-"Inline Message" => array( null, __("Inline Message", "forminator"), ), // src/utils.js:140
-"Redirect user to a URL" => array( null, __("Redirect user to a URL", "forminator"), ), // src/utils.js:141
-"Hide form" => array( null, __("Hide form", "forminator"), ), // src/utils.js:142
-"None" => array( null, __("None", "forminator"), ), // src/utils.js:571
-"null" => array( null, __("null", "forminator"), ), // src/utils.js:625
-"Day" => array( null, __("Day", "forminator"), ), // src/utils.js:755
-"Month" => array( null, __("Month", "forminator"), ), // src/utils.js:762
-"Year" => array( null, __("Year", "forminator"), ), // src/utils.js:769
-"Hour" => array( null, __("Hour", "forminator"), ), // src/utils.js:1120
-"Minute" => array( null, __("Minute", "forminator"), ), // src/utils.js:1127
-"is" => array( null, __("is", "forminator"), ), // src/utils.js:1207
-"is not" => array( null, __("is not", "forminator"), ), // src/utils.js:1209
-"day is" => array( null, __("day is", "forminator"), ), // src/utils.js:1211
-"day is not" => array( null, __("day is not", "forminator"), ), // src/utils.js:1213
-"month is not" => array( null, __("month is not", "forminator"), ), // src/utils.js:1215
-"month is" => array( null, __("month is", "forminator"), ), // src/utils.js:1217
-"is before" => array( null, __("is before", "forminator"), ), // src/utils.js:1219
-"is after" => array( null, __("is after", "forminator"), ), // src/utils.js:1221
-"is before %s or more days from current date" => array( null, __("is before %s or more days from current date", "forminator"), ), // src/utils.js:1223
-"is before less than %s days from current date" => array( null, __("is before less than %s days from current date", "forminator"), ), // src/utils.js:1225
-"is after %s or more days from current date" => array( null, __("is after %s or more days from current date", "forminator"), ), // src/utils.js:1227
-"is after less than %s days from current date" => array( null, __("is after less than %s days from current date", "forminator"), ), // src/utils.js:1229
-"is greater than" => array( null, __("is greater than", "forminator"), ), // src/utils.js:1231
-"is less than" => array( null, __("is less than", "forminator"), ), // src/utils.js:1233
-"contains" => array( null, __("contains", "forminator"), ), // src/utils.js:1235
-"does not contain" => array( null, __("does not contain", "forminator"), ), // src/utils.js:1237
-"starts with" => array( null, __("starts with", "forminator"), ), // src/utils.js:1239
-"ends with" => array( null, __("ends with", "forminator"), ), // src/utils.js:1241
-"is correct" => array( null, __("is correct", "forminator"), ), // src/utils.js:1243
-"is incorrect" => array( null, __("is incorrect", "forminator"), ), // src/utils.js:1245
-"is final result" => array( null, __("is final result", "forminator"), ), // src/utils.js:1248
-"is not final result" => array( null, __("is not final result", "forminator"), ), // src/utils.js:1250
-"Please fix the error(s) in the SETTINGS tab." => array( null, __("Please fix the error(s) in the SETTINGS tab.", "forminator"), ), // src/utils.js:1554
-"Stripe Subscription Add-on is required." => array( null, __("Stripe Subscription Add-on is required.", "forminator"), ), // src/utils.js:1569
-"Billing frequency should be greater than or equal to 1" => array( null, __("Billing frequency should be greater than or equal to 1", "forminator"), ), // src/utils.js:1604
-"Use form settings (Above inputs)" => array( null, __("Use form settings (Above inputs)", "forminator"), ), // src/utils.js:1701
-"Use form settings (Below inputs)" => array( null, __("Use form settings (Below inputs)", "forminator"), ), // src/utils.js:1701
+"Inline Message" => array( null, __("Inline Message", "forminator"), ), // src/utils.js:141
+"Redirect user to a URL" => array( null, __("Redirect user to a URL", "forminator"), ), // src/utils.js:142
+"Hide form" => array( null, __("Hide form", "forminator"), ), // src/utils.js:143
+"None" => array( null, __("None", "forminator"), ), // src/utils.js:588
+"null" => array( null, __("null", "forminator"), ), // src/utils.js:773
+"Day" => array( null, __("Day", "forminator"), ), // src/utils.js:903
+"Month" => array( null, __("Month", "forminator"), ), // src/utils.js:910
+"Year" => array( null, __("Year", "forminator"), ), // src/utils.js:917
+"Hour" => array( null, __("Hour", "forminator"), ), // src/utils.js:1268
+"Minute" => array( null, __("Minute", "forminator"), ), // src/utils.js:1275
+"is" => array( null, __("is", "forminator"), ), // src/utils.js:1355
+"is not" => array( null, __("is not", "forminator"), ), // src/utils.js:1357
+"day is" => array( null, __("day is", "forminator"), ), // src/utils.js:1359
+"day is not" => array( null, __("day is not", "forminator"), ), // src/utils.js:1361
+"month is not" => array( null, __("month is not", "forminator"), ), // src/utils.js:1363
+"month is" => array( null, __("month is", "forminator"), ), // src/utils.js:1365
+"is before" => array( null, __("is before", "forminator"), ), // src/utils.js:1367
+"is after" => array( null, __("is after", "forminator"), ), // src/utils.js:1369
+"is before %s or more days from current date" => array( null, __("is before %s or more days from current date", "forminator"), ), // src/utils.js:1371
+"is before less than %s days from current date" => array( null, __("is before less than %s days from current date", "forminator"), ), // src/utils.js:1373
+"is after %s or more days from current date" => array( null, __("is after %s or more days from current date", "forminator"), ), // src/utils.js:1375
+"is after less than %s days from current date" => array( null, __("is after less than %s days from current date", "forminator"), ), // src/utils.js:1377
+"is greater than" => array( null, __("is greater than", "forminator"), ), // src/utils.js:1379
+"is less than" => array( null, __("is less than", "forminator"), ), // src/utils.js:1381
+"contains" => array( null, __("contains", "forminator"), ), // src/utils.js:1383
+"does not contain" => array( null, __("does not contain", "forminator"), ), // src/utils.js:1385
+"starts with" => array( null, __("starts with", "forminator"), ), // src/utils.js:1387
+"ends with" => array( null, __("ends with", "forminator"), ), // src/utils.js:1389
+"is correct" => array( null, __("is correct", "forminator"), ), // src/utils.js:1391
+"is incorrect" => array( null, __("is incorrect", "forminator"), ), // src/utils.js:1393
+"is final result" => array( null, __("is final result", "forminator"), ), // src/utils.js:1396
+"is not final result" => array( null, __("is not final result", "forminator"), ), // src/utils.js:1398
+"Please fix the error(s) in the PRODUCTS/PLANS tab." => array( null, __("Please fix the error(s) in the PRODUCTS/PLANS tab.", "forminator"), ), // src/utils.js:1701
+"Please fix the error(s) in the SETTINGS tab." => array( null, __("Please fix the error(s) in the SETTINGS tab.", "forminator"), ), // src/utils.js:1702
+"Stripe Subscription Add-on is required." => array( null, __("Stripe Subscription Add-on is required.", "forminator"), ), // src/utils.js:1721
+"Billing frequency should be greater than or equal to 1" => array( null, __("Billing frequency should be greater than or equal to 1", "forminator"), ), // src/utils.js:1756
+"Use form settings (Above inputs)" => array( null, __("Use form settings (Above inputs)", "forminator"), ), // src/utils.js:1853
+"Use form settings (Below inputs)" => array( null, __("Use form settings (Below inputs)", "forminator"), ), // src/utils.js:1853
 "Hosting by the Same People Behind Forminator!" => array( null, __("Hosting by the Same People Behind Forminator!", "forminator"), ), // src/shared/hosting-banner.js:32
 "Only admin users can see this message" => array( null, __("Only admin users can see this message", "forminator"), ), // src/shared/hosting-banner.js:35
 "Claim Your 50% Off Hosting Now!" => array( null, __("Claim Your 50% Off Hosting Now!", "forminator"), ), // src/shared/hosting-banner.js:36
@@ -97,30 +98,30 @@ $forminator_admin_locale = array(
 "User Role" => array( null, __("User Role", "forminator"), ), // src/settings-page/components/modals/permissions.js:373
 "You are editing permissions for the {{b}}%(role)s{{/b}} user role." => array( null, __("You are editing permissions for the {{b}}%(role)s{{/b}} user role.", "forminator"), ), // src/settings-page/components/modals/permissions.js:375
 "Specific User" => array( null, __("Specific User", "forminator"), ), // src/settings-page/components/modals/permissions.js:391
-"You are editing permissions for {{b}}%(userName)s{{/b}}" => array( null, __("You are editing permissions for {{b}}%(userName)s{{/b}}", "forminator"), ), // src/settings-page/components/modals/permissions.js:393
-" others." => array( null, __(" others.", "forminator"), ), // src/settings-page/components/modals/permissions.js:412
-" other." => array( null, __(" other.", "forminator"), ), // src/settings-page/components/modals/permissions.js:414
-"Customize %s Permissions" => array( null, __("Customize %s Permissions", "forminator"), ), // src/settings-page/components/modals/permissions.js:425
-"User Role/Users" => array( null, __("User Role/Users", "forminator"), ), // src/settings-page/components/modals/permissions.js:452
-"Choose which user role or individual user(s) should have access to the Forminator features selected in the Permissions section below." => array( null, __("Choose which user role or individual user(s) should have access to the Forminator features selected in the Permissions section below.", "forminator"), ), // src/settings-page/components/modals/permissions.js:455
-"Choose user role" => array( null, __("Choose user role", "forminator"), ), // src/settings-page/components/modals/permissions.js:478
-"Exclude users" => array( null, __("Exclude users", "forminator"), ), // src/settings-page/components/modals/permissions.js:494
-"Use this option to exclude specific users with the selected role from accessing Forminator." => array( null, __("Use this option to exclude specific users with the selected role from accessing Forminator.", "forminator"), ), // src/settings-page/components/modals/permissions.js:498
-"Choose users" => array( null, __("Choose users", "forminator"), ), // src/settings-page/components/modals/permissions.js:517
-"Choose what permissions the selected user role or users will have." => array( null, __("Choose what permissions the selected user role or users will have.", "forminator"), ), // src/settings-page/components/modals/permissions.js:588
-"Create, edit, and delete modules (Forms, Polls, Quizzes)." => array( null, __("Create, edit, and delete modules (Forms, Polls, Quizzes).", "forminator"), ), // src/settings-page/components/modals/permissions.js:603
-"View templates page and manage cloud templates." => array( null, __("View templates page and manage cloud templates.", "forminator"), ), // src/settings-page/components/modals/permissions.js:617
-"Access, export, and delete submissions." => array( null, __("Access, export, and delete submissions.", "forminator"), ), // src/settings-page/components/modals/permissions.js:631
-"View, install/uninstall, and configure Add-ons." => array( null, __("View, install/uninstall, and configure Add-ons.", "forminator"), ), // src/settings-page/components/modals/permissions.js:647
-"Access and configure global integrations." => array( null, __("Access and configure global integrations.", "forminator"), ), // src/settings-page/components/modals/permissions.js:663
-"View reports and schedule email notifications for modules." => array( null, __("View reports and schedule email notifications for modules.", "forminator"), ), // src/settings-page/components/modals/permissions.js:678
-"Access and configure plugin settings." => array( null, __("Access and configure plugin settings.", "forminator"), ), // src/settings-page/components/modals/permissions.js:694
-"Cancel" => array( null, __("Cancel", "forminator"), ), // src/settings-page/components/modals/permissions.js:709
+"You are editing permissions for {{b}}%(userName)s{{/b}} (%(userEmail)s) + %(userCount)s others." => array( null, __("You are editing permissions for {{b}}%(userName)s{{/b}} (%(userEmail)s) + %(userCount)s others.", "forminator"), ), // src/settings-page/components/modals/permissions.js:396
+"You are editing permissions for {{b}}%(userName)s{{/b}} (%(userEmail)s) + %(userCount)s other." => array( null, __("You are editing permissions for {{b}}%(userName)s{{/b}} (%(userEmail)s) + %(userCount)s other.", "forminator"), ), // src/settings-page/components/modals/permissions.js:410
+"You are editing permissions for {{b}}%(userName)s{{/b}} (%(userEmail)s)." => array( null, __("You are editing permissions for {{b}}%(userName)s{{/b}} (%(userEmail)s).", "forminator"), ), // src/settings-page/components/modals/permissions.js:424
+"Customize %s Permissions" => array( null, __("Customize %s Permissions", "forminator"), ), // src/settings-page/components/modals/permissions.js:441
+"User Role/Users" => array( null, __("User Role/Users", "forminator"), ), // src/settings-page/components/modals/permissions.js:468
+"Choose which user role or individual user(s) should have access to the Forminator features selected in the Permissions section below." => array( null, __("Choose which user role or individual user(s) should have access to the Forminator features selected in the Permissions section below.", "forminator"), ), // src/settings-page/components/modals/permissions.js:471
+"Choose user role" => array( null, __("Choose user role", "forminator"), ), // src/settings-page/components/modals/permissions.js:494
+"Exclude users" => array( null, __("Exclude users", "forminator"), ), // src/settings-page/components/modals/permissions.js:510
+"Use this option to exclude specific users with the selected role from accessing Forminator." => array( null, __("Use this option to exclude specific users with the selected role from accessing Forminator.", "forminator"), ), // src/settings-page/components/modals/permissions.js:514
+"Choose users" => array( null, __("Choose users", "forminator"), ), // src/settings-page/components/modals/permissions.js:533
+"Choose what permissions the selected user role or users will have." => array( null, __("Choose what permissions the selected user role or users will have.", "forminator"), ), // src/settings-page/components/modals/permissions.js:604
+"Create, edit, and delete modules (Forms, Polls, Quizzes)." => array( null, __("Create, edit, and delete modules (Forms, Polls, Quizzes).", "forminator"), ), // src/settings-page/components/modals/permissions.js:619
+"View templates page and manage cloud templates." => array( null, __("View templates page and manage cloud templates.", "forminator"), ), // src/settings-page/components/modals/permissions.js:633
+"Access, export, and delete submissions." => array( null, __("Access, export, and delete submissions.", "forminator"), ), // src/settings-page/components/modals/permissions.js:647
+"View, install/uninstall, and configure Add-ons." => array( null, __("View, install/uninstall, and configure Add-ons.", "forminator"), ), // src/settings-page/components/modals/permissions.js:663
+"Access and configure global integrations." => array( null, __("Access and configure global integrations.", "forminator"), ), // src/settings-page/components/modals/permissions.js:679
+"View reports and schedule email notifications for modules." => array( null, __("View reports and schedule email notifications for modules.", "forminator"), ), // src/settings-page/components/modals/permissions.js:694
+"Access and configure plugin settings." => array( null, __("Access and configure plugin settings.", "forminator"), ), // src/settings-page/components/modals/permissions.js:710
+"Cancel" => array( null, __("Cancel", "forminator"), ), // src/settings-page/components/modals/permissions.js:725
 "Permission successfully deleted." => array( null, __("Permission successfully deleted.", "forminator"), ), // src/settings-page/components/modals/permission-delete.js:66
 "Are you sure you wish to delete the permissions rule for the {{b}}%(role)s{{/b}} user role?" => array( null, __("Are you sure you wish to delete the permissions rule for the {{b}}%(role)s{{/b}} user role?", "forminator"), ), // src/settings-page/components/modals/permission-delete.js:86
-"Are you sure you wish to delete the permissions for {{b}}%(firstName)s{{/b}} " => array( null, __("Are you sure you wish to delete the permissions for {{b}}%(firstName)s{{/b}} ", "forminator"), ), // src/settings-page/components/modals/permission-delete.js:98
-"and %(extra)s other user(s)?" => array( null, __("and %(extra)s other user(s)?", "forminator"), ), // src/settings-page/components/modals/permission-delete.js:111
-"Delete Permissions" => array( null, __("Delete Permissions", "forminator"), ), // src/settings-page/components/modals/permission-delete.js:138
+"Are you sure you wish to delete the permissions for {{b}}%(firstName)s{{/b}} and %(extra)s other user(s)?" => array( null, __("Are you sure you wish to delete the permissions for {{b}}%(firstName)s{{/b}} and %(extra)s other user(s)?", "forminator"), ), // src/settings-page/components/modals/permission-delete.js:98
+"Are you sure you wish to delete the permissions for {{b}}%(firstName)s{{/b}} (%(email)s)?" => array( null, __("Are you sure you wish to delete the permissions for {{b}}%(firstName)s{{/b}} (%(email)s)?", "forminator"), ), // src/settings-page/components/modals/permission-delete.js:111
+"Delete Permissions" => array( null, __("Delete Permissions", "forminator"), ), // src/settings-page/components/modals/permission-delete.js:137
 "Required Fields" => array( null, __("Required Fields", "forminator"), ), // src/settings/inputs/wp-editor.js:234
 "Optional Fields" => array( null, __("Optional Fields", "forminator"), ), // src/settings/inputs/wp-editor.js:246
 "Misc Data" => array( null, __("Misc Data", "forminator"), ), // src/settings/inputs/wp-editor.js:262
@@ -129,8 +130,7 @@ $forminator_admin_locale = array(
 "All Form Fields" => array( null, __("All Form Fields", "forminator"), ), // src/settings/inputs/wp-editor.js:362
 "All Non Empty Fields" => array( null, __("All Non Empty Fields", "forminator"), ), // src/settings/inputs/wp-editor.js:372
 "This field is required!" => array( null, __("This field is required!", "forminator"), ), // src/settings/inputs/wp-editor.js:420
-"Add form data" => array( null, __("Add form data", "forminator"), ), // src/settings/inputs/wp-editor.js:433
-"Insert form fields" => array( null, __("Insert form fields", "forminator"), ), // src/settings/inputs/wp-editor.js:437
+"Insert form fields" => array( null, __("Insert form fields", "forminator"), ), // src/settings/inputs/wp-editor.js:433
 "Select image" => array( null, __("Select image", "forminator"), ), // src/settings/inputs/uploads.js:37
 "Select|verb" => array( null, _x("Select", "verb", "forminator"), ), // src/settings/inputs/uploads.js:39
 "Upload image" => array( null, __("Upload image", "forminator"), ), // src/settings/inputs/uploads.js:139
@@ -272,504 +272,7 @@ Europe
 North America
 South America", "forminator"), ), // src/settings/inputs/sui-variables-bulk-editor.js:210
 "Continents" => array( null, __("Continents", "forminator"), ), // src/settings/inputs/sui-variables-bulk-editor.js:213
-"Afghanistan
-Åland Islands
-Albania
-Algeria
-American Samoa
-Andorra
-Angola
-Anguilla
-Antarctica
-Antigua and Barbuda
-Argentina
-Armenia
-Aruba
-Australia
-Austria
-Azerbaijan
-Bahamas
-Bahrain
-Bangladesh
-Barbados
-Belarus
-Belgium
-Belize
-Benin
-Bermuda
-Bhutan
-Bolivia
-Bonaire, Sint Eustatius and Saba
-Bosnia and Herzegovina
-Botswana
-Bouvet Island
-Brazil
-British Indian Ocean Territory
-Brunei Darussalam
-Bulgaria
-Burkina Faso
-Burundi
-Cabo Verde
-Cambodia
-Cameroon
-Canada
-Cayman Islands
-Central African Republic
-Chad
-Chile
-China
-Christmas Island
-Cocos Islands
-Colombia
-Comoros
-Congo, Democratic Republic of the
-Congo, Republic of the
-Cook Islands
-Costa Rica
-Côte d'Ivoire
-Croatia
-Cuba
-Curaçao
-Cyprus
-Czech Republic
-Denmark
-Djibouti
-Dominica
-Dominican Republic
-Ecuador
-Egypt
-El Salvador
-Equatorial Guinea
-Eritrea
-Estonia
-Eswatini
-Ethiopia
-Falkland Islands
-Faroe Islands
-Fiji
-Finland
-France
-French Guiana
-French Polynesia
-French Southern Territories
-Gabon
-Gambia
-Georgia
-Germany
-Ghana
-Gibraltar
-Greece
-Greenland
-Grenada
-Guadeloupe
-Guam
-Guatemala
-Guernsey
-Guinea
-Guinea-Bissau
-Guyana
-Haiti
-Heard and McDonald Islands
-Holy See
-Honduras
-Hong Kong
-Hungary
-Iceland
-India
-Indonesia
-Iran
-Iraq
-Ireland
-Isle of Man
-Israel
-Italy
-Jamaica
-Japan
-Jersey
-Jordan
-Kazakhstan
-Kenya
-Kiribati
-Kuwait
-Kyrgyzstan
-Lao People's Democratic Republic
-Latvia
-Lebanon
-Lesotho
-Liberia
-Libya
-Liechtenstein
-Lithuania
-Luxembourg
-Macau
-Madagascar
-Malawi
-Malaysia
-Maldives
-Mali
-Malta
-Marshall Islands
-Martinique
-Mauritania
-Mauritius
-Mayotte
-Mexico
-Micronesia
-Moldova
-Monaco
-Mongolia
-Montenegro
-Montserrat
-Morocco
-Mozambique
-Myanmar
-Namibia
-Nauru
-Nepal
-Netherlands
-New Caledonia
-New Zealand
-Nicaragua
-Niger
-Nigeria
-Niue
-Norfolk Island
-North Korea
-North Macedonia
-Northern Mariana Islands
-Norway
-Oman
-Pakistan
-Palau
-Palestine, State of
-Panama
-Papua New Guinea
-Paraguay
-Peru
-Philippines
-Pitcairn
-Poland
-Portugal
-Puerto Rico
-Qatar
-Réunion
-Romania
-Russia
-Rwanda
-Saint Barthélemy
-Saint Helena, Ascension and Tristan da Cunha
-Saint Kitts and Nevis
-Saint Lucia
-Saint Martin
-Saint Pierre and Miquelon
-Saint Vincent and the Grenadines
-Samoa
-San Marino
-Sao Tome and Principe
-Saudi Arabia
-Senegal
-Serbia
-Seychelles
-Sierra Leone
-Singapore
-Sint Maarten
-Slovakia
-Slovenia
-Solomon Islands
-Somalia
-South Africa
-South Georgia and the South Sandwich Islands
-South Korea
-South Sudan
-Spain
-Sri Lanka
-Sudan
-Suriname
-Svalbard and Jan Mayen Islands
-Sweden
-Switzerland
-Syria
-Taiwan
-Tajikistan
-Tanzania
-Thailand
-Timor-Leste
-Togo
-Tokelau
-Tonga
-Trinidad and Tobago
-Tunisia
-Turkey
-Turkmenistan
-Turks and Caicos Islands
-Tuvalu
-Uganda
-Ukraine
-United Arab Emirates
-United Kingdom
-United States
-Uruguay
-US Minor Outlying Islands
-Uzbekistan
-Vanuatu
-Venezuela
-Vietnam
-Virgin Islands, British
-Virgin Islands, U.S.
-Wallis and Futuna
-Western Sahara
-Yemen
-Zambia
-Zimbabwe" => array( null, __("Afghanistan
-Åland Islands
-Albania
-Algeria
-American Samoa
-Andorra
-Angola
-Anguilla
-Antarctica
-Antigua and Barbuda
-Argentina
-Armenia
-Aruba
-Australia
-Austria
-Azerbaijan
-Bahamas
-Bahrain
-Bangladesh
-Barbados
-Belarus
-Belgium
-Belize
-Benin
-Bermuda
-Bhutan
-Bolivia
-Bonaire, Sint Eustatius and Saba
-Bosnia and Herzegovina
-Botswana
-Bouvet Island
-Brazil
-British Indian Ocean Territory
-Brunei Darussalam
-Bulgaria
-Burkina Faso
-Burundi
-Cabo Verde
-Cambodia
-Cameroon
-Canada
-Cayman Islands
-Central African Republic
-Chad
-Chile
-China
-Christmas Island
-Cocos Islands
-Colombia
-Comoros
-Congo, Democratic Republic of the
-Congo, Republic of the
-Cook Islands
-Costa Rica
-Côte d'Ivoire
-Croatia
-Cuba
-Curaçao
-Cyprus
-Czech Republic
-Denmark
-Djibouti
-Dominica
-Dominican Republic
-Ecuador
-Egypt
-El Salvador
-Equatorial Guinea
-Eritrea
-Estonia
-Eswatini
-Ethiopia
-Falkland Islands
-Faroe Islands
-Fiji
-Finland
-France
-French Guiana
-French Polynesia
-French Southern Territories
-Gabon
-Gambia
-Georgia
-Germany
-Ghana
-Gibraltar
-Greece
-Greenland
-Grenada
-Guadeloupe
-Guam
-Guatemala
-Guernsey
-Guinea
-Guinea-Bissau
-Guyana
-Haiti
-Heard and McDonald Islands
-Holy See
-Honduras
-Hong Kong
-Hungary
-Iceland
-India
-Indonesia
-Iran
-Iraq
-Ireland
-Isle of Man
-Israel
-Italy
-Jamaica
-Japan
-Jersey
-Jordan
-Kazakhstan
-Kenya
-Kiribati
-Kuwait
-Kyrgyzstan
-Lao People's Democratic Republic
-Latvia
-Lebanon
-Lesotho
-Liberia
-Libya
-Liechtenstein
-Lithuania
-Luxembourg
-Macau
-Madagascar
-Malawi
-Malaysia
-Maldives
-Mali
-Malta
-Marshall Islands
-Martinique
-Mauritania
-Mauritius
-Mayotte
-Mexico
-Micronesia
-Moldova
-Monaco
-Mongolia
-Montenegro
-Montserrat
-Morocco
-Mozambique
-Myanmar
-Namibia
-Nauru
-Nepal
-Netherlands
-New Caledonia
-New Zealand
-Nicaragua
-Niger
-Nigeria
-Niue
-Norfolk Island
-North Korea
-North Macedonia
-Northern Mariana Islands
-Norway
-Oman
-Pakistan
-Palau
-Palestine, State of
-Panama
-Papua New Guinea
-Paraguay
-Peru
-Philippines
-Pitcairn
-Poland
-Portugal
-Puerto Rico
-Qatar
-Réunion
-Romania
-Russia
-Rwanda
-Saint Barthélemy
-Saint Helena, Ascension and Tristan da Cunha
-Saint Kitts and Nevis
-Saint Lucia
-Saint Martin
-Saint Pierre and Miquelon
-Saint Vincent and the Grenadines
-Samoa
-San Marino
-Sao Tome and Principe
-Saudi Arabia
-Senegal
-Serbia
-Seychelles
-Sierra Leone
-Singapore
-Sint Maarten
-Slovakia
-Slovenia
-Solomon Islands
-Somalia
-South Africa
-South Georgia and the South Sandwich Islands
-South Korea
-South Sudan
-Spain
-Sri Lanka
-Sudan
-Suriname
-Svalbard and Jan Mayen Islands
-Sweden
-Switzerland
-Syria
-Taiwan
-Tajikistan
-Tanzania
-Thailand
-Timor-Leste
-Togo
-Tokelau
-Tonga
-Trinidad and Tobago
-Tunisia
-Turkey
-Turkmenistan
-Turks and Caicos Islands
-Tuvalu
-Uganda
-Ukraine
-United Arab Emirates
-United Kingdom
-United States
-Uruguay
-US Minor Outlying Islands
-Uzbekistan
-Vanuatu
-Venezuela
-Vietnam
-Virgin Islands, British
-Virgin Islands, U.S.
-Wallis and Futuna
-Western Sahara
-Yemen
-Zambia
-Zimbabwe", "forminator"), ), // src/settings/inputs/sui-variables-bulk-editor.js:218
-"Countries" => array( null, __("Countries", "forminator"), ), // src/settings/inputs/sui-variables-bulk-editor.js:280
+"Countries" => array( null, __("Countries", "forminator"), ), // src/settings/inputs/sui-variables-bulk-editor.js:217
 "Alabama
 Alaska
 Arizona
@@ -870,8 +373,8 @@ Virginia
 Washington
 West Virginia
 Wisconsin
-Wyoming", "forminator"), ), // src/settings/inputs/sui-variables-bulk-editor.js:284
-"American States" => array( null, __("American States", "forminator"), ), // src/settings/inputs/sui-variables-bulk-editor.js:285
+Wyoming", "forminator"), ), // src/settings/inputs/sui-variables-bulk-editor.js:221
+"American States" => array( null, __("American States", "forminator"), ), // src/settings/inputs/sui-variables-bulk-editor.js:222
 "Alberta
 British Columbia
 Manitoba
@@ -896,8 +399,8 @@ Ontario
 Prince Edward Island
 Quebec
 Saskatchewan
-Yukon", "forminator"), ), // src/settings/inputs/sui-variables-bulk-editor.js:289
-"Canadian Provinces" => array( null, __("Canadian Provinces", "forminator"), ), // src/settings/inputs/sui-variables-bulk-editor.js:290
+Yukon", "forminator"), ), // src/settings/inputs/sui-variables-bulk-editor.js:226
+"Canadian Provinces" => array( null, __("Canadian Provinces", "forminator"), ), // src/settings/inputs/sui-variables-bulk-editor.js:227
 "Click here to add a date…" => array( null, __("Click here to add a date…", "forminator"), ), // src/settings/inputs/sui-tags-datepicker.js:25
 "Click here to add a date range..." => array( null, __("Click here to add a date range...", "forminator"), ), // src/settings/inputs/sui-tags-date-range.js:25
 "Please enter valid number." => array( null, __("Please enter valid number.", "forminator"), ), // src/settings/inputs/input.js:52
@@ -1082,16 +585,16 @@ Yukon", "forminator"), ), // src/settings/inputs/sui-variables-bulk-editor.js:28
 "month(s)" => array( null, __("month(s)", "forminator"), ), // src/quiz/global/components/settings/privacy.js:109
 "year(s)" => array( null, __("year(s)", "forminator"), ), // src/quiz/global/components/settings/privacy.js:110
 "Set the value to \"0\" or leave it blank to store submissions forever." => array( null, __("Set the value to \"0\" or leave it blank to store submissions forever.", "forminator"), ), // src/quiz/global/components/settings/privacy.js:116
-"Custom font family" => array( null, __("Custom font family", "forminator"), ), // src/quiz/global/components/settings/fonts.js:59
-"E.g., Arial, sans-serif" => array( null, __("E.g., Arial, sans-serif", "forminator"), ), // src/quiz/global/components/settings/fonts.js:60
-"Font Family" => array( null, __("Font Family", "forminator"), ), // src/quiz/global/components/settings/fonts.js:75
-"Roboto" => array( null, __("Roboto", "forminator"), ), // src/quiz/global/components/settings/fonts.js:76
-"inherit" => array( null, __("inherit", "forminator"), ), // src/quiz/global/components/settings/fonts.js:94
-"Custom user font" => array( null, __("Custom user font", "forminator"), ), // src/quiz/global/components/settings/fonts.js:100
-"Font Size" => array( null, __("Font Size", "forminator"), ), // src/quiz/global/components/settings/fonts.js:114
-"e.g., 0.75em" => array( null, __("e.g., 0.75em", "forminator"), ), // src/quiz/global/components/settings/fonts.js:115
-"Font Weight" => array( null, __("Font Weight", "forminator"), ), // src/quiz/global/components/settings/fonts.js:123
-"Select font weight" => array( null, __("Select font weight", "forminator"), ), // src/quiz/global/components/settings/fonts.js:124
+"Custom font family" => array( null, __("Custom font family", "forminator"), ), // src/quiz/global/components/settings/fonts.js:80
+"E.g., Arial, sans-serif" => array( null, __("E.g., Arial, sans-serif", "forminator"), ), // src/quiz/global/components/settings/fonts.js:81
+"Font Family" => array( null, __("Font Family", "forminator"), ), // src/quiz/global/components/settings/fonts.js:97
+"Roboto" => array( null, __("Roboto", "forminator"), ), // src/quiz/global/components/settings/fonts.js:98
+"inherit" => array( null, __("inherit", "forminator"), ), // src/quiz/global/components/settings/fonts.js:117
+"Custom user font" => array( null, __("Custom user font", "forminator"), ), // src/quiz/global/components/settings/fonts.js:123
+"Font Size" => array( null, __("Font Size", "forminator"), ), // src/quiz/global/components/settings/fonts.js:137
+"e.g., 0.75em" => array( null, __("e.g., 0.75em", "forminator"), ), // src/quiz/global/components/settings/fonts.js:138
+"Font Weight" => array( null, __("Font Weight", "forminator"), ), // src/quiz/global/components/settings/fonts.js:147
+"Select font weight" => array( null, __("Select font weight", "forminator"), ), // src/quiz/global/components/settings/fonts.js:148
 "Data Storage" => array( null, __("Data Storage", "forminator"), ), // src/quiz/global/components/settings/data-storage.js:15
 "By default we'll store all submissions in your database." => array( null, __("By default we'll store all submissions in your database.", "forminator"), ), // src/quiz/global/components/settings/data-storage.js:17
 "Store Submissions in Database" => array( null, __("Store Submissions in Database", "forminator"), ), // src/quiz/global/components/settings/data-storage.js:25
@@ -1103,40 +606,43 @@ Yukon", "forminator"), ), // src/settings/inputs/sui-variables-bulk-editor.js:28
 "if" => array( null, __("if", "forminator"), ), // src/quiz/global/components/notifications/notification.js:185
 "Email routing is enabled" => array( null, __("Email routing is enabled", "forminator"), ), // src/quiz/global/components/notifications/notification.js:198
 "more recipient(s)" => array( null, __("more recipient(s)", "forminator"), ), // src/quiz/global/components/notifications/notification.js:206
-"Add Rule" => array( null, __("Add Rule", "forminator"), ), // src/quiz/global/components/notifications/email-routing.js:173
-"You haven't defined any email routing rules yet. Click on the \"+ Add Rule\" button to add the recipients along with the routing rules." => array( null, __("You haven't defined any email routing rules yet. Click on the \"+ Add Rule\" button to add the recipients along with the routing rules.", "forminator"), ), // src/quiz/global/components/notifications/email-routing.js:179
-"Final Score" => array( null, __("Final Score", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:98
-"Send to {{strong}}\"%(label)s\"{{/strong}} if {{strong}}%(field)s{{/strong}} %(rule)s {{strong}}%(value)s{{/strong}}" => array( null, __("Send to {{strong}}\"%(label)s\"{{/strong}} if {{strong}}%(field)s{{/strong}} %(rule)s {{strong}}%(value)s{{/strong}}", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:161
-"E.g. sales@website.com" => array( null, __("E.g. sales@website.com", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:197
-"Recipients" => array( null, __("Recipients", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:198
-"Separate multiple emails with a comma" => array( null, __("Separate multiple emails with a comma", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:202
-"Routing Condition" => array( null, __("Routing Condition", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:226
-"Form Data" => array( null, __("Form Data", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:229
-"Quiz Data" => array( null, __("Quiz Data", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:238
-"Select rule" => array( null, __("Select rule", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:264
-"Is correct" => array( null, __("Is correct", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:269
-"Is incorrect" => array( null, __("Is incorrect", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:272
-"Contains" => array( null, __("Contains", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:280
-"Does not contain" => array( null, __("Does not contain", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:283
-"greater than" => array( null, __("greater than", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:286
-"less than" => array( null, __("less than", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:289
-"Is null" => array( null, __("Is null", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:299
-"Is not null" => array( null, __("Is not null", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:302
-"Is" => array( null, __("Is", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:312
-"Is not" => array( null, __("Is not", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:315
-"Is greater than" => array( null, __("Is greater than", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:324
-"Is less than" => array( null, __("Is less than", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:327
-"Starts with" => array( null, __("Starts with", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:345
-"Ends with" => array( null, __("Ends with", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:348
-"Day is" => array( null, __("Day is", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:360
-"Day is not" => array( null, __("Day is not", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:363
-"Month is" => array( null, __("Month is", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:376
-"Month is not" => array( null, __("Month is not", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:379
-"Select option" => array( null, __("Select option", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:405
-"Value" => array( null, __("Value", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:426
-"Select month" => array( null, __("Select month", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:444
-"Select day" => array( null, __("Select day", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:468
-"Done" => array( null, __("Done", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:496
+"Add Rule" => array( null, __("Add Rule", "forminator"), ), // src/quiz/global/components/notifications/email-routing.js:190
+"You haven't defined any email routing rules yet. Click on the \"+ Add Rule\" button to add the recipients along with the routing rules." => array( null, __("You haven't defined any email routing rules yet. Click on the \"+ Add Rule\" button to add the recipients along with the routing rules.", "forminator"), ), // src/quiz/global/components/notifications/email-routing.js:196
+"Final Score" => array( null, __("Final Score", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:106
+"Send to {{strong}}\"%(label)s\"{{/strong}} if {{strong}}%(field)s{{/strong}} %(rule)s {{strong}}%(value)s{{/strong}}" => array( null, __("Send to {{strong}}\"%(label)s\"{{/strong}} if {{strong}}%(field)s{{/strong}} %(rule)s {{strong}}%(value)s{{/strong}}", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:169
+"E.g. sales@website.com" => array( null, __("E.g. sales@website.com", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:205
+"Recipients" => array( null, __("Recipients", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:206
+"Separate multiple emails with a comma" => array( null, __("Separate multiple emails with a comma", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:210
+"Routing Condition" => array( null, __("Routing Condition", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:234
+"Form Data" => array( null, __("Form Data", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:237
+"Quiz Data" => array( null, __("Quiz Data", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:246
+"Personality Result" => array( null, __("Personality Result", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:258
+"Select rule" => array( null, __("Select rule", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:281
+"Is correct" => array( null, __("Is correct", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:286
+"Is incorrect" => array( null, __("Is incorrect", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:289
+"Is final result" => array( null, __("Is final result", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:297
+"Is not final result" => array( null, __("Is not final result", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:300
+"Contains" => array( null, __("Contains", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:308
+"Does not contain" => array( null, __("Does not contain", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:311
+"greater than" => array( null, __("greater than", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:314
+"less than" => array( null, __("less than", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:317
+"Is null" => array( null, __("Is null", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:328
+"Is not null" => array( null, __("Is not null", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:331
+"Is" => array( null, __("Is", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:342
+"Is not" => array( null, __("Is not", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:345
+"Is greater than" => array( null, __("Is greater than", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:355
+"Is less than" => array( null, __("Is less than", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:358
+"Starts with" => array( null, __("Starts with", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:377
+"Ends with" => array( null, __("Ends with", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:380
+"Day is" => array( null, __("Day is", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:393
+"Day is not" => array( null, __("Day is not", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:396
+"Month is" => array( null, __("Month is", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:410
+"Month is not" => array( null, __("Month is not", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:413
+"Select option" => array( null, __("Select option", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:439
+"Value" => array( null, __("Value", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:461
+"Select month" => array( null, __("Select month", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:479
+"Select day" => array( null, __("Select day", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:503
+"Done" => array( null, __("Done", "forminator"), ), // src/quiz/global/components/notifications/email-routing-rule.js:531
 "Send" => array( null, __("Send", "forminator"), ), // src/quiz/global/components/notifications/conditions.js:182
 "Don't Send" => array( null, __("Don't Send", "forminator"), ), // src/quiz/global/components/notifications/conditions.js:183
 "this email if" => array( null, __("this email if", "forminator"), ), // src/quiz/global/components/notifications/conditions.js:186
@@ -1146,10 +652,7 @@ Yukon", "forminator"), ), // src/settings/inputs/sui-variables-bulk-editor.js:28
 "Add Conditions" => array( null, __("Add Conditions", "forminator"), ), // src/quiz/global/components/notifications/conditions.js:224
 "By default, this email is always sent on form submission. You can add conditions to send this email conditionally based on user input." => array( null, __("By default, this email is always sent on form submission. You can add conditions to send this email conditionally based on user input.", "forminator"), ), // src/quiz/global/components/notifications/conditions.js:230
 "Field" => array( null, __("Field", "forminator"), ), // src/quiz/global/components/notifications/conditions-rule.js:183
-"Personality Result" => array( null, __("Personality Result", "forminator"), ), // src/quiz/global/components/notifications/conditions-rule.js:207
 "Condition (required)" => array( null, __("Condition (required)", "forminator"), ), // src/quiz/global/components/notifications/conditions-rule.js:228
-"Is final result" => array( null, __("Is final result", "forminator"), ), // src/quiz/global/components/notifications/conditions-rule.js:247
-"Is not final result" => array( null, __("Is not final result", "forminator"), ), // src/quiz/global/components/notifications/conditions-rule.js:250
 "No Result Found" => array( null, __("No Result Found", "forminator"), ), // src/quiz/global/components/notifications/admin-email.js:37
 "Recipient(s)" => array( null, __("Recipient(s)", "forminator"), ), // src/quiz/global/components/notifications/admin-email.js:40
 "Admin Email" => array( null, __("Admin Email", "forminator"), ), // src/quiz/global/components/notifications/admin-email.js:243
@@ -1174,33 +677,34 @@ Yukon", "forminator"), ), // src/settings/inputs/sui-variables-bulk-editor.js:28
 "E.g. form-submit-btn" => array( null, __("E.g. form-submit-btn", "forminator"), ), // src/quiz/global/components/modals/submit.js:81
 "These will be output as you see them here. To add multiple classes, separate them with a space. For example, \"form-submit-btn button\" will add two classes \"form-submit-btn\" and \"button\"." => array( null, __("These will be output as you see them here. To add multiple classes, separate them with a space. For example, \"form-submit-btn button\" will add two classes \"form-submit-btn\" and \"button\".", "forminator"), ), // src/quiz/global/components/modals/submit.js:83
 "Apply" => array( null, __("Apply", "forminator"), ), // src/quiz/global/components/modals/submit.js:101
-"Shortcode has been copied successfully." => array( null, __("Shortcode has been copied successfully.", "forminator"), ), // src/quiz/global/components/modals/shortcode.js:23
+"Shortcode %s has been copied successfully." => array( null, __("Shortcode %s has been copied successfully.", "forminator"), ), // src/quiz/global/components/modals/shortcode.js:23
 "Close this dialog window" => array( null, __("Close this dialog window", "forminator"), ), // src/quiz/global/components/modals/shortcode.js:36
 "Ready to go!" => array( null, __("Ready to go!", "forminator"), ), // src/quiz/global/components/modals/shortcode.js:44
 "Your quiz is now ready to be embedded into a page or template of your choice. Simply copy and paste the shortcode below to display it!" => array( null, __("Your quiz is now ready to be embedded into a page or template of your choice. Simply copy and paste the shortcode below to display it!", "forminator"), ), // src/quiz/global/components/modals/shortcode.js:49
 "Shortcode" => array( null, __("Shortcode", "forminator"), ), // src/quiz/global/components/modals/shortcode.js:63
 "Copy Shortcode" => array( null, __("Copy Shortcode", "forminator"), ), // src/quiz/global/components/modals/shortcode.js:78
-"Options cannot be empty. You either need to enter answer text or upload an image for the empty options." => array( null, __("Options cannot be empty. You either need to enter answer text or upload an image for the empty options.", "forminator"), ), // src/quiz/global/components/modals/question.js:92
-"You need to select at least one correct answer before you can add this question." => array( null, __("You need to select at least one correct answer before you can add this question.", "forminator"), ), // src/quiz/global/components/modals/question.js:108
-"You need to select an associated personality for every option." => array( null, __("You need to select an associated personality for every option.", "forminator"), ), // src/quiz/global/components/modals/question.js:125
-"Add Question" => array( null, __("Add Question", "forminator"), ), // src/quiz/global/components/modals/question.js:137
-"Edit Question" => array( null, __("Edit Question", "forminator"), ), // src/quiz/global/components/modals/question.js:138
-"E.g. Why did the chicken cross the road?" => array( null, __("E.g. Why did the chicken cross the road?", "forminator"), ), // src/quiz/global/components/modals/question.js:189
-"Image" => array( null, __("Image", "forminator"), ), // src/quiz/global/components/modals/question.js:201
-"Description (Optional)" => array( null, __("Description (Optional)", "forminator"), ), // src/quiz/global/components/modals/question.js:215
-"Answers" => array( null, __("Answers", "forminator"), ), // src/quiz/global/components/modals/question.js:221
-"Users can select one answer with the {{b}}Real Time{{/b}} display method. To allow multiple answers, you can switch to the {{b}}On Submission{{/b}} display method in {{a}}Behaviour → Display Method{{/a}}." => array( null, __("Users can select one answer with the {{b}}Real Time{{/b}} display method. To allow multiple answers, you can switch to the {{b}}On Submission{{/b}} display method in {{a}}Behaviour → Display Method{{/a}}.", "forminator"), ), // src/quiz/global/components/modals/question.js:228
-"Note that user's selection will be considered as correct when any of the correct answers is selected." => array( null, __("Note that user's selection will be considered as correct when any of the correct answers is selected.", "forminator"), ), // src/quiz/global/components/modals/question.js:254
-"Note: For questions with multiple correct answers, user's selection will be considered as correct only when all correct answers are selected." => array( null, __("Note: For questions with multiple correct answers, user's selection will be considered as correct only when all correct answers are selected.", "forminator"), ), // src/quiz/global/components/modals/question.js:270
-"Add answers to your question and choose an associated personality. Multiple answers can be associated with a single personality as well." => array( null, __("Add answers to your question and choose an associated personality. Multiple answers can be associated with a single personality as well.", "forminator"), ), // src/quiz/global/components/modals/question.js:282
-"Please, validate your fields!" => array( null, __("Please, validate your fields!", "forminator"), ), // src/quiz/global/components/modals/question.js:333
+"Question cannot be empty. Please enter a valid question." => array( null, __("Question cannot be empty. Please enter a valid question.", "forminator"), ), // src/quiz/global/components/modals/question.js:71
+"Answer cannot be empty. Please enter a valid answer text or upload an image for the empty answer." => array( null, __("Answer cannot be empty. Please enter a valid answer text or upload an image for the empty answer.", "forminator"), ), // src/quiz/global/components/modals/question.js:100
+"You need to select at least one correct answer before you can add this question." => array( null, __("You need to select at least one correct answer before you can add this question.", "forminator"), ), // src/quiz/global/components/modals/question.js:115
+"You need to select an associated personality for every option." => array( null, __("You need to select an associated personality for every option.", "forminator"), ), // src/quiz/global/components/modals/question.js:132
+"Add Question" => array( null, __("Add Question", "forminator"), ), // src/quiz/global/components/modals/question.js:144
+"Edit Question" => array( null, __("Edit Question", "forminator"), ), // src/quiz/global/components/modals/question.js:145
+"E.g. Why did the chicken cross the road?" => array( null, __("E.g. Why did the chicken cross the road?", "forminator"), ), // src/quiz/global/components/modals/question.js:196
+"Image" => array( null, __("Image", "forminator"), ), // src/quiz/global/components/modals/question.js:208
+"Description (Optional)" => array( null, __("Description (Optional)", "forminator"), ), // src/quiz/global/components/modals/question.js:222
+"Answers" => array( null, __("Answers", "forminator"), ), // src/quiz/global/components/modals/question.js:228
+"Users can select one answer with the {{b}}Real Time{{/b}} display method. To allow multiple answers, you can switch to the {{b}}On Submission{{/b}} display method in {{a}}Behaviour → Display Method{{/a}}." => array( null, __("Users can select one answer with the {{b}}Real Time{{/b}} display method. To allow multiple answers, you can switch to the {{b}}On Submission{{/b}} display method in {{a}}Behaviour → Display Method{{/a}}.", "forminator"), ), // src/quiz/global/components/modals/question.js:235
+"Note that user's selection will be considered as correct when any of the correct answers is selected." => array( null, __("Note that user's selection will be considered as correct when any of the correct answers is selected.", "forminator"), ), // src/quiz/global/components/modals/question.js:261
+"Note: For questions with multiple correct answers, user's selection will be considered as correct only when all correct answers are selected." => array( null, __("Note: For questions with multiple correct answers, user's selection will be considered as correct only when all correct answers are selected.", "forminator"), ), // src/quiz/global/components/modals/question.js:277
+"Add answers to your question and choose an associated personality. Multiple answers can be associated with a single personality as well." => array( null, __("Add answers to your question and choose an associated personality. Multiple answers can be associated with a single personality as well.", "forminator"), ), // src/quiz/global/components/modals/question.js:289
+"Please, validate your fields!" => array( null, __("Please, validate your fields!", "forminator"), ), // src/quiz/global/components/modals/question.js:340
 "Publishing quiz…" => array( null, __("Publishing quiz…", "forminator"), ), // src/quiz/global/components/modals/publish.js:30
 "Great work! Please hold tight a few moments while we publish your quiz to the world." => array( null, __("Great work! Please hold tight a few moments while we publish your quiz to the world.", "forminator"), ), // src/quiz/global/components/modals/publish.js:35
 "Preview" => array( null, __("Preview", "forminator"), ), // src/quiz/global/components/modals/preview.js:80
 "Loading preview…" => array( null, __("Loading preview…", "forminator"), ), // src/quiz/global/components/modals/preview.js:96
 "Edit Personality" => array( null, __("Edit Personality", "forminator"), ), // src/quiz/global/components/modals/personality.js:66
 "E.g. Iron Man" => array( null, __("E.g. Iron Man", "forminator"), ), // src/quiz/global/components/modals/personality.js:96
-"Please validate your fields!" => array( null, __("Please validate your fields!", "forminator"), ), // src/quiz/global/components/modals/personality.js:163
+"Personality cannot be empty. Please enter a valid personality." => array( null, __("Personality cannot be empty. Please enter a valid personality.", "forminator"), ), // src/quiz/global/components/modals/personality.js:163
 "Please enter recipients" => array( null, __("Please enter recipients", "forminator"), ), // src/quiz/global/components/modals/notification.js:250
 "Please select rule" => array( null, __("Please select rule", "forminator"), ), // src/quiz/global/components/modals/notification.js:263
 "Please add email routing" => array( null, __("Please add email routing", "forminator"), ), // src/quiz/global/components/modals/notification.js:268
@@ -1246,9 +750,9 @@ Yukon", "forminator"), ), // src/settings/inputs/sui-variables-bulk-editor.js:28
 "Submit" => array( null, __("Submit", "forminator"), ), // src/quiz/global/components/builder/submit.js:36
 "A quiz without questions is not going to be very useful… Add your questions above!" => array( null, __("A quiz without questions is not going to be very useful… Add your questions above!", "forminator"), ), // src/quiz/global/components/builder/questions.js:109
 "Add Answer" => array( null, __("Add Answer", "forminator"), ), // src/quiz/global/components/builder/answers.js:164
-"Correct Answer" => array( null, __("Correct Answer", "forminator"), ), // src/quiz/global/components/builder/answer.js:106
-"Select Personality" => array( null, __("Select Personality", "forminator"), ), // src/quiz/global/components/builder/answer.js:117
-"Delete answer" => array( null, __("Delete answer", "forminator"), ), // src/quiz/global/components/builder/answer.js:139
+"Correct Answer" => array( null, __("Correct Answer", "forminator"), ), // src/quiz/global/components/builder/answer.js:110
+"Select Personality" => array( null, __("Select Personality", "forminator"), ), // src/quiz/global/components/builder/answer.js:121
+"Delete answer" => array( null, __("Delete answer", "forminator"), ), // src/quiz/global/components/builder/answer.js:143
 "Social Sharing" => array( null, __("Social Sharing", "forminator"), ), // src/quiz/global/components/behaviour/share.js:16
 "Choose whether you want to allow the quiz participants to share their results on social media." => array( null, __("Choose whether you want to allow the quiz participants to share their results on social media.", "forminator"), ), // src/quiz/global/components/behaviour/share.js:18
 "Results" => array( null, __("Results", "forminator"), ), // src/quiz/global/components/behaviour/results.js:20
@@ -1367,10 +871,11 @@ Yukon", "forminator"), ), // src/settings/inputs/sui-variables-bulk-editor.js:28
 "Option Unselected" => array( null, __("Option Unselected", "forminator"), ), // src/quiz/global/components/appearance/design-style/material.js:21
 "Disabled" => array( null, __("Disabled", "forminator"), ), // src/quiz/global/components/appearance/colors/navigation-button.js:85
 "Customize Poll" => array( null, __("Customize Poll", "forminator"), ), // src/poll/components/navigation.js:11
-"Something went wrong while reverting your poll. Please try again." => array( null, __("Something went wrong while reverting your poll. Please try again.", "forminator"), ), // src/poll/components/meta.js:153
-"Poll answers can not be empty." => array( null, __("Poll answers can not be empty.", "forminator"), ), // src/poll/components/meta.js:190
-"Please enter valid voting limit." => array( null, __("Please enter valid voting limit.", "forminator"), ), // src/poll/components/meta.js:203
-"Something went wrong while saving your form. Please try again." => array( null, __("Something went wrong while saving your form. Please try again.", "forminator"), ), // src/poll/components/meta.js:266
+"Something went wrong while reverting your poll. Please try again." => array( null, __("Something went wrong while reverting your poll. Please try again.", "forminator"), ), // src/poll/components/meta.js:158
+"Poll answers can not be empty." => array( null, __("Poll answers can not be empty.", "forminator"), ), // src/poll/components/meta.js:197
+"Please enter valid voting limit." => array( null, __("Please enter valid voting limit.", "forminator"), ), // src/poll/components/meta.js:210
+"Email recipients can't be empty" => array( null, __("Email recipients can't be empty", "forminator"), ), // src/poll/components/meta.js:234
+"Something went wrong while saving your form. Please try again." => array( null, __("Something went wrong while saving your form. Please try again.", "forminator"), ), // src/poll/components/meta.js:306
 "You need to save this poll before using integrations." => array( null, __("You need to save this poll before using integrations.", "forminator"), ), // src/poll/components/integrations.js:121
 "Try Again" => array( null, __("Try Again", "forminator"), ), // src/poll/components/integrations.js:123
 "Poll created successfully." => array( null, __("Poll created successfully.", "forminator"), ), // src/poll/components/builder.js:23
@@ -1382,9 +887,9 @@ Yukon", "forminator"), ), // src/settings/inputs/sui-variables-bulk-editor.js:28
 "Your default setting keep the IPs %s." => array( null, __("Your default setting keep the IPs %s.", "forminator"), ), // src/poll/components/settings/privacy.js:188
 "Set the value to \"0\" or leave it blank to store IPs forever." => array( null, __("Set the value to \"0\" or leave it blank to store IPs forever.", "forminator"), ), // src/poll/components/settings/privacy.js:237
 "Optionally, you can send a notification email to nominated email accounts when poll submissions come in." => array( null, __("Optionally, you can send a notification email to nominated email accounts when poll submissions come in.", "forminator"), ), // src/poll/components/notifications/admin-email.js:295
-"Poll Name" => array( null, __("Poll Name", "forminator"), ), // src/poll/components/notifications/admin-email.js:404
-"Poll Answer" => array( null, __("Poll Answer", "forminator"), ), // src/poll/components/notifications/admin-email.js:405
-"Poll Result" => array( null, __("Poll Result", "forminator"), ), // src/poll/components/notifications/admin-email.js:406
+"Poll Name" => array( null, __("Poll Name", "forminator"), ), // src/poll/components/notifications/admin-email.js:412
+"Poll Answer" => array( null, __("Poll Answer", "forminator"), ), // src/poll/components/notifications/admin-email.js:413
+"Poll Result" => array( null, __("Poll Result", "forminator"), ), // src/poll/components/notifications/admin-email.js:414
 "Notifications" => array( null, __("Notifications", "forminator"), ), // src/poll/components/navigation/menu.js:76
 "Your poll is now ready to be embedded into a page or template of your choice. Simply copy and paste the shortcode below to display it!" => array( null, __("Your poll is now ready to be embedded into a page or template of your choice. Simply copy and paste the shortcode below to display it!", "forminator"), ), // src/poll/components/modals/shortcode.js:51
 "Publishing poll…" => array( null, __("Publishing poll…", "forminator"), ), // src/poll/components/modals/publish.js:30
@@ -1406,11 +911,11 @@ Yukon", "forminator"), ), // src/settings/inputs/sui-variables-bulk-editor.js:28
 "Customize the button label used to submit the user's answer." => array( null, __("Customize the button label used to submit the user's answer.", "forminator"), ), // src/poll/components/builder/details.js:115
 "E.g. Vote" => array( null, __("E.g. Vote", "forminator"), ), // src/poll/components/builder/details.js:127
 "A poll without answers isn’t going to be very useful… Add your answers above!" => array( null, __("A poll without answers isn’t going to be very useful… Add your answers above!", "forminator"), ), // src/poll/components/builder/answers.js:82
-"Enter Answer" => array( null, __("Enter Answer", "forminator"), ), // src/poll/components/builder/answer-row.js:121
-"Enter placeholder" => array( null, __("Enter placeholder", "forminator"), ), // src/poll/components/builder/answer-row.js:148
-"Answer options" => array( null, __("Answer options", "forminator"), ), // src/poll/components/builder/answer-row.js:173
-"Enable custom input" => array( null, __("Enable custom input", "forminator"), ), // src/poll/components/builder/answer-row.js:180
-"Remove custom input" => array( null, __("Remove custom input", "forminator"), ), // src/poll/components/builder/answer-row.js:187
+"Enter Answer" => array( null, __("Enter Answer", "forminator"), ), // src/poll/components/builder/answer-row.js:124
+"Enter placeholder" => array( null, __("Enter placeholder", "forminator"), ), // src/poll/components/builder/answer-row.js:151
+"Answer options" => array( null, __("Answer options", "forminator"), ), // src/poll/components/builder/answer-row.js:176
+"Enable custom input" => array( null, __("Enable custom input", "forminator"), ), // src/poll/components/builder/answer-row.js:183
+"Remove custom input" => array( null, __("Remove custom input", "forminator"), ), // src/poll/components/builder/answer-row.js:190
 "Vote Count" => array( null, __("Vote Count", "forminator"), ), // src/poll/components/behaviour/vote-count.js:16
 "Display the number of votes on results" => array( null, __("Display the number of votes on results", "forminator"), ), // src/poll/components/behaviour/vote-count.js:18
 "Hide" => array( null, __("Hide", "forminator"), ), // src/poll/components/behaviour/vote-count.js:29
@@ -1628,7 +1133,9 @@ Yukon", "forminator"), ), // src/settings/inputs/sui-variables-bulk-editor.js:28
 "Pro" => array( null, __("Pro", "forminator"), ), // src/form/components/pdf.js:52
 "Generate and send PDF files (e.g. forms entries, receipts, invoices, quotations) to users after form submission." => array( null, __("Generate and send PDF files (e.g. forms entries, receipts, invoices, quotations) to users after form submission.", "forminator"), ), // src/form/components/pdf-disconnected.js:23
 "Upgrade to PRO{{icon/}}" => array( null, __("Upgrade to PRO{{icon/}}", "forminator"), ), // src/form/components/pdf-disconnected.js:34
-"You can send customized email notifications to your site admins and visitors on successful form submission. Advanced features like email routing and conditional emails provide granular control over the email notifications." => array( null, __("You can send customized email notifications to your site admins and visitors on successful form submission. Advanced features like email routing and conditional emails provide granular control over the email notifications.", "forminator"), ), // src/form/components/notifications.js:36
+"You can send customized email notifications to your site admins and visitors on successful form submission. Advanced features like email routing and conditional emails provide granular control over the email notifications." => array( null, __("You can send customized email notifications to your site admins and visitors on successful form submission. Advanced features like email routing and conditional emails provide granular control over the email notifications.", "forminator"), ), // src/form/components/notifications.js:37
+"To improve email delivery, consider setting up SMTP on your site." => array( null, __("To improve email delivery, consider setting up SMTP on your site.", "forminator"), ), // src/form/components/notifications.js:46
+"{{link}}Learn more{{/link}}" => array( null, __("{{link}}Learn more{{/link}}", "forminator"), ), // src/form/components/notifications.js:50
 "Customize Form" => array( null, __("Customize Form", "forminator"), ), // src/form/components/navigation.js:10
 "Something went wrong while reverting your form. Please try again." => array( null, __("Something went wrong while reverting your form. Please try again.", "forminator"), ), // src/form/components/meta.js:174
 "Login User" => array( null, __("Login User", "forminator"), ), // src/form/components/login.js:30
@@ -1661,7 +1168,6 @@ Yukon", "forminator"), ), // src/settings/inputs/sui-variables-bulk-editor.js:28
 "Rules" => array( null, __("Rules", "forminator"), ), // src/form/components/settings/visibility.js:262
 "Set conditions to display this field only when specific criteria are met—like selecting a checkbox or entering a certain value." => array( null, __("Set conditions to display this field only when specific criteria are met—like selecting a checkbox or entering a certain value.", "forminator"), ), // src/form/components/settings/visibility.js:269
 "Set a condition to display this page and its fields only when specific criteria are met—like selecting a checkbox or entering a certain value." => array( null, __("Set a condition to display this page and its fields only when specific criteria are met—like selecting a checkbox or entering a certain value.", "forminator"), ), // src/form/components/settings/visibility.js:270
-"{{link}}Learn more{{/link}}" => array( null, __("{{link}}Learn more{{/link}}", "forminator"), ), // src/form/components/settings/visibility.js:272
 "By default, this page is always visible." => array( null, __("By default, this page is always visible.", "forminator"), ), // src/form/components/settings/visibility.js:290
 "Add a rule to control when it should be hidden or shown." => array( null, __("Add a rule to control when it should be hidden or shown.", "forminator"), ), // src/form/components/settings/visibility.js:292
 "Add conditions for how this plan will be processed based on your form field data." => array( null, __("Add conditions for how this plan will be processed based on your form field data.", "forminator"), ), // src/form/components/settings/visibility.js:295
@@ -1669,7 +1175,7 @@ Yukon", "forminator"), ), // src/settings/inputs/sui-variables-bulk-editor.js:28
 "Add rules to control when it should appear based on user input." => array( null, __("Add rules to control when it should appear based on user input.", "forminator"), ), // src/form/components/settings/visibility.js:300
 "You need more than one field to configure visibility conditions. Add more fields!" => array( null, __("You need more than one field to configure visibility conditions. Add more fields!", "forminator"), ), // src/form/components/settings/visibility.js:322
 "Add conditions" => array( null, __("Add conditions", "forminator"), ), // src/form/components/settings/visibility.js:358
-"checked" => array( null, __("checked", "forminator"), ), // src/form/components/settings/visibility-rule.js:87
+"checked" => array( null, __("checked", "forminator"), ), // src/form/components/settings/visibility-rule.js:90
 "Is before" => array( null, __("Is before", "forminator"), ), // src/form/components/settings/visibility-rule.js:298
 "Is after" => array( null, __("Is after", "forminator"), ), // src/form/components/settings/visibility-rule.js:301
 "Is before n or more days" => array( null, __("Is before n or more days", "forminator"), ), // src/form/components/settings/visibility-rule.js:304
@@ -1697,10 +1203,10 @@ Yukon", "forminator"), ), // src/settings/inputs/sui-variables-bulk-editor.js:28
 "Enter value" => array( null, __("Enter value", "forminator"), ), // src/form/components/settings/user-role-rule.js:407
 "Additional CSS Classes" => array( null, __("Additional CSS Classes", "forminator"), ), // src/form/components/settings/styling.js:35
 "Add custom CSS classes to style this field’s container—great for adjusting spacing, colors, or layout." => array( null, __("Add custom CSS classes to style this field’s container—great for adjusting spacing, colors, or layout.", "forminator"), ), // src/form/components/settings/styling.js:39
-"E.g. form-field" => array( null, __("E.g. form-field", "forminator"), ), // src/form/components/settings/styling.js:60
-"Add one or more class names, separated by spaces. These apply to the field container." => array( null, __("Add one or more class names, separated by spaces. These apply to the field container.", "forminator"), ), // src/form/components/settings/styling.js:69
-"Field Description Placement" => array( null, __("Field Description Placement", "forminator"), ), // src/form/components/settings/styling.js:79
-"Select where the description of this field should appear." => array( null, __("Select where the description of this field should appear.", "forminator"), ), // src/form/components/settings/styling.js:83
+"E.g. form-field" => array( null, __("E.g. form-field", "forminator"), ), // src/form/components/settings/styling.js:61
+"Add one or more class names, separated by spaces. These apply to the field container." => array( null, __("Add one or more class names, separated by spaces. These apply to the field container.", "forminator"), ), // src/form/components/settings/styling.js:70
+"Field Description Placement" => array( null, __("Field Description Placement", "forminator"), ), // src/form/components/settings/styling.js:80
+"Select where the description of this field should appear." => array( null, __("Select where the description of this field should appear.", "forminator"), ), // src/form/components/settings/styling.js:84
 "Enter required message" => array( null, __("Enter required message", "forminator"), ), // src/form/components/settings/required.js:44
 "Required" => array( null, __("Required", "forminator"), ), // src/form/components/settings/required.js:56
 "Force users to fill out this field, otherwise it will be optional." => array( null, __("Force users to fill out this field, otherwise it will be optional.", "forminator"), ), // src/form/components/settings/required.js:59
@@ -1834,7 +1340,7 @@ Yukon", "forminator"), ), // src/settings/inputs/sui-variables-bulk-editor.js:28
 "Enter coordinates" => array( null, __("Enter coordinates", "forminator"), ), // src/form/components/settings/geolocation.js:261
 "E.g., 1.234567, 9.876543" => array( null, __("E.g., 1.234567, 9.876543", "forminator"), ), // src/form/components/settings/geolocation.js:262
 "To get coordinates, visit {{link}}https://map.google.com{{/link}} navigate to your preferred location, and right-click on any point and click on the first option with digits." => array( null, __("To get coordinates, visit {{link}}https://map.google.com{{/link}} navigate to your preferred location, and right-click on any point and click on the first option with digits.", "forminator"), ), // src/form/components/settings/geolocation.js:264
-"E.g., 16" => array( null, __("E.g., 16", "forminator"), ), // src/form/components/settings/fonts.js:108
+"E.g., 16" => array( null, __("E.g., 16", "forminator"), ), // src/form/components/settings/fonts.js:130
 "Add a comma-separated list of additional file types along with their MIME types separated by “ | ”." => array( null, __("Add a comma-separated list of additional file types along with their MIME types separated by “ | ”.", "forminator"), ), // src/form/components/settings/filetypes.js:117
 "Allowed filetypes" => array( null, __("Allowed filetypes", "forminator"), ), // src/form/components/settings/filetypes.js:134
 "We use WordPress' {{a}}default allowed mime types{{/a}} to determine which file types can be uploaded. If you want to allow or restrict specific file types from being upload, you can do so by choosing the Specific filetypes option below." => array( null, __("We use WordPress' {{a}}default allowed mime types{{/a}} to determine which file types can be uploaded. If you want to allow or restrict specific file types from being upload, you can do so by choosing the Specific filetypes option below.", "forminator"), ), // src/form/components/settings/filetypes.js:137
@@ -1878,20 +1384,20 @@ Yukon", "forminator"), ), // src/settings/inputs/sui-variables-bulk-editor.js:28
 "Default Meta Keys" => array( null, __("Default Meta Keys", "forminator"), ), // src/form/components/registration/meta-mapping.js:101
 "Assign form fields to the default WordPress user meta keys (used in Profiles) below. You can assign a form field to multiple meta keys. If you assign a non-required form field to a required user meta, that form field will automatically become required in your form." => array( null, __("Assign form fields to the default WordPress user meta keys (used in Profiles) below. You can assign a form field to multiple meta keys. If you assign a non-required form field to a required user meta, that form field will automatically become required in your form.", "forminator"), ), // src/form/components/registration/meta-mapping.js:107
 "Username" => array( null, __("Username", "forminator"), ), // src/form/components/registration/meta-mapping.js:119
-"Select a field" => array( null, __("Select a field", "forminator"), ), // src/form/components/registration/meta-mapping.js:124
-"Website" => array( null, __("Website", "forminator"), ), // src/form/components/registration/meta-mapping.js:179
-"Password" => array( null, __("Password", "forminator"), ), // src/form/components/registration/meta-mapping.js:193
-"Auto Generated Password" => array( null, __("Auto Generated Password", "forminator"), ), // src/form/components/registration/meta-mapping.js:204
-"This form includes a {{strong}}Password field{{/strong}}. Since user passwords will be {{strong}}automatically generated{{/strong}}, the {{strong}}Password field{{/strong}} should be deleted." => array( null, __("This form includes a {{strong}}Password field{{/strong}}. Since user passwords will be {{strong}}automatically generated{{/strong}}, the {{strong}}Password field{{/strong}} should be deleted.", "forminator"), ), // src/form/components/registration/meta-mapping.js:223
-"This form is set to {{strong}}automatically generate{{/strong}} user passwords. To allow users to set their own passwords, insert a {{strong}}Password field{{/strong}} into {{link}}this form{{/link}}." => array( null, __("This form is set to {{strong}}automatically generate{{/strong}} user passwords. To allow users to set their own passwords, insert a {{strong}}Password field{{/strong}} into {{link}}this form{{/link}}.", "forminator"), ), // src/form/components/registration/meta-mapping.js:255
-"Choose which user role you want to assign to the visitors signing up. You can either assign a fixed user role to all of them or assign a user role conditionally, based on their response to the form fields." => array( null, __("Choose which user role you want to assign to the visitors signing up. You can either assign a fixed user role to all of them or assign a user role conditionally, based on their response to the form fields.", "forminator"), ), // src/form/components/registration/meta-mapping.js:294
-"Fixed Role to All" => array( null, __("Fixed Role to All", "forminator"), ), // src/form/components/registration/meta-mapping.js:302
-"Assign Role Conditionally" => array( null, __("Assign Role Conditionally", "forminator"), ), // src/form/components/registration/meta-mapping.js:305
-"Caution" => array( null, __("Caution", "forminator"), ), // src/form/components/registration/meta-mapping.js:324
-"Granting the Administrator role gives users complete access to your site. Please assign this role carefully to prevent unauthorized access." => array( null, __("Granting the Administrator role gives users complete access to your site. Please assign this role carefully to prevent unauthorized access.", "forminator"), ), // src/form/components/registration/meta-mapping.js:326
-"No custom user meta created yet. Click on \"+ Add Custom User Meta\" to create custom user meta and map form fields to it." => array( null, __("No custom user meta created yet. Click on \"+ Add Custom User Meta\" to create custom user meta and map form fields to it.", "forminator"), ), // src/form/components/registration/meta-mapping.js:365
-"Custom User Meta" => array( null, __("Custom User Meta", "forminator"), ), // src/form/components/registration/meta-mapping.js:376
-"Create custom user meta keys and assign your form fields to them to set additional user meta keys upon successful user registration." => array( null, __("Create custom user meta keys and assign your form fields to them to set additional user meta keys upon successful user registration.", "forminator"), ), // src/form/components/registration/meta-mapping.js:379
+"Select a field" => array( null, __("Select a field", "forminator"), ), // src/form/components/registration/meta-mapping.js:152
+"Website" => array( null, __("Website", "forminator"), ), // src/form/components/registration/meta-mapping.js:177
+"Password" => array( null, __("Password", "forminator"), ), // src/form/components/registration/meta-mapping.js:191
+"Auto Generated Password" => array( null, __("Auto Generated Password", "forminator"), ), // src/form/components/registration/meta-mapping.js:201
+"This form includes a {{strong}}Password field{{/strong}}. Since user passwords will be {{strong}}automatically generated{{/strong}}, the {{strong}}Password field{{/strong}} should be deleted." => array( null, __("This form includes a {{strong}}Password field{{/strong}}. Since user passwords will be {{strong}}automatically generated{{/strong}}, the {{strong}}Password field{{/strong}} should be deleted.", "forminator"), ), // src/form/components/registration/meta-mapping.js:220
+"This form is set to {{strong}}automatically generate{{/strong}} user passwords. To allow users to set their own passwords, insert a {{strong}}Password field{{/strong}} into {{link}}this form{{/link}}." => array( null, __("This form is set to {{strong}}automatically generate{{/strong}} user passwords. To allow users to set their own passwords, insert a {{strong}}Password field{{/strong}} into {{link}}this form{{/link}}.", "forminator"), ), // src/form/components/registration/meta-mapping.js:252
+"Choose which user role you want to assign to the visitors signing up. You can either assign a fixed user role to all of them or assign a user role conditionally, based on their response to the form fields." => array( null, __("Choose which user role you want to assign to the visitors signing up. You can either assign a fixed user role to all of them or assign a user role conditionally, based on their response to the form fields.", "forminator"), ), // src/form/components/registration/meta-mapping.js:291
+"Fixed Role to All" => array( null, __("Fixed Role to All", "forminator"), ), // src/form/components/registration/meta-mapping.js:299
+"Assign Role Conditionally" => array( null, __("Assign Role Conditionally", "forminator"), ), // src/form/components/registration/meta-mapping.js:302
+"Caution" => array( null, __("Caution", "forminator"), ), // src/form/components/registration/meta-mapping.js:321
+"Granting the Administrator role gives users complete access to your site. Please assign this role carefully to prevent unauthorized access." => array( null, __("Granting the Administrator role gives users complete access to your site. Please assign this role carefully to prevent unauthorized access.", "forminator"), ), // src/form/components/registration/meta-mapping.js:323
+"No custom user meta created yet. Click on \"+ Add Custom User Meta\" to create custom user meta and map form fields to it." => array( null, __("No custom user meta created yet. Click on \"+ Add Custom User Meta\" to create custom user meta and map form fields to it.", "forminator"), ), // src/form/components/registration/meta-mapping.js:362
+"Custom User Meta" => array( null, __("Custom User Meta", "forminator"), ), // src/form/components/registration/meta-mapping.js:373
+"Create custom user meta keys and assign your form fields to them to set additional user meta keys upon successful user registration." => array( null, __("Create custom user meta keys and assign your form fields to them to set additional user meta keys upon successful user registration.", "forminator"), ), // src/form/components/registration/meta-mapping.js:376
 "Additional Settings" => array( null, __("Additional Settings", "forminator"), ), // src/form/components/registration/additional-settings.js:21
 "These settings will add some extra control on your registration process." => array( null, __("These settings will add some extra control on your registration process.", "forminator"), ), // src/form/components/registration/additional-settings.js:25
 "Automatically log in newly activated users" => array( null, __("Automatically log in newly activated users", "forminator"), ), // src/form/components/registration/additional-settings.js:35
@@ -1987,25 +1493,25 @@ Yukon", "forminator"), ), // src/settings/inputs/sui-variables-bulk-editor.js:28
 "You need at least one payment plan!" => array( null, __("You need at least one payment plan!", "forminator"), ), // src/form/components/modals/settings.js:229
 "Please select an email address for payment receipt." => array( null, __("Please select an email address for payment receipt.", "forminator"), ), // src/form/components/modals/settings.js:235
 "Empty labels are not allowed for meta values!" => array( null, __("Empty labels are not allowed for meta values!", "forminator"), ), // src/form/components/modals/settings.js:246
-"Please connect your PayPal account first!" => array( null, __("Please connect your PayPal account first!", "forminator"), ), // src/form/components/modals/settings.js:258
-"Please enter PayPal payment amount!" => array( null, __("Please enter PayPal payment amount!", "forminator"), ), // src/form/components/modals/settings.js:263
-"Please select PayPal payment variable field!" => array( null, __("Please select PayPal payment variable field!", "forminator"), ), // src/form/components/modals/settings.js:269
-"Limit Min value should be less than Max value." => array( null, __("Limit Min value should be less than Max value.", "forminator"), ), // src/form/components/modals/settings.js:287
-"Please enter API keys." => array( null, __("Please enter API keys.", "forminator"), ), // src/form/components/modals/settings.js:309
-"Please select a valid end time limit." => array( null, __("Please select a valid end time limit.", "forminator"), ), // src/form/components/modals/settings.js:408
-"Please fix the Default time error." => array( null, __("Please fix the Default time error.", "forminator"), ), // src/form/components/modals/settings.js:414
-"Please fix the Start or End time." => array( null, __("Please fix the Start or End time.", "forminator"), ), // src/form/components/modals/settings.js:428
-"Please fix the limit Start or End date." => array( null, __("Please fix the limit Start or End date.", "forminator"), ), // src/form/components/modals/settings.js:566
-"Maximum Rating value should be less than 50." => array( null, __("Maximum Rating value should be less than 50.", "forminator"), ), // src/form/components/modals/settings.js:577
-"Customize %s" => array( null, __("Customize %s", "forminator"), ), // src/form/components/modals/settings.js:654
-"Customize %s Field" => array( null, __("Customize %s Field", "forminator"), ), // src/form/components/modals/settings.js:655
-"Customize Page Visibility" => array( null, __("Customize Page Visibility", "forminator"), ), // src/form/components/modals/settings.js:659
-"Geolocation" => array( null, __("Geolocation", "forminator"), ), // src/form/components/modals/settings.js:717
-"Geolocation {{span}}Pro{{/span}}" => array( null, __("Geolocation {{span}}Pro{{/span}}", "forminator"), ), // src/form/components/modals/settings.js:719
-"Products/Plans" => array( null, __("Products/Plans", "forminator"), ), // src/form/components/modals/settings.js:746
-"Repeater" => array( null, __("Repeater", "forminator"), ), // src/form/components/modals/settings.js:766
-"Limits" => array( null, __("Limits", "forminator"), ), // src/form/components/modals/settings.js:780
-"Customize" => array( null, __("Customize", "forminator"), ), // src/form/components/modals/settings.js:832
+"Please connect your PayPal account first!" => array( null, __("Please connect your PayPal account first!", "forminator"), ), // src/form/components/modals/settings.js:264
+"Please enter PayPal payment amount!" => array( null, __("Please enter PayPal payment amount!", "forminator"), ), // src/form/components/modals/settings.js:269
+"Please select PayPal payment variable field!" => array( null, __("Please select PayPal payment variable field!", "forminator"), ), // src/form/components/modals/settings.js:275
+"Limit Min value should be less than Max value." => array( null, __("Limit Min value should be less than Max value.", "forminator"), ), // src/form/components/modals/settings.js:293
+"Please enter API keys." => array( null, __("Please enter API keys.", "forminator"), ), // src/form/components/modals/settings.js:315
+"Please select a valid end time limit." => array( null, __("Please select a valid end time limit.", "forminator"), ), // src/form/components/modals/settings.js:414
+"Please fix the Default time error." => array( null, __("Please fix the Default time error.", "forminator"), ), // src/form/components/modals/settings.js:420
+"Please fix the Start or End time." => array( null, __("Please fix the Start or End time.", "forminator"), ), // src/form/components/modals/settings.js:434
+"Please fix the limit Start or End date." => array( null, __("Please fix the limit Start or End date.", "forminator"), ), // src/form/components/modals/settings.js:572
+"Maximum Rating value should be less than 50." => array( null, __("Maximum Rating value should be less than 50.", "forminator"), ), // src/form/components/modals/settings.js:583
+"Customize %s" => array( null, __("Customize %s", "forminator"), ), // src/form/components/modals/settings.js:660
+"Customize %s Field" => array( null, __("Customize %s Field", "forminator"), ), // src/form/components/modals/settings.js:661
+"Customize Page Visibility" => array( null, __("Customize Page Visibility", "forminator"), ), // src/form/components/modals/settings.js:665
+"Geolocation" => array( null, __("Geolocation", "forminator"), ), // src/form/components/modals/settings.js:723
+"Geolocation {{span}}Pro{{/span}}" => array( null, __("Geolocation {{span}}Pro{{/span}}", "forminator"), ), // src/form/components/modals/settings.js:725
+"Products/Plans" => array( null, __("Products/Plans", "forminator"), ), // src/form/components/modals/settings.js:752
+"Repeater" => array( null, __("Repeater", "forminator"), ), // src/form/components/modals/settings.js:772
+"Limits" => array( null, __("Limits", "forminator"), ), // src/form/components/modals/settings.js:786
+"Customize" => array( null, __("Customize", "forminator"), ), // src/form/components/modals/settings.js:838
 "Something went wrong while saving your template. Please try again." => array( null, __("Something went wrong while saving your template. Please try again.", "forminator"), ), // src/form/components/modals/save-template.js:147
 "Save Template" => array( null, __("Save Template", "forminator"), ), // src/form/components/modals/save-template.js:199
 "Enter a name to save this form as a template or select an existing template to overwrite." => array( null, __("Enter a name to save this form as a template or select an existing template to overwrite.", "forminator"), ), // src/form/components/modals/save-template.js:204
@@ -2099,7 +1605,7 @@ Yukon", "forminator"), ), // src/settings/inputs/sui-variables-bulk-editor.js:28
 "seconds." => array( null, __("seconds.", "forminator"), ), // src/form/components/modals/behavior.js:258
 "https://www.mywebsite.com" => array( null, __("https://www.mywebsite.com", "forminator"), ), // src/form/components/modals/behavior.js:274
 "Redirect URL" => array( null, __("Redirect URL", "forminator"), ), // src/form/components/modals/behavior.js:278
-"Provide the absolute URL of the page you want to redirect users to after submitting the login form. For example, to redirect users to the WordPress admin, use the URL  {{strong}}http://www.website.com/wp-admin/{{/strong}}." => array( null, __("Provide the absolute URL of the page you want to redirect users to after submitting the login form. For example, to redirect users to the WordPress admin, use the URL  {{strong}}http://www.website.com/wp-admin/{{/strong}}.", "forminator"), ), // src/form/components/modals/behavior.js:282
+"Provide the absolute URL of the page you want to redirect users to after submitting the form. For example, to redirect users to the WordPress admin, use the URL  {{strong}}https://www.website.com/wp-admin/{{/strong}}." => array( null, __("Provide the absolute URL of the page you want to redirect users to after submitting the form. For example, to redirect users to the WordPress admin, use the URL  {{strong}}https://www.website.com/wp-admin/{{/strong}}.", "forminator"), ), // src/form/components/modals/behavior.js:282
 "Redirection Option" => array( null, __("Redirection Option", "forminator"), ), // src/form/components/modals/behavior.js:310
 "Redirect on the same tab" => array( null, __("Redirect on the same tab", "forminator"), ), // src/form/components/modals/behavior.js:313
 "Redirect on new tab and show thank you message on form page" => array( null, __("Redirect on new tab and show thank you message on form page", "forminator"), ), // src/form/components/modals/behavior.js:314
@@ -2135,7 +1641,9 @@ Yukon", "forminator"), ), // src/settings/inputs/sui-variables-bulk-editor.js:28
 "Use conditional logic to send data to this app based on submitted form data." => array( null, __("Use conditional logic to send data to this app based on submitted form data.", "forminator"), ), // src/form/components/integrations/conditions.js:173
 "Add conditions under which data should be sent to this app." => array( null, __("Add conditions under which data should be sent to this app.", "forminator"), ), // src/form/components/integrations/conditions.js:197
 "Add Condition" => array( null, __("Add Condition", "forminator"), ), // src/form/components/integrations/conditions.js:244
-"Give your form a name" => array( null, __("Give your form a name", "forminator"), ), // src/form/components/header/title.js:43
+"Name your PDF" => array( null, __("Name your PDF", "forminator"), ), // src/form/components/header/title.js:39
+"Give your PDF a name" => array( null, __("Give your PDF a name", "forminator"), ), // src/form/components/header/title.js:44
+"Give your form a name" => array( null, __("Give your form a name", "forminator"), ), // src/form/components/header/title.js:44
 "Save to Cloud" => array( null, __("Save to Cloud", "forminator"), ), // src/form/components/header/save-template.js:41
 "Default Value (optional)" => array( null, __("Default Value (optional)", "forminator"), ), // src/form/components/fields/website.js:52
 "Enter default value" => array( null, __("Enter default value", "forminator"), ), // src/form/components/fields/website.js:53
@@ -2338,20 +1846,23 @@ Yukon", "forminator"), ), // src/settings/inputs/sui-variables-bulk-editor.js:28
 "Featured Image" => array( null, __("Featured Image", "forminator"), ), // src/form/components/fields/postdata.js:43
 "Custom Fields" => array( null, __("Custom Fields", "forminator"), ), // src/form/components/fields/postdata.js:68
 "Allow users to submit post data with this field. By default, this will create new posts, but you can assign it to any post type in the {{a}}Settings{{/a}} tab." => array( null, __("Allow users to submit post data with this field. By default, this will create new posts, but you can assign it to any post type in the {{a}}Settings{{/a}} tab.", "forminator"), ), // src/form/components/fields/postdata.js:89
-"Post type" => array( null, __("Post type", "forminator"), ), // src/form/components/fields/postdata.js:250
-"Choose the post type associated with this field." => array( null, __("Choose the post type associated with this field.", "forminator"), ), // src/form/components/fields/postdata.js:254
-"Assigned post type" => array( null, __("Assigned post type", "forminator"), ), // src/form/components/fields/postdata.js:260
-"post" => array( null, __("post", "forminator"), ), // src/form/components/fields/postdata.js:261
-"Default status" => array( null, __("Default status", "forminator"), ), // src/form/components/fields/postdata.js:280
-"When a user submits this form, choose what status this post data is." => array( null, __("When a user submits this form, choose what status this post data is.", "forminator"), ), // src/form/components/fields/postdata.js:285
-"pending" => array( null, __("pending", "forminator"), ), // src/form/components/fields/postdata.js:294
-"Pending Review" => array( null, __("Pending Review", "forminator"), ), // src/form/components/fields/postdata.js:302
-"Published" => array( null, __("Published", "forminator"), ), // src/form/components/fields/postdata.js:305
-"Default author" => array( null, __("Default author", "forminator"), ), // src/form/components/fields/postdata.js:314
-"By default we'll assign posts to users if they're logged in, and fall back to the user specified below if you're allowing visitors to make posts. You can also override this to always assign posts to a specified user." => array( null, __("By default we'll assign posts to users if they're logged in, and fall back to the user specified below if you're allowing visitors to make posts. You can also override this to always assign posts to a specified user.", "forminator"), ), // src/form/components/fields/postdata.js:318
-"Always assign posts to this user" => array( null, __("Always assign posts to this user", "forminator"), ), // src/form/components/fields/postdata.js:346
-"Taxonomies limits" => array( null, __("Taxonomies limits", "forminator"), ), // src/form/components/fields/postdata.js:359
-"Choose whether to allow single or multiple categories or tags on this post." => array( null, __("Choose whether to allow single or multiple categories or tags on this post.", "forminator"), ), // src/form/components/fields/postdata.js:363
+"Media button" => array( null, __("Media button", "forminator"), ), // src/form/components/fields/postdata.js:251
+"Allow media insertion in content editor" => array( null, __("Allow media insertion in content editor", "forminator"), ), // src/form/components/fields/postdata.js:255
+"Users must have the {{a}}upload_files capability{{/a}} to access the media upload button." => array( null, __("Users must have the {{a}}upload_files capability{{/a}} to access the media upload button.", "forminator"), ), // src/form/components/fields/postdata.js:283
+"Post type" => array( null, __("Post type", "forminator"), ), // src/form/components/fields/postdata.js:306
+"Choose the post type associated with this field." => array( null, __("Choose the post type associated with this field.", "forminator"), ), // src/form/components/fields/postdata.js:310
+"Assigned post type" => array( null, __("Assigned post type", "forminator"), ), // src/form/components/fields/postdata.js:316
+"post" => array( null, __("post", "forminator"), ), // src/form/components/fields/postdata.js:317
+"Default status" => array( null, __("Default status", "forminator"), ), // src/form/components/fields/postdata.js:336
+"When a user submits this form, choose what status this post data is." => array( null, __("When a user submits this form, choose what status this post data is.", "forminator"), ), // src/form/components/fields/postdata.js:341
+"pending" => array( null, __("pending", "forminator"), ), // src/form/components/fields/postdata.js:350
+"Pending Review" => array( null, __("Pending Review", "forminator"), ), // src/form/components/fields/postdata.js:358
+"Published" => array( null, __("Published", "forminator"), ), // src/form/components/fields/postdata.js:361
+"Default author" => array( null, __("Default author", "forminator"), ), // src/form/components/fields/postdata.js:370
+"By default we'll assign posts to users if they're logged in, and fall back to the user specified below if you're allowing visitors to make posts. You can also override this to always assign posts to a specified user." => array( null, __("By default we'll assign posts to users if they're logged in, and fall back to the user specified below if you're allowing visitors to make posts. You can also override this to always assign posts to a specified user.", "forminator"), ), // src/form/components/fields/postdata.js:374
+"Always assign posts to this user" => array( null, __("Always assign posts to this user", "forminator"), ), // src/form/components/fields/postdata.js:402
+"Taxonomies limits" => array( null, __("Taxonomies limits", "forminator"), ), // src/form/components/fields/postdata.js:414
+"Choose whether to allow single or multiple categories or tags on this post." => array( null, __("Choose whether to allow single or multiple categories or tags on this post.", "forminator"), ), // src/form/components/fields/postdata.js:418
 "Validation" => array( null, __("Validation", "forminator"), ), // src/form/components/fields/phone.js:43
 "Make sure the users fill this field as per the selected validation and warn them when they haven't" => array( null, __("Make sure the users fill this field as per the selected validation and warn them when they haven't", "forminator"), ), // src/form/components/fields/phone.js:46
 "National" => array( null, __("National", "forminator"), ), // src/form/components/fields/phone.js:64
@@ -2433,6 +1944,8 @@ Yukon", "forminator"), ), // src/settings/inputs/sui-variables-bulk-editor.js:28
 "Password validation error message" => array( null, __("Password validation error message", "forminator"), ), // src/form/components/fields/password.js:171
 "Enter an error message to be displayed when the passwords do not match." => array( null, __("Enter an error message to be displayed when the passwords do not match.", "forminator"), ), // src/form/components/fields/password.js:174
 "Passwords do not match. Please try again." => array( null, __("Passwords do not match. Please try again.", "forminator"), ), // src/form/components/fields/password.js:182
+"Password Visibility Toggle" => array( null, __("Password Visibility Toggle", "forminator"), ), // src/form/components/fields/password.js:190
+"Add a password visibility toggle to password fields, letting users reveal their password while typing to reduce errors." => array( null, __("Add a password visibility toggle to password fields, letting users reveal their password while typing to reduce errors.", "forminator"), ), // src/form/components/fields/password.js:192
 "Step label" => array( null, __("Step label", "forminator"), ), // src/form/components/fields/pagination.js:25
 "Enter step label" => array( null, __("Enter step label", "forminator"), ), // src/form/components/fields/pagination.js:26
 "Set the minimum and maximum values the user can choose. Leave the fields blank to allow any number including negatives." => array( null, __("Set the minimum and maximum values the user can choose. Leave the fields blank to allow any number including negatives.", "forminator"), ), // src/form/components/fields/number.js:93
@@ -2481,15 +1994,15 @@ Yukon", "forminator"), ), // src/settings/inputs/sui-variables-bulk-editor.js:28
 "d.m.Y" => array( null, __("d.m.Y", "forminator"), ), // src/form/components/fields/date.js:91
 "Calendar Icon" => array( null, __("Calendar Icon", "forminator"), ), // src/form/components/fields/date.js:112
 "Text inputs" => array( null, __("Text inputs", "forminator"), ), // src/form/components/fields/date.js:231
-"Default Date" => array( null, __("Default Date", "forminator"), ), // src/form/components/fields/date.js:371
-"Use this feature to specify a default selected date." => array( null, __("Use this feature to specify a default selected date.", "forminator"), ), // src/form/components/fields/date.js:374
-"Future Date" => array( null, __("Future Date", "forminator"), ), // src/form/components/fields/date.js:393
-"Year Range" => array( null, __("Year Range", "forminator"), ), // src/form/components/fields/date.js:410
-"By default, we select 100 years in the past, and 100 years in the future for the year dropdown field. You can set a custom year range to display in the year dropdown below." => array( null, __("By default, we select 100 years in the past, and 100 years in the future for the year dropdown field. You can set a custom year range to display in the year dropdown below.", "forminator"), ), // src/form/components/fields/date.js:413
-"From" => array( null, __("From", "forminator"), ), // src/form/components/fields/date.js:425
-"1920" => array( null, __("1920", "forminator"), ), // src/form/components/fields/date.js:426
-"To" => array( null, __("To", "forminator"), ), // src/form/components/fields/date.js:436
-"2030" => array( null, __("2030", "forminator"), ), // src/form/components/fields/date.js:437
+"Default Date" => array( null, __("Default Date", "forminator"), ), // src/form/components/fields/date.js:370
+"Use this feature to specify a default selected date." => array( null, __("Use this feature to specify a default selected date.", "forminator"), ), // src/form/components/fields/date.js:373
+"Future Date" => array( null, __("Future Date", "forminator"), ), // src/form/components/fields/date.js:392
+"Year Range" => array( null, __("Year Range", "forminator"), ), // src/form/components/fields/date.js:408
+"By default, we select 100 years in the past, and 100 years in the future for the year dropdown field. You can set a custom year range to display in the year dropdown below." => array( null, __("By default, we select 100 years in the past, and 100 years in the future for the year dropdown field. You can set a custom year range to display in the year dropdown below.", "forminator"), ), // src/form/components/fields/date.js:411
+"From" => array( null, __("From", "forminator"), ), // src/form/components/fields/date.js:423
+"1920" => array( null, __("1920", "forminator"), ), // src/form/components/fields/date.js:424
+"To" => array( null, __("To", "forminator"), ), // src/form/components/fields/date.js:434
+"2030" => array( null, __("2030", "forminator"), ), // src/form/components/fields/date.js:435
 "Currency" => array( null, __("Currency", "forminator"), ), // src/form/components/fields/currency.js:98
 "Choose the currency to display on the field. If you are going to collect payments based on this field, it is recommended to keep this currency same as your charge currency to avoid any confusions." => array( null, __("Choose the currency to display on the field. If you are going to collect payments based on this field, it is recommended to keep this currency same as your charge currency to avoid any confusions.", "forminator"), ), // src/form/components/fields/currency.js:101
 "Limit" => array( null, __("Limit", "forminator"), ), // src/form/components/fields/currency.js:121
@@ -2703,26 +2216,26 @@ Yukon", "forminator"), ), // src/settings/inputs/sui-variables-bulk-editor.js:28
 "Insert Form Fields" => array( null, __("Insert Form Fields", "forminator"), ), // src/form/components/builder/insert-fields.js:11
 "Add fields to group" => array( null, __("Add fields to group", "forminator"), ), // src/form/components/builder/insert-fields.js:11
 "You haven’t added any fields yet. Add form fields to get started." => array( null, __("You haven’t added any fields yet. Add form fields to get started.", "forminator"), ), // src/form/components/builder/insert-fields.js:66
-"Old Stripe field is being deprecated and only available for backward compatibility. You can delete this field if your form is working properly." => array( null, __("Old Stripe field is being deprecated and only available for backward compatibility. You can delete this field if your form is working properly.", "forminator"), ), // src/form/components/builder/field.js:1097
-"Legacy" => array( null, __("Legacy", "forminator"), ), // src/form/components/builder/field.js:1098
-"Delete field" => array( null, __("Delete field", "forminator"), ), // src/form/components/builder/field.js:1131
-"Submission Behavior" => array( null, __("Submission Behavior", "forminator"), ), // src/form/components/behaviour/submission.js:21
-"Configure what should happen when a user submits this form." => array( null, __("Configure what should happen when a user submits this form.", "forminator"), ), // src/form/components/behaviour/submission.js:25
-"After submission" => array( null, __("After submission", "forminator"), ), // src/form/components/behaviour/submission.js:35
-"Choose what happens after successful submission of this form. Multiple submission behaviors can be added and conditionally processed based on submitted form data." => array( null, __("Choose what happens after successful submission of this form. Multiple submission behaviors can be added and conditionally processed based on submitted form data.", "forminator"), ), // src/form/components/behaviour/submission.js:42
-"You’ll need to configure conditional logic for each submission behavior to ensure Forminator knows when each behavior should be processed. If no conditions have been set, the first submission behavior will be processed." => array( null, __("You’ll need to configure conditional logic for each submission behavior to ensure Forminator knows when each behavior should be processed. If no conditions have been set, the first submission behavior will be processed.", "forminator"), ), // src/form/components/behaviour/submission.js:68
-"Choose whether you want to use AJAX to send this form without reloading the page, or use the more traditional method of reloading the page." => array( null, __("Choose whether you want to use AJAX to send this form without reloading the page, or use the more traditional method of reloading the page.", "forminator"), ), // src/form/components/behaviour/submission.js:94
-"Note that you can only use the Ajax submission method while using the Stripe field in your form. The Ajax method will hide your form after the successful submission and only your inline success message will be shown. The form will be available again when the page is reloaded." => array( null, __("Note that you can only use the Ajax submission method while using the Stripe field in your form. The Ajax method will hide your form after the successful submission and only your inline success message will be shown. The form will be available again when the page is reloaded.", "forminator"), ), // src/form/components/behaviour/submission.js:122
-"Page Reload" => array( null, __("Page Reload", "forminator"), ), // src/form/components/behaviour/submission.js:140
-"For fields that you've chosen to validate, choose how you want the validation to behave. On submission will run validation checks when the user submits the form using Ajax (recommended). The Live method will check fields at the same time as the user fills them out. Server side does the validation using PHP and returns any error messages after a page reload." => array( null, __("For fields that you've chosen to validate, choose how you want the validation to behave. On submission will run validation checks when the user submits the form using Ajax (recommended). The Live method will check fields at the same time as the user fills them out. Server side does the validation using PHP and returns any error messages after a page reload.", "forminator"), ), // src/form/components/behaviour/submission.js:186
-"On Submit" => array( null, __("On Submit", "forminator"), ), // src/form/components/behaviour/submission.js:195
-"Server Side" => array( null, __("Server Side", "forminator"), ), // src/form/components/behaviour/submission.js:196
-"Enable inline validation (as user types)" => array( null, __("Enable inline validation (as user types)", "forminator"), ), // src/form/components/behaviour/submission.js:200
-"Submission Indicator" => array( null, __("Submission Indicator", "forminator"), ), // src/form/components/behaviour/submission.js:208
-"Choose whether you want to show a loader on your form until it is submitted. We highly recommend using this on long forms or forms with payment field since they may take a few seconds to submit." => array( null, __("Choose whether you want to show a loader on your form until it is submitted. We highly recommend using this on long forms or forms with payment field since they may take a few seconds to submit.", "forminator"), ), // src/form/components/behaviour/submission.js:211
-"E.g. Submitting…" => array( null, __("E.g. Submitting…", "forminator"), ), // src/form/components/behaviour/submission.js:225
-"Text to show on the right of loading icon" => array( null, __("Text to show on the right of loading icon", "forminator"), ), // src/form/components/behaviour/submission.js:227
-"Choose the text to show on the right of loading icon" => array( null, __("Choose the text to show on the right of loading icon", "forminator"), ), // src/form/components/behaviour/submission.js:229
+"Old Stripe field is being deprecated and only available for backward compatibility. You can delete this field if your form is working properly." => array( null, __("Old Stripe field is being deprecated and only available for backward compatibility. You can delete this field if your form is working properly.", "forminator"), ), // src/form/components/builder/field.js:1101
+"Legacy" => array( null, __("Legacy", "forminator"), ), // src/form/components/builder/field.js:1102
+"Delete field" => array( null, __("Delete field", "forminator"), ), // src/form/components/builder/field.js:1135
+"Submission Behavior" => array( null, __("Submission Behavior", "forminator"), ), // src/form/components/behaviour/submission.js:24
+"Configure what should happen when a user submits this form." => array( null, __("Configure what should happen when a user submits this form.", "forminator"), ), // src/form/components/behaviour/submission.js:28
+"After submission" => array( null, __("After submission", "forminator"), ), // src/form/components/behaviour/submission.js:38
+"Choose what happens after successful submission of this form. Multiple submission behaviors can be added and conditionally processed based on submitted form data." => array( null, __("Choose what happens after successful submission of this form. Multiple submission behaviors can be added and conditionally processed based on submitted form data.", "forminator"), ), // src/form/components/behaviour/submission.js:45
+"You’ll need to configure conditional logic for each submission behavior to ensure Forminator knows when each behavior should be processed. If no conditions have been set, the first submission behavior will be processed." => array( null, __("You’ll need to configure conditional logic for each submission behavior to ensure Forminator knows when each behavior should be processed. If no conditions have been set, the first submission behavior will be processed.", "forminator"), ), // src/form/components/behaviour/submission.js:71
+"Choose whether you want to use AJAX to send this form without reloading the page, or use the more traditional method of reloading the page." => array( null, __("Choose whether you want to use AJAX to send this form without reloading the page, or use the more traditional method of reloading the page.", "forminator"), ), // src/form/components/behaviour/submission.js:97
+"Note that you can only use the Ajax submission method while using the Stripe field in your form. The Ajax method will hide your form after the successful submission and only your inline success message will be shown. The form will be available again when the page is reloaded." => array( null, __("Note that you can only use the Ajax submission method while using the Stripe field in your form. The Ajax method will hide your form after the successful submission and only your inline success message will be shown. The form will be available again when the page is reloaded.", "forminator"), ), // src/form/components/behaviour/submission.js:125
+"Page Reload" => array( null, __("Page Reload", "forminator"), ), // src/form/components/behaviour/submission.js:143
+"For fields that you've chosen to validate, choose how you want the validation to behave. On submission will run validation checks when the user submits the form using Ajax (recommended). The Live method will check fields at the same time as the user fills them out. Server side does the validation using PHP and returns any error messages after a page reload." => array( null, __("For fields that you've chosen to validate, choose how you want the validation to behave. On submission will run validation checks when the user submits the form using Ajax (recommended). The Live method will check fields at the same time as the user fills them out. Server side does the validation using PHP and returns any error messages after a page reload.", "forminator"), ), // src/form/components/behaviour/submission.js:189
+"On Submit" => array( null, __("On Submit", "forminator"), ), // src/form/components/behaviour/submission.js:198
+"Server Side" => array( null, __("Server Side", "forminator"), ), // src/form/components/behaviour/submission.js:199
+"Enable inline validation (as user types)" => array( null, __("Enable inline validation (as user types)", "forminator"), ), // src/form/components/behaviour/submission.js:203
+"Submission Indicator" => array( null, __("Submission Indicator", "forminator"), ), // src/form/components/behaviour/submission.js:211
+"Shows a loader on your form while it's being submitted. Recommended for long forms or forms with a payment field, as these can take a few seconds to submit." => array( null, __("Shows a loader on your form while it's being submitted. Recommended for long forms or forms with a payment field, as these can take a few seconds to submit.", "forminator"), ), // src/form/components/behaviour/submission.js:214
+"E.g. Submitting…" => array( null, __("E.g. Submitting…", "forminator"), ), // src/form/components/behaviour/submission.js:227
+"Text to show on the right of loading icon" => array( null, __("Text to show on the right of loading icon", "forminator"), ), // src/form/components/behaviour/submission.js:229
+"Choose the text to show on the right of loading icon" => array( null, __("Choose the text to show on the right of loading icon", "forminator"), ), // src/form/components/behaviour/submission.js:231
 "Your {form_name} form on {site_title} has been saved as draft" => array( null, __("Your {form_name} form on {site_title} has been saved as draft", "forminator"), ), // src/form/components/behaviour/save-and-continue.js:42
 "<p>Hi there!</p><p>You've successfully saved <b>{form_name}</b> form on <a href='{site_url}' target='_blank' rel='noopener noreferrer' style='color:#097BAA;'>{site_title}</a>.
 To continue where you left off, click the link below or copy the link to your web browser.</p><p><a href='{form_link}' target='_blank' rel='noopener noreferrer' style='color:#097BAA;'>{form_link}</a></p><p>The above link will expire in {retention_period} days. Also note that anyone visiting the link will be able to view your partially completed form data.</p>" => array( null, __("<p>Hi there!</p><p>You've successfully saved <b>{form_name}</b> form on <a href='{site_url}' target='_blank' rel='noopener noreferrer' style='color:#097BAA;'>{site_title}</a>.

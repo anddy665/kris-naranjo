@@ -244,7 +244,7 @@ abstract class Forminator_Admin_Module_Edit_Page extends Forminator_Admin_Page {
 			return true;
 		}
 
-		return true === forminator_validate_registration_form_settings( $settings );
+		return true === forminator_check_registration_form_permissions( $settings );
 	}
 
 	/**
@@ -781,7 +781,7 @@ abstract class Forminator_Admin_Module_Edit_Page extends Forminator_Admin_Page {
 		// check if this id is valid and the record is exists.
 		$model = Forminator_Base_Form_Model::get_model( $id );
 		if ( is_object( $model ) ) {
-			$validate = forminator_validate_registration_form_settings( $model->settings );
+			$validate = forminator_check_registration_form_permissions( $model->settings );
 			if ( is_wp_error( $validate ) ) {
 				return $validate;
 			}
@@ -993,9 +993,16 @@ abstract class Forminator_Admin_Module_Edit_Page extends Forminator_Admin_Page {
 				break;
 		}
 
+		$slug = 'forminator-cform';
+		if ( 'poll' === static::$module_slug ) {
+			$slug = 'forminator-poll';
+		} elseif ( 'quiz' === static::$module_slug ) {
+			$slug = 'forminator-quiz';
+		}
 		// Verify nonce.
 		$nonce = Forminator_Core::sanitize_text_field( $nonce_name );
-		if ( ! $nonce || ! wp_verify_nonce( $nonce, $nonce_action ) ) {
+		if ( ! $nonce || ! wp_verify_nonce( $nonce, $nonce_action )
+			|| ! forminator_is_user_allowed( $slug ) ) {
 			return;
 		}
 
@@ -1090,24 +1097,9 @@ abstract class Forminator_Admin_Module_Edit_Page extends Forminator_Admin_Page {
 				$status = Forminator_Core::sanitize_text_field( 'status' );
 
 				if ( ! empty( $id ) && ! empty( $status ) ) {
-					// only publish and draft status avail.
-					if ( in_array( $status, array( 'publish', 'draft' ), true ) ) {
-						$model = Forminator_Base_Form_Model::get_model( $id );
-						if ( $model instanceof Forminator_Base_Form_Model ) {
-							$is_publishable = $model->is_publishable();
-							if ( 'publish' === $status && is_wp_error( $is_publishable ) ) {
-								$error_message = $is_publishable->get_error_message();
-								break;
-							}
-							$model->status = $status;
-							$result        = $model->save();
-							if ( is_wp_error( $result ) ) {
-								$error_message = $result->get_error_message();
-							} else {
-								// Call module update do action on status update.
-								Forminator_Base_Form_Model::module_update_do_action( static::$module_slug, $id, $model );
-							}
-						}
+					$result = $this->update_module_status( $id, $status );
+					if ( is_wp_error( $result ) ) {
+						$error_message = $result->get_error_message();
 					}
 				}
 				break;

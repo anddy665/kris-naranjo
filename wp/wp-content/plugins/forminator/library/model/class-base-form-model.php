@@ -974,22 +974,36 @@ abstract class Forminator_Base_Form_Model {
 	private static function validate_registration_fields_mapping( $form_settings, $fields ) {
 		$field_ids = wp_list_pluck( $fields, 'id' );
 		if ( ! empty( $form_settings['form-type'] ) && 'registration' === $form_settings['form-type'] && ! empty( $field_ids ) ) {
+			$optional_registration_fields = array(
+				'registration-first-name-field',
+				'registration-last-name-field',
+				'registration-website-field',
+			);
+
 			// Get first field id (not password).
 			$i = 0;
 			do {
-				$first_id = isset( $field_ids[ $i ] ) ? $field_ids[ $i ] : null;
+				$first_id = isset( $field_ids[ $i ] ) && false === strpos( $field_ids[ $i ], 'password' )
+					? $field_ids[ $i ] : null;
 				++$i;
-				$is_password = false !== strpos( $first_id, 'password' );
-				$go_next     = empty( $first_id ) || $is_password;
+				$go_next = empty( $first_id ) && $i < count( $field_ids );
 			} while ( $go_next );
+
+			if ( ! $first_id ) {
+				return $form_settings;
+			}
 
 			foreach ( $form_settings as $key => $value ) {
 				if ( ! is_string( $value ) ) {
 					continue;
 				}
+
+				if ( '' === $value && in_array( $key, $optional_registration_fields, true ) ) {
+					continue;
+				}
+
 				$value_parts = explode( '-', $value );
-				if ( ! $first_id
-					|| 'registration-' !== substr( $key, 0, 13 )
+				if ( 'registration-' !== substr( $key, 0, 13 )
 					|| '-field' !== substr( $key, - 6 )
 					|| 'registration-role-field' === $key
 					|| in_array( $value, $field_ids, true )
@@ -1813,32 +1827,12 @@ abstract class Forminator_Base_Form_Model {
 			}
 		}
 		if ( $can_show['can_submit'] ) {
-			if ( isset( $form_settings['form-expire'] ) ) {
-				if ( 'submits' === $form_settings['form-expire'] ) {
-					if ( isset( $form_settings['expire_submits'] ) && ! empty( $form_settings['expire_submits'] ) ) {
-						$submits       = intval( $form_settings['expire_submits'] );
-						$total_entries = Forminator_Form_Entry_Model::count_entries( $this->id );
-						if ( $total_entries >= $submits ) {
-							$can_show = array(
-								'can_submit' => false,
-								/* translators: %s: module slug */
-								'error'      => sprintf( esc_html__( 'You have reached the maximum allowed submissions for this %s.', 'forminator' ), $module_slug ),
-							);
-						}
-					}
-				} elseif ( 'date' === $form_settings['form-expire'] ) {
-					if ( isset( $form_settings['expire_date'] ) && ! empty( $form_settings['expire_date'] ) ) {
-						$expire_date  = $this->get_expiry_date( $form_settings['expire_date'] );
-						$current_date = strtotime( 'now' );
-						if ( $current_date > $expire_date ) {
-							$can_show = array(
-								'can_submit' => false,
-								/* translators: %s: module slug */
-								'error'      => sprintf( esc_html__( 'Unfortunately this %s has expired.', 'forminator' ), $module_slug ),
-							);
-						}
-					}
-				}
+			$form_expired = $this->check_form_expired( $form_settings, $module_slug );
+			if ( true === $form_expired['expired'] ) {
+				$can_show = array(
+					'can_submit' => false,
+					'error'      => $form_expired['error'],
+				);
 			}
 		}
 
@@ -1880,6 +1874,51 @@ abstract class Forminator_Base_Form_Model {
 	}
 
 	/**
+	 * Check if form is expired
+	 *
+	 * @param array  $form_settings Form settings.
+	 * @param string $module_slug Module slug.
+	 *
+	 * @since 1.53.0
+	 * @return array
+	 */
+	public function check_form_expired( $form_settings, $module_slug = '' ) {
+		$expired = array(
+			'expired' => false,
+			'error'   => '',
+		);
+		if ( isset( $form_settings['form-expire'] ) ) {
+			if ( 'submits' === $form_settings['form-expire'] ) {
+				if ( isset( $form_settings['expire_submits'] ) && ! empty( $form_settings['expire_submits'] ) ) {
+					$submits       = intval( $form_settings['expire_submits'] );
+					$total_entries = Forminator_Form_Entry_Model::count_entries( $this->id );
+					if ( $total_entries >= $submits ) {
+						$expired = array(
+							'expired' => true,
+							/* translators: %s: module slug */
+							'error'   => sprintf( esc_html__( 'You have reached the maximum allowed submissions for this %s.', 'forminator' ), $module_slug ),
+						);
+					}
+				}
+			} elseif ( 'date' === $form_settings['form-expire'] ) {
+				if ( isset( $form_settings['expire_date'] ) && ! empty( $form_settings['expire_date'] ) ) {
+					$expire_date  = $this->get_expiry_date( $form_settings['expire_date'] );
+					$current_date = strtotime( 'now' );
+					if ( $current_date > $expire_date ) {
+						$expired = array(
+							'expired' => true,
+							/* translators: %s: module slug */
+							'error'   => sprintf( esc_html__( 'Unfortunately this %s has expired.', 'forminator' ), $module_slug ),
+						);
+					}
+				}
+			}
+		}
+
+		return $expired;
+	}
+
+	/**
 	 * Check if we can show the form
 	 *
 	 * @param bool $is_preview Is preview.
@@ -1897,24 +1936,9 @@ abstract class Forminator_Base_Form_Model {
 			}
 		}
 		if ( $can_show ) {
-			if ( isset( $form_settings['form-expire'] ) ) {
-				if ( 'submits' === $form_settings['form-expire'] ) {
-					if ( isset( $form_settings['expire_submits'] ) && ! empty( $form_settings['expire_submits'] ) ) {
-						$submits       = intval( $form_settings['expire_submits'] );
-						$total_entries = Forminator_Form_Entry_Model::count_entries( $this->id );
-						if ( $total_entries >= $submits && ! $is_preview ) {
-							$can_show = false;
-						}
-					}
-				} elseif ( 'date' === $form_settings['form-expire'] ) {
-					if ( isset( $form_settings['expire_date'] ) && ! empty( $form_settings['expire_date'] ) ) {
-						$expire_date  = $this->get_expiry_date( $form_settings['expire_date'] );
-						$current_date = strtotime( 'now' );
-						if ( $current_date > $expire_date && ! $is_preview ) {
-							$can_show = false;
-						}
-					}
-				}
+			$form_expired = $this->check_form_expired( $form_settings );
+			if ( ! $is_preview && true === $form_expired['expired'] ) {
+				$can_show = false;
 			}
 		}
 

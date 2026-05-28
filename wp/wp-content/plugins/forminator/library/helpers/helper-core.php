@@ -897,6 +897,28 @@ function forminator_get_export_logs( $form_id ) {
 }
 
 /**
+ * Get the current post ID from server context (AJAX or non-AJAX).
+ *
+ * @since 1.53.0
+ *
+ * @return int Post ID or 0 if not available.
+ */
+function forminator_get_current_post_id() {
+	static $post_id;
+	if ( isset( $post_id ) ) {
+		return $post_id;
+	}
+
+	if ( ! empty( $_SERVER['REQUEST_URI'] ) && false !== strpos( esc_url_raw( wp_unslash( $_SERVER['REQUEST_URI'] ) ), 'admin-ajax.php' ) ) {
+		$post_id = (int) url_to_postid( wp_get_referer() );
+		return $post_id;
+	}
+
+	$post_id = (int) get_the_ID();
+	return $post_id;
+}
+
+/**
  * Return current page url
  *
  * @since 1.0.3
@@ -904,15 +926,36 @@ function forminator_get_export_logs( $form_id ) {
  * @return mixed
  */
 function forminator_get_current_url() {
-	if ( ! empty( $_SERVER['REQUEST_URI'] ) && false !== strpos( esc_url_raw( wp_unslash( $_SERVER['REQUEST_URI'] ) ), 'admin-ajax.php' ) ) {
-		$post_id = url_to_postid( wp_get_referer() );
-	} else {
-		$post_id = get_the_ID();
+	static $current_url;
+	if ( isset( $current_url ) ) {
+		return $current_url;
 	}
+	$post_id     = forminator_get_current_post_id();
+	$current_url = $post_id > 0 ? esc_url( get_permalink( $post_id ) ) : '';
 
-	return esc_url( get_permalink( $post_id ) );
+	return $current_url;
 }
 
+/**
+ * Detect whether current request comes from Breakdance builder SSR preview.
+ *
+ * @since 1.54.0
+ *
+ * @return bool
+ */
+function forminator_is_breakdance_builder_preview() {
+
+	$action              = Forminator_Core::sanitize_text_field( 'action' );
+	$page_id             = (int) Forminator_Core::sanitize_text_field( 'page_id' );
+	$triggering_document = (int) Forminator_Core::sanitize_text_field( 'triggeringDocument' );
+	$document_id         = $triggering_document ? $triggering_document : $page_id;
+
+	if ( 'breakdance_server_side_render' !== $action || ! $document_id ) {
+		return false;
+	}
+
+	return current_user_can( 'edit_post', $document_id );
+}
 /**
  * Detect whether current request comes from any page builder preveiw page
  *
@@ -952,6 +995,17 @@ function forminator_is_page_builder_preview() {
 	$action         = Forminator_Core::sanitize_text_field( 'action' );
 	$editor_post_id = (int) Forminator_Core::sanitize_text_field( 'editor_post_id' );
 	if ( defined( 'ELEMENTOR_VERSION' ) && 'elementor_ajax' === $action && $editor_post_id ) {
+		$decision = true;
+		return $decision;
+	}
+
+	// Check Oxygen plugin.
+	if (
+		defined( '__BREAKDANCE_VERSION' ) &&
+		defined( 'BREAKDANCE_MODE' ) &&
+		'oxygen' === BREAKDANCE_MODE &&
+		forminator_is_breakdance_builder_preview()
+	) {
 		$decision = true;
 		return $decision;
 	}
@@ -1921,17 +1975,18 @@ function forminator_get_accessible_user_roles() {
 }
 
 /**
- * Validate registration form settings.
+ * Check registration form permissions and access.
  *
  * @param array $settings Settings.
  * @return bool|WP_Error
  */
-function forminator_validate_registration_form_settings( $settings ) {
+function forminator_check_registration_form_permissions( $settings ) {
 	if ( ! empty( $settings['form-type'] ) && 'registration' === $settings['form-type'] ) {
 		$error_message = esc_html__( 'Unfortunately, you do not have the required permissions or user role to perform this action.', 'forminator' );
 		if ( ! current_user_can( 'create_users' ) ) {
 			return new WP_Error( 'invalid_access', $error_message );
 		}
+
 		$roles = forminator_get_accessible_user_roles();
 		if ( isset( $settings['registration-user-role'] ) && 'fixed' === $settings['registration-user-role'] ) {
 			if ( isset( $settings['registration-role-field'] ) && ! isset( $roles[ $settings['registration-role-field'] ] )
@@ -1947,6 +2002,38 @@ function forminator_validate_registration_form_settings( $settings ) {
 			}
 		}
 	}
+	return true;
+}
+
+/**
+ * Validate registration form settings.
+ *
+ * @param array $settings Settings.
+ * @return bool|WP_Error
+ */
+function forminator_validate_registration_form_settings( $settings ) {
+	// Check permissions first.
+	$permission_check = forminator_check_registration_form_permissions( $settings );
+	if ( is_wp_error( $permission_check ) ) {
+		return $permission_check;
+	}
+
+	// Always validate required fields for registration forms.
+	if ( ! empty( $settings['form-type'] ) && 'registration' === $settings['form-type'] ) {
+		$required_message = esc_html__( 'Please map all required user fields before saving this registration form.', 'forminator' );
+		$required_fields  = array(
+			'registration-username-field',
+			'registration-email-field',
+			'registration-password-field',
+		);
+
+		foreach ( $required_fields as $required_field ) {
+			if ( ! isset( $settings[ $required_field ] ) || '' === trim( (string) $settings[ $required_field ] ) ) {
+				return new WP_Error( 'invalid_required_mapping', $required_message );
+			}
+		}
+	}
+
 	return true;
 }
 

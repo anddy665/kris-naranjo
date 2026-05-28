@@ -345,6 +345,7 @@ class Forminator_CForm_View_Page extends Forminator_Admin_View_Page {
 			$mapper['separator'] = $separators['separator'];
 			$mapper['point']     = $separators['point'];
 			$mapper['precision'] = $precision;
+
 		} elseif ( 'name' === $field_type ) {
 			// fields that should be displayed as multi column (sub_metas).
 			$is_multiple_name = filter_var( $field->__get( 'multiple_name' ), FILTER_VALIDATE_BOOLEAN );
@@ -748,11 +749,19 @@ class Forminator_CForm_View_Page extends Forminator_Admin_View_Page {
 			 *
 			 * @var Forminator_Form_Entry_Model $entry */
 
-			// create placeholder.
+			$draft_link = '';
+			if ( ! empty( $entry->draft_id ) && isset( $entry->meta_data['_draft_page_id']['value'] ) ) {
+				$draft_page_id = absint( $entry->meta_data['_draft_page_id']['value'] );
+				if ( $draft_page_id ) {
+					$draft_link = Forminator_CForm_Front_Action::get_draft_link( $entry->draft_id, $draft_page_id );
+				}
+			}
+
 			$iterator = array(
 				'id'         => $numerator_id,
 				'entry_id'   => $entry->entry_id,
 				'draft_id'   => $entry->draft_id,
+				'draft_link' => $draft_link,
 				'entry_date' => $entry->time_created,
 				'status'     => $entry->status,
 				'summary'    => array(),
@@ -814,6 +823,8 @@ class Forminator_CForm_View_Page extends Forminator_Admin_View_Page {
 					$sub_entries = self::get_sub_entries( $mapper, $entry );
 				}
 
+				$group_has_sub_entries = ! empty( $sub_entries );
+
 				$detail_args = array(
 					'type'        => $type,
 					'label'       => $label,
@@ -826,11 +837,16 @@ class Forminator_CForm_View_Page extends Forminator_Admin_View_Page {
 					$original_keys       = wp_list_pluck( $mapper['sub_metas'], 'key' );
 					$repeated_group_keys = forminator_get_cloned_field_keys( $entry, $original_keys );
 					foreach ( $repeated_group_keys as $slug ) {
-						$sub_entries = self::get_sub_entries( $mapper, $entry, $slug );
+						$cloned_sub_entries    = self::get_sub_entries( $mapper, $entry, $slug );
+						$group_has_sub_entries = $group_has_sub_entries || ! empty( $cloned_sub_entries );
 
-						$detail_args[ 'sub_entries' . $slug ] = $sub_entries;
+						$detail_args[ 'sub_entries' . $slug ] = $cloned_sub_entries;
 					}
 					$detail_args['repeated_group_keys'] = array_merge( array( '' ), $repeated_group_keys );
+				}
+
+				if ( 'group' === $mapper['type'] && ! $group_has_sub_entries ) {
+					continue;
 				}
 
 				if ( ! empty( $mapper['separator'] ) || ! empty( $mapper['point'] ) ) {

@@ -68,6 +68,8 @@ class API_Requests {
 		$cache_key = CMSMASTERS_OPTIONS_PREFIX . 'cached_request_get-theme-config_' . md5( serialize( array() ) );
 
 		delete_transient( $cache_key );
+
+		Feature_Flags::clear_cache();
 	}
 
 	/**
@@ -244,6 +246,9 @@ class API_Requests {
 
 			wp_send_json_error( esc_html__( 'Token not regenerated. The token was regenerated earlier.', 'cmsmasters-framework' ), 403 );
 		}
+
+		// Set lock immediately to prevent concurrent calls from parallel requests.
+		set_transient( CMSMASTERS_OPTIONS_PREFIX . 'token_regeneration_status', 'regenerated', 60 );
 
 		$token_data = self::get_token_data( $die );
 		$token_data['product_key'] = CMSMASTERS_THEME_PRODUCT_KEY;

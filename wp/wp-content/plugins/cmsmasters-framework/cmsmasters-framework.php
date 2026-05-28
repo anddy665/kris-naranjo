@@ -4,7 +4,7 @@
  * Plugin URI: https://cmsmasters.studio/
  * Description: Provides core functionality for your CMSMasters theme.
  * Author: CMSMasters
- * Version: 1.0.16
+ * Version: 1.0.17
  * Author URI: https://cmsmasters.studio/
  *
  * Text Domain: cmsmasters-framework
@@ -19,7 +19,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 }
 
-define( 'CMSMASTERS_FRAMEWORK_VERSION', '1.0.16' );
+define( 'CMSMASTERS_FRAMEWORK_VERSION', '1.0.17' );
 
 define( 'CMSMASTERS_FRAMEWORK__FILE__', __FILE__ );
 define( 'CMSMASTERS_FRAMEWORK_PLUGIN_BASE', plugin_basename( CMSMASTERS_FRAMEWORK__FILE__ ) );
@@ -308,3 +308,23 @@ final class Cmsmasters_Framework {
 }
 
 new Cmsmasters_Framework();
+
+/**
+ * Check if a feature flag is enabled.
+ *
+ * Safe to call even if the Feature_Flags class has not been loaded yet.
+ * Consumers should wrap calls with function_exists() check.
+ *
+ * @since 1.0.17
+ *
+ * @param string $feature_name Feature flag name.
+ *
+ * @return bool
+ */
+function cmsmasters_is_feature_enabled( $feature_name ) {
+	if ( ! class_exists( 'CmsmastersFramework\Core\Utils\Feature_Flags' ) ) {
+		return false;
+	}
+
+	return \CmsmastersFramework\Core\Utils\Feature_Flags::is_enabled( $feature_name );
+}
